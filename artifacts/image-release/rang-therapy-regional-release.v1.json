@@ -1,0 +1,933 @@
+{
+  "schemaVersion": "rang-therapy-regional-image-release-receipt/v1",
+  "status": "ROOT_APPROVED_RELEASED",
+  "platformKey": "rang-therapy",
+  "assignmentManifest": {
+    "relativePath": "src/data/regional-image-assignments.generated.json",
+    "sha256": "3dd4ad63c20eccae23ef4ee0ae27a39ef024c5c96fd74d0a1c5f7d6c27da1087"
+  },
+  "rootReview": {
+    "relativePath": "reviews/rang-therapy.regional-release-review.v1.json",
+    "sha256": "fa924f8583362175742d4c67477eb26e5fde8fa94ea14a42ca594af201213797",
+    "reviewer": "root"
+  },
+  "distribution": {
+    "routes": 1291,
+    "assets": 130,
+    "maxReuse": 10,
+    "assetsAtTen": 121,
+    "assetsAtNine": 9
+  },
+  "sourceAssets": [
+    {
+      "jobId": "rng-rgn-001-c01",
+      "assetId": "rng-rgn-001-c01",
+      "sourceSha256": "8ba3ff71ec539f8c0fde47d2a59d077917f5443a31ce3262b415b9b175f89969",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-001-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-002-c01",
+      "assetId": "rng-rgn-002-c01",
+      "sourceSha256": "36ebf4c297a1a3fed88cd2c66bf986e005f94f76370630775d2b759d6e8709f6",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-002-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-003-c01",
+      "assetId": "rng-rgn-003-c01",
+      "sourceSha256": "320aa68273b138753705c1eeb4fb1471ea1cb6dee715f0e6de7e6f3270848324",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-003-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-004-c01",
+      "assetId": "rng-rgn-004-c01",
+      "sourceSha256": "85ddac1bbd67d5b85bb6457a3232a49f10ced416f2e621fa73852c5c776ef016",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-004-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-005-c01",
+      "assetId": "rng-rgn-005-c01",
+      "sourceSha256": "e545547895ff296fb0bc53f9c3b5285c3ac6f95caf8fb4a60a3ef14ce9bd7623",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-005-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-006-c01",
+      "assetId": "rng-rgn-006-c01",
+      "sourceSha256": "de1474af188dcf42a03fc7020c0031a83583c0f2bb93c6d81148bd3a915a077f",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-006-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-007-c01",
+      "assetId": "rng-rgn-007-c01",
+      "sourceSha256": "5433371f394af8908c2d5b235b712eb82e09b47f435518cbf81d2d3ff21b44d3",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-007-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-008-c01",
+      "assetId": "rng-rgn-008-c01",
+      "sourceSha256": "2e90834ffa463ddd80df66f4a8430fea041f8b58e2304ddd2c8d9e0b3535e062",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-008-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-009-c01",
+      "assetId": "rng-rgn-009-c01",
+      "sourceSha256": "fbbcf666e0406f1541dfa0b49fd9370b3253df09f077edcd2bff37bf94105fc9",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-009-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-010-c01",
+      "assetId": "rng-rgn-010-c01",
+      "sourceSha256": "3ae355e810591fda9f2d9c45fdd44f7fcf322cd8df699ff2bbe30c071ad251ee",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-010-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-011-c01",
+      "assetId": "rng-rgn-011-c01",
+      "sourceSha256": "ce223cbce21acdaf2fd5087905da0595a903cac6c841d5ef73b770766fa6bc1d",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-011-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-012-c01",
+      "assetId": "rng-rgn-012-c01",
+      "sourceSha256": "dbc4e4511e5f98c34251d22bfa0c410d6632ca50dd4bb9680294bedd6047ae4a",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-012-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-013-c01",
+      "assetId": "rng-rgn-013-c01",
+      "sourceSha256": "98a1c2b92f094cf44c9d7bc25a30041410b6038192f918d935c3bd3542a48c60",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-013-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-014-c01",
+      "assetId": "rng-rgn-014-c01",
+      "sourceSha256": "2884e3f388d104909214ab5ab5dd3e9986d80d765b2485f60becbfac539bee38",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-014-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-015-c01",
+      "assetId": "rng-rgn-015-c01",
+      "sourceSha256": "0349a5af1e72cae6c6f4c88e65f21d98a92a43f7d6010a0710fad100497db040",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-015-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-016-c01",
+      "assetId": "rng-rgn-016-c01",
+      "sourceSha256": "9b5a3499884b6062a7694b674dfdd66ca0603e823b9f2a84edf0b5124b32486e",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-016-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-017-c01",
+      "assetId": "rng-rgn-017-c01",
+      "sourceSha256": "c2c660700657c81dbcf37f8aa85ab4f077ab66b54adfa3060e5dbef9a898087c",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-017-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-018-c01",
+      "assetId": "rng-rgn-018-c01",
+      "sourceSha256": "70d9bd203736d38ea092a42ea1d494d8db54837bf8dedc830b7511dd5937ac84",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-018-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-019-c01",
+      "assetId": "rng-rgn-019-c01",
+      "sourceSha256": "fa6ea20595e8aa92df14067a42a04f84902f373a6202ac042c8d760c99ce5b81",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-019-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-020-c01",
+      "assetId": "rng-rgn-020-c01",
+      "sourceSha256": "06d77c15247760fc612e47ba6865e445a9553e513898b63338546cdd691f05cc",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-020-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-021-c01",
+      "assetId": "rng-rgn-021-c01",
+      "sourceSha256": "7eede8bff2c3d43750d85830ab91b43ac247a89701ba9792c7c8d570c45e24b1",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-021-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-022-c01",
+      "assetId": "rng-rgn-022-c01",
+      "sourceSha256": "0c566a10b6c53e504b84722f53343ca9ea8092d2719198855085beeceabced14",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-022-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-023-c01",
+      "assetId": "rng-rgn-023-c01",
+      "sourceSha256": "289e2373dfa82968d11a7dfe1fd292babe5abf9c1a8e32270ef81b8f32de279c",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-023-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-024-c01",
+      "assetId": "rng-rgn-024-c01",
+      "sourceSha256": "0d8a72fa3256b1e2939456ee1092da51077dcb5f8dc233bfb1953667fac7e897",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-024-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-025-c01",
+      "assetId": "rng-rgn-025-c01",
+      "sourceSha256": "b203b232b2e30ee1d6c72a2eb77688bc7c36b6611f9be717353e9c47999333ce",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-025-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-026-c01",
+      "assetId": "rng-rgn-026-c01",
+      "sourceSha256": "6e35e9d23bb4e05ba155a3b333372ea907f7ae145934ee862a36aafb007215f9",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-026-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-027-c01",
+      "assetId": "rng-rgn-027-c01",
+      "sourceSha256": "ba8d7fab20de547de4c8640b564b33e1a88a338984438c8d3c627edb32baff41",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-027-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-028-c01",
+      "assetId": "rng-rgn-028-c01",
+      "sourceSha256": "b5cb24ebd2b69d8a1f875823e16e2e7b8d80c3fb8260fb66db94bbe663e61ac4",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-028-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-029-c01",
+      "assetId": "rng-rgn-029-c01",
+      "sourceSha256": "6001b61e52e909df6b6aeac5f7af11be02f2d2793a62fdf5cfb98fd07ba23dcd",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-029-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-030-c01",
+      "assetId": "rng-rgn-030-c01",
+      "sourceSha256": "738ad31ecdac941a88bd9e4b9276b6d2f78cba8918c668c57ee5b650273e3293",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-030-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-031-c01",
+      "assetId": "rng-rgn-031-c01",
+      "sourceSha256": "20d3050cbbefab8f2e2ca18c729d30d0a3db7974cb658af4bf2c76c7de601c0d",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-031-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-032-c01",
+      "assetId": "rng-rgn-032-c01",
+      "sourceSha256": "a0c9a5429a68c4758506d35cc894e033d6c576b3347e6496fac0bb732dbeaa4e",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-032-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-033-c01",
+      "assetId": "rng-rgn-033-c01",
+      "sourceSha256": "6c978cbe4636258ca5ae9be596992eb18b3e78aa50f51aa1e4fed0ecd5ad6368",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-033-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-034-c01",
+      "assetId": "rng-rgn-034-c01",
+      "sourceSha256": "62b02709830350552005c80abd60938f31ab48776abd34059042a7893fc6b5c4",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-034-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-035-c01",
+      "assetId": "rng-rgn-035-c01",
+      "sourceSha256": "f2a85723af2d7b687d8b89671b6529353206b8d9f412d1d1bd544be78aaf7fb5",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-035-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-036-c01",
+      "assetId": "rng-rgn-036-c01",
+      "sourceSha256": "172057ce94176c3a402b9c34fa208c0bda3b10cbc34fdaea190ac966fb014b76",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-036-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-037-c01",
+      "assetId": "rng-rgn-037-c01",
+      "sourceSha256": "97e2abd36f409e18f944a969d221b282e97db79bbbfb1b132a02004183d8a5c7",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-037-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-038-c01",
+      "assetId": "rng-rgn-038-c01",
+      "sourceSha256": "e313e4f7e61dfd5eb616f606e7603bb6e731b6bb9fa7bf1dab0bb22364f86d79",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-038-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-039-c01",
+      "assetId": "rng-rgn-039-c01",
+      "sourceSha256": "4564a246d7062e7db1c91e5df6e98da26f290a8125e6c3e7aa7aa2bd1fcf3f71",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-039-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-040-c01",
+      "assetId": "rng-rgn-040-c01",
+      "sourceSha256": "3700022b4f007152fe4af8f794e35e75231a5fab5232f5d39306a73371e197ac",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-040-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-041-c01",
+      "assetId": "rng-rgn-041-c01",
+      "sourceSha256": "35e53669cc2f7f7bdb768a6846d37410c93ab7b9158409731cefe52187ee7f4d",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-041-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-042-c01",
+      "assetId": "rng-rgn-042-c01",
+      "sourceSha256": "907e8a84dad806b4bd3ea3a5e2a3019fd2c10f8241c33c0d7e8bd0a215b2346b",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-042-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-043-c01",
+      "assetId": "rng-rgn-043-c01",
+      "sourceSha256": "c3cf28aec4d1cbde68970e1bb5b955b8f624715283f2ee10a6fb53b45b067bea",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-043-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-044-c01",
+      "assetId": "rng-rgn-044-c01",
+      "sourceSha256": "40552b7dd388490ab604e4fe5cf4ac2fbf708b182ef51513e1b14090eccd6211",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-044-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-045-c01",
+      "assetId": "rng-rgn-045-c01",
+      "sourceSha256": "b6db5f51da0fc2af5353892451d75ae8cf1f7659b0fe81580a40b5075e2d8634",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-045-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-046-c01",
+      "assetId": "rng-rgn-046-c01",
+      "sourceSha256": "49cd866cbc413fca7cb8bfac739263b877426490bcebe36c654cebae42183948",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-046-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-047-c01",
+      "assetId": "rng-rgn-047-c01",
+      "sourceSha256": "6f0d84ff0cdb07e916d9003d0a98b2ceac327231c43dcd478af0158e2949c71e",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-047-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-048-c01",
+      "assetId": "rng-rgn-048-c01",
+      "sourceSha256": "e2192c738ae3a786fcd67dcb60e6ba9aa43c733668d132e23c9fda1a286f8a78",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-048-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-049-c01",
+      "assetId": "rng-rgn-049-c01",
+      "sourceSha256": "f3a47799150ded6a0c8bd2049052200dbb6c68b04d2f04b19a269d3b0c345c60",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-049-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-050-c01",
+      "assetId": "rng-rgn-050-c01",
+      "sourceSha256": "b3d8677eb680a3ded479daafa1eaea8bfbc78d50f17f5d65aefbbc1014b23146",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-050-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-051-c01",
+      "assetId": "rng-rgn-051-c01",
+      "sourceSha256": "f53fa9abe8fdf32bf1d65ca5fbcbdc5d9762391d411f3970c2e7647e0d9b064d",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-051-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-052-c01",
+      "assetId": "rng-rgn-052-c01",
+      "sourceSha256": "c0a3eba2f3b06d70c3d3846c238745a737a4b270010d4266783430485c07f6a8",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-052-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-053-c01",
+      "assetId": "rng-rgn-053-c01",
+      "sourceSha256": "76619cdeb60e9d3a0fcb1e6f8ef35b31cecc9599b4190788de023047c05c0ae1",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-053-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-054-c01",
+      "assetId": "rng-rgn-054-c01",
+      "sourceSha256": "fc50335c3b0c2e654bcaab478888df8c76d7b46caf5e071a5cecc6f879e8ac61",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-054-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-055-c01",
+      "assetId": "rng-rgn-055-c01",
+      "sourceSha256": "dd65e644e4ad60dd2d850eb78c7168ebdd2afef87620c0d24dfcb37c00acd8a7",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-055-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-056-c01",
+      "assetId": "rng-rgn-056-c01",
+      "sourceSha256": "98a599cbeacee5dbe5c2e1ad9d7d3d447fd0b660198163c4b7ce6a565bc9ca8b",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-056-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-057-c01",
+      "assetId": "rng-rgn-057-c01",
+      "sourceSha256": "0421d6ea44c83812618ba59792b95630698956868a5d37e729381d2796196351",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-057-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-058-c01",
+      "assetId": "rng-rgn-058-c01",
+      "sourceSha256": "9a55a195638a76e50e399a284915aebcbef99ad522d2768d48affb9d86efe16f",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-058-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-059-c01",
+      "assetId": "rng-rgn-059-c01",
+      "sourceSha256": "ed8ff89556cad7d11d8447dcceee25b5eecd8aa4d02e6820ecc89ea2aac9fcba",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-059-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-060-c01",
+      "assetId": "rng-rgn-060-c01",
+      "sourceSha256": "2b78b70decc2ed9cea64a3991cc2cc993cc4449c6995a1d8bb708e26ad006793",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-060-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-061-c01",
+      "assetId": "rng-rgn-061-c01",
+      "sourceSha256": "e9bd07559d0affbf77232bd71b67ae7790cc65187b8dfddc2a9cda8ef7d91429",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-061-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-062-c01",
+      "assetId": "rng-rgn-062-c01",
+      "sourceSha256": "2c5db15b52f9939c79a3cfdeb066378d92987a0729c470e8cdee0be516c5bca6",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-062-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-063-c01",
+      "assetId": "rng-rgn-063-c01",
+      "sourceSha256": "e3e7d0f8c75cc287a2b16fba25ec47ad50fe516094cdc09d4e1eb6704870c477",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-063-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-064-c01",
+      "assetId": "rng-rgn-064-c01",
+      "sourceSha256": "97ecb0303f6d25e1029cf74db6ef6fb14d287df21be360d78a1ac3e4c8e4738a",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-064-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-065-c01",
+      "assetId": "rng-rgn-065-c01",
+      "sourceSha256": "3fc6b1a5b550692e023237911985aa2ed14aa05ee5e575e43b083f8ccf846105",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-065-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-066-c01",
+      "assetId": "rng-rgn-066-c01",
+      "sourceSha256": "1301c9c72f8cf942e36515b31de8a6bbf944b752b7a818502ab3368f153dd18b",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-066-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-067-c01",
+      "assetId": "rng-rgn-067-c01",
+      "sourceSha256": "d7c343765dc0beb87fac3eb6e960480f32fa356c9d837174cd8219cb64928b49",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-067-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-068-c01",
+      "assetId": "rng-rgn-068-c01",
+      "sourceSha256": "89d1c41bf7e9308afb58423affe49b0d1947f286883708c6a5490fb240cb971c",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-068-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-069-c01",
+      "assetId": "rng-rgn-069-c01",
+      "sourceSha256": "bcb384ce5e22e2dbe20dcdd3d5e772cb5f9cd1f38c78f762a6c2fd50adcf5bec",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-069-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-070-c01",
+      "assetId": "rng-rgn-070-c01",
+      "sourceSha256": "b0af62121b817fb2021e2bd2ff3b233e5746e6d4b8fe6737d814dcd0060e60a1",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-070-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-071-c01",
+      "assetId": "rng-rgn-071-c01",
+      "sourceSha256": "ba3eef86c34d0af4f37f1104f4f1f256ef1866133e8a3383ae086e5b40f675ac",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-071-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-072-c01",
+      "assetId": "rng-rgn-072-c01",
+      "sourceSha256": "43654e4d199d1b7f9de4bddbc4ecc7604c790a045628d71909a1596c326c1d3e",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-072-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-073-c01",
+      "assetId": "rng-rgn-073-c01",
+      "sourceSha256": "08021c52c5a4a7f6ee82e7cee32d772f8c3c04b79876a5eb015f1c9984714875",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-073-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-074-c01",
+      "assetId": "rng-rgn-074-c01",
+      "sourceSha256": "a8fc5fce73a0e1b6eb04098afcc0ebdef349b610466b976b7cfa93a56eaa863c",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-074-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-075-c01",
+      "assetId": "rng-rgn-075-c01",
+      "sourceSha256": "39ee0583d7fbf33d3024932308e6a884bf1106844fac005f64732e5c091b5156",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-075-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-076-c01",
+      "assetId": "rng-rgn-076-c01",
+      "sourceSha256": "60403eb41fbe934681a086d4d8cbd17e88688af6d6fa9c2b029b3a13db144a69",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-076-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-077-c01",
+      "assetId": "rng-rgn-077-c01",
+      "sourceSha256": "cad2fcce3a19af6ad83255f531478af270915c8ede7ea5409ac5cb606f505d1c",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-077-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-078-c01",
+      "assetId": "rng-rgn-078-c01",
+      "sourceSha256": "4fdcc14a6588e77989ced71fe67cfdd200c34bfa4f8315f47083eaafb97cc633",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-078-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-079-c01",
+      "assetId": "rng-rgn-079-c01",
+      "sourceSha256": "e5220a1e87276cc1c526c71e987e569ef03ae25beb5969466f650a5fdc61a269",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-079-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-080-c01",
+      "assetId": "rng-rgn-080-c01",
+      "sourceSha256": "e9c5e57ab1d8a71f20f0530cf549fe721c229058f684ea5b66829a84f70eadd5",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-080-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-081-c01",
+      "assetId": "rng-rgn-081-c01",
+      "sourceSha256": "2da50bf0f00b0ceeb77aa31f7b66371c0547e4d4f84660fcfe49dcd99642e4cb",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-081-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-082-c01",
+      "assetId": "rng-rgn-082-c01",
+      "sourceSha256": "768397fa94b593d836a820c253c9f049d7e209b99fea861940f7602345a6a384",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-082-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-083-c01",
+      "assetId": "rng-rgn-083-c01",
+      "sourceSha256": "cea74dc0e1941b978caaef7b05c931bb0521651982da7e8a9440d6ee1a03acb1",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-083-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-084-c01",
+      "assetId": "rng-rgn-084-c01",
+      "sourceSha256": "c5200195b1a9adf3f0a198f90a073be208bee4c47314d014b2d5f12e7305b914",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-084-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-085-c01",
+      "assetId": "rng-rgn-085-c01",
+      "sourceSha256": "d2bcf1077290449abb0061f353caad3d3f0a8bd5e1ab1fd68d7b1e0b4ea97a0b",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-085-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-086-c01",
+      "assetId": "rng-rgn-086-c01",
+      "sourceSha256": "c23c4f34b3065f637e8a2b3aa1ac1e61dd8bf20889737c3c06f86dbe5d02be4d",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-086-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-087-c01",
+      "assetId": "rng-rgn-087-c01",
+      "sourceSha256": "f00fa418cad4b7ed8d5f39e39e87abaeb072c5eba950a6f5dd16b6f34e1b1ca1",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-087-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-088-c01",
+      "assetId": "rng-rgn-088-c01",
+      "sourceSha256": "6f8c40ab7539391970bedbd0df95bfbb3c5d18893344081635531e596735976f",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-088-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-089-c01",
+      "assetId": "rng-rgn-089-c01",
+      "sourceSha256": "e9343396b2de87940e15f618f8bf27eda4bcdf8b9432e96fb07baf352628c128",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-089-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-090-c01",
+      "assetId": "rng-rgn-090-c01",
+      "sourceSha256": "eee280a82255e4538e2bb690427676891277a8f6ae55a5f732e2de5fcdaeb496",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-090-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-091-c01",
+      "assetId": "rng-rgn-091-c01",
+      "sourceSha256": "dbaa67836dc3e125a147e3feec401067d6e67466ca312e375d3d68fd7a9073cb",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-091-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-092-c01",
+      "assetId": "rng-rgn-092-c01",
+      "sourceSha256": "f2d0269f1bd847677eab872b0d6a6782b28949b73dfd6a470a0ab6455b6de27e",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-092-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-093-c01",
+      "assetId": "rng-rgn-093-c01",
+      "sourceSha256": "4257e3feb120f1e66cc334da1fc65d21337e0c9ce12759e6a80a5c0fc6a3106f",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-093-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-094-c01",
+      "assetId": "rng-rgn-094-c01",
+      "sourceSha256": "851c1c2b240d9bb1acc5050ff596efc00d3f6ccc75183a3f7309d221988b21f2",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-094-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-095-c01",
+      "assetId": "rng-rgn-095-c01",
+      "sourceSha256": "1eb614984ccefc133bb60b906a9066d4439b9e45e8da5ed5a6129f35c7e9e60c",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-095-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-096-c01",
+      "assetId": "rng-rgn-096-c01",
+      "sourceSha256": "d50629322b20184082379095dd08346ef0a2c03b174c0dafa3eb31c04ef36ade",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-096-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-097-c01",
+      "assetId": "rng-rgn-097-c01",
+      "sourceSha256": "33e2848bd241a329371c239be0732ca39964801a4f9109a325118df781bd0ad4",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-097-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-098-c01",
+      "assetId": "rng-rgn-098-c01",
+      "sourceSha256": "0486835e81b8ef206e75c312497bd0ae9c0bb47e9c66b8024087412a5b323955",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-098-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-099-c01",
+      "assetId": "rng-rgn-099-c01",
+      "sourceSha256": "702c201b3374767db859e951780455e597220fe5eb3ba754bd8d0491f9989fba",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-099-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-100-c01",
+      "assetId": "rng-rgn-100-c01",
+      "sourceSha256": "7ffd0dd630b7486d9200ae5d0a2c7812afec06ea7d8fb66cd748a18026194b9b",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-100-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-101-c01",
+      "assetId": "rng-rgn-101-c01",
+      "sourceSha256": "ec138627761d2f1d70ec331eb942d2822a59b681b245d1f749d217f108ef587e",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-101-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-102-c01",
+      "assetId": "rng-rgn-102-c01",
+      "sourceSha256": "9fdcef30e8afde43bf7851f748be82bb5133a9375bd4613a42a969278f626092",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-102-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-103-c01",
+      "assetId": "rng-rgn-103-c01",
+      "sourceSha256": "a50881f27a536469be01ad06e3c9ea42a046569aaf86f15490c7d8b8c87f384f",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-103-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-104-c01",
+      "assetId": "rng-rgn-104-c01",
+      "sourceSha256": "d86fbb7987afad4de38578c27909e27452108b46314a01b53ab7978e8fbac43b",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-104-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-105-c01",
+      "assetId": "rng-rgn-105-c01",
+      "sourceSha256": "c61aa0f33ec976b0bd16ef7d31bdbd7ecc3a7a495c99847b51d1944deda0c1ea",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-105-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-106-c01",
+      "assetId": "rng-rgn-106-c01",
+      "sourceSha256": "502be50af18b7ba04db02ebc6c572d87fe28d049299403f8274e66b89074addd",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-106-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-107-c01",
+      "assetId": "rng-rgn-107-c01",
+      "sourceSha256": "373abb4a45410b98a2af1ca040ff41ca5c4b764ed534763468d608c800cec528",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-107-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-108-c01",
+      "assetId": "rng-rgn-108-c01",
+      "sourceSha256": "bd5eb65d1a723d337ada8f7432b89c7136b49dd0ad1234f85fe87de3be8eecf9",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-108-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-109-c01",
+      "assetId": "rng-rgn-109-c01",
+      "sourceSha256": "4b808f978fd70f24cbd3d97d35a578266d95c1082e1bf53acb9e9dc67dce3bc5",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-109-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-110-c01",
+      "assetId": "rng-rgn-110-c01",
+      "sourceSha256": "eca0edbe2f0b6ec2c88f1a20ca3648badc17f87594c4e5fcc6de972f987f124b",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-110-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-111-c01",
+      "assetId": "rng-rgn-111-c01",
+      "sourceSha256": "9323c3915dd1e4c4f98626fba0cea4315ce67812986ae87553c79e54a88bd3dc",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-111-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-112-c01",
+      "assetId": "rng-rgn-112-c01",
+      "sourceSha256": "a69636835937a94254e783c8594cddd4789db0b94e25ae33e14572ecb8ab6d5e",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-112-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-113-c01",
+      "assetId": "rng-rgn-113-c01",
+      "sourceSha256": "66828b4d2674c1fef2cb6b93b422a764025c299317b79c64d9593f7e99b30109",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-113-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-114-c01",
+      "assetId": "rng-rgn-114-c01",
+      "sourceSha256": "e6999274770233e87d4133a63469f3b3319ef7abdce98f5c16f28a1c2be8f947",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-114-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-115-c01",
+      "assetId": "rng-rgn-115-c01",
+      "sourceSha256": "81aeb1cb4b72cd2cf357f612ecc6d0a0f6398730ff851bce2c15313570eac16a",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-115-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-116-c01",
+      "assetId": "rng-rgn-116-c01",
+      "sourceSha256": "79df2ac7723a1e10fd0eb38b5900b56c219b4c6584ae984e320c612e546f9434",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-116-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-117-c01",
+      "assetId": "rng-rgn-117-c01",
+      "sourceSha256": "6f292d611c597a2b3c5e6e496c4acf470554cce94aac6d3a21ab888a959252fe",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-117-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-118-c01",
+      "assetId": "rng-rgn-118-c01",
+      "sourceSha256": "499f4b0a2df475857364d46e7624d54a07fceb46c9c232ab591a6c177a91122a",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-118-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-119-c01",
+      "assetId": "rng-rgn-119-c01",
+      "sourceSha256": "8225a202fd29b318f2a4a7734df355c155c32387b68ae59769206f8bd5dae5f7",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-119-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-120-c01",
+      "assetId": "rng-rgn-120-c01",
+      "sourceSha256": "4951aa98ac8d5e58327e668e848b0925087f62ee7f9e13564f4dc52f005d727e",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-120-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-121-c01",
+      "assetId": "rng-rgn-121-c01",
+      "sourceSha256": "f1016db8b48657c8126754fe28b74679f3fd02478d255c63ccd34b6ab05f7f87",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-121-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-122-c01",
+      "assetId": "rng-rgn-122-c01",
+      "sourceSha256": "b45d8f47789db6693d9041b7dff10ca37cec5cd865eb632573ebb282b93d3beb",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-122-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-123-c01",
+      "assetId": "rng-rgn-123-c01",
+      "sourceSha256": "59eb8df20e1cb1861ec874bd4eeac4785c8c0b750d36c283320281c64b089c86",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-123-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-124-c01",
+      "assetId": "rng-rgn-124-c01",
+      "sourceSha256": "39cb7331ac8ed92cdaacfa88588ef921d215334881f604f020c087caf65b48f1",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-124-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-125-c01",
+      "assetId": "rng-rgn-125-c01",
+      "sourceSha256": "eba87492cde9d927c36ff90774290f7d7afcf7a0a062adb4a9acf074d1a55dd2",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-125-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-126-c01",
+      "assetId": "rng-rgn-126-c01",
+      "sourceSha256": "4cff3304e67e95713eec69c899ed576833a7cb57677b967264ef38c2d180b99b",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-126-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-127-c01",
+      "assetId": "rng-rgn-127-c01",
+      "sourceSha256": "98c1c7c19878c659d7ffcc8cfd80c7d298a9a2d82a7f3dbfb8a77e527810f1d6",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-127-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-128-c01",
+      "assetId": "rng-rgn-128-c01",
+      "sourceSha256": "df40a9a29ffde0d1fd378ea1e1532dfa2e2a1547fc96fab4555ff23e1699b22f",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-128-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-129-c01",
+      "assetId": "rng-rgn-129-c01",
+      "sourceSha256": "fa1403994c69ba4cdb06eafbbff872b0071142c4d4cf5b8be360ab9a056cb6b6",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-129-c01/provenance.json"
+    },
+    {
+      "jobId": "rng-rgn-130-c01",
+      "assetId": "rng-rgn-130-c01",
+      "sourceSha256": "a5aab3349a2f3eafb06736328664a48a60f738c7f43d4e0aa8567e464a14778e",
+      "sourceDimensions": "1672x941",
+      "provenance": "public/assets/rang-therapy/regional/rng-rgn-130-c01/provenance.json"
+    }
+  ]
+}

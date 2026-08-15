@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "rang-cross-platform-live-drift/v1",
+  "status": "PENDING_CHANGED",
+  "platformId": "rang-therapy",
+  "snapshotVersion": "rang-external-snapshot-2026-08-14-v1",
+  "snapshotManifestSha256": "076aa49c4ef4dc10c7808676d845a3586bf61d76b2909304fe9d42c3fd93cb2c",
+  "policy": {
+    "authority": "NON_CANONICAL_LIVE_DRIFT_SIGNAL",
+    "snapshotRefresh": "EXPLICIT_ONLY",
+    "changedPeer": "PENDING_CHANGED_UNTIL_EXPLICIT_SNAPSHOT_REFRESH_AND_REAUDIT",
+    "absentPeer": "NOT_OBSERVED_WITHOUT_MUTATING_CANONICAL_RECEIPT"
+  },
+  "observations": [
+    {
+      "platformId": "massage-love",
+      "corpus": {
+        "state": "CHANGED",
+        "snapshotSha256": "4de161639f631105a69117b2082f2ce2c34af002a81685d621ffbc36b9b3004a",
+        "currentSha256": "576ec0d849b3a257ae5a08d5ab2e98ae5c873fd1b67572ed94ec0d8bbe9b55b2"
+      },
+      "visibleContract": null
+    },
+    {
+      "platformId": "massagebom",
+      "corpus": {
+        "state": "MATCH",
+        "snapshotSha256": "0a1375e03d2e7107c420349e0832465bdbf70e710503fa9d8191c2324a0dddc9",
+        "currentSha256": "0a1375e03d2e7107c420349e0832465bdbf70e710503fa9d8191c2324a0dddc9"
+      },
+      "visibleContract": null
+    },
+    {
+      "platformId": "mixed-love-massage",
+      "corpus": {
+        "state": "CHANGED",
+        "snapshotSha256": "0e5aa2b8a371873318340a7f04166b5289da6f670e3bbe52bccc218359d3fcba",
+        "currentSha256": "d4386e93a75ba95a32313e00dd5bd26acb42d3092f411631dbf891b50fc94dbd"
+      },
+      "visibleContract": null
+    },
+    {
+      "platformId": "star-todaki",
+      "corpus": {
+        "state": "CHANGED",
+        "snapshotSha256": "f0b05d989d1a30b54607399525e02b81b398d262c546510808af05ce240f6c57",
+        "currentSha256": "f80bb3a0a98f7d9db23131f442c23aed286de13e89154414a50696528cdcbb83"
+      },
+      "visibleContract": {
+        "state": "CHANGED",
+        "snapshotSha256": "7601bcd530ebdbee34fb2f7fe366dc884daadb3ff8778ac7b41a98e36eb9eb05",
+        "currentSha256": "9e1848d6537d0b8214ec933d1c0f5ef75b0aefa4d740af34a8dfcf1165b8315d"
+      }
+    }
+  ],
+  "verdict": "PENDING_CHANGED"
+}

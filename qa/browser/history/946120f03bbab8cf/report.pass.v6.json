@@ -1,0 +1,577 @@
+{
+  "schemaVersion": "rang-therapy/browser-qa/v6",
+  "status": "PASS",
+  "reviewedAt": "2026-08-14T12:44:25Z",
+  "server": "http://127.0.0.1:4181 static export",
+  "browser": "Codex Chrome via browser-client",
+  "corpusSha256": "946120f03bbab8cf015def84dc5d68f84de1cbba919f941665f236e8a99a6d52",
+  "sourceManifestSha256": "c9b5bcb8d0140793304a64c86497d90a3311ccbf7d4bd6707d832d607a0e3c32",
+  "evidenceBinding": {
+    "rawResults": {
+      "path": "qa/browser/final-v3-browser-raw-results.json",
+      "sha256": "aa8073caec53f2c8559cafe6ec08fc0150204eb3cf895b3e48707057da707bcb"
+    },
+    "httpStatus": {
+      "path": "qa/browser/final-v3-http-status.json",
+      "sha256": "c89898e4464fb3a74bcb31691e5d8a20fbac7f7ecf280ef039462e61da33364a"
+    },
+    "visualReview": {
+      "path": "qa/browser/final-v3-visual-review.json",
+      "sha256": "2e955f1cddf8a7de6688701f8b70bc67aed423ff665e699b2c38a3626736097a"
+    }
+  },
+  "screenshotFilePolicy": {
+    "format": "PNG",
+    "magicHex": "89504e470d0a1a0a",
+    "dimensionsBindActualPng": true,
+    "captureHeightRoundingPxAt390": 1,
+    "sha256Bound": true,
+    "noClobber": true,
+    "finalNameSuffix": "-final-v3.png",
+    "browserRawCapturesPreserved": true,
+    "supersededInterimDirectory": "qa/browser/superseded-v3-interim",
+    "supersededInterimExcluded": true
+  },
+  "assertions": {
+    "representativeKinds": [
+      "home",
+      "root",
+      "hub",
+      "representative"
+    ],
+    "viewportWidths": [
+      320,
+      390,
+      1440
+    ],
+    "viewportSettledToExactDimensions": true,
+    "http200": true,
+    "horizontalOverflow": 0,
+    "stickyHeaderPosition": "sticky",
+    "stickyHeaderTopBeforeAndAfterScroll": 0,
+    "consoleErrorsOrWarnings": 0,
+    "pageErrors": 0,
+    "httpErrorResponses": 0,
+    "brokenImages": 0,
+    "roleForbiddenMatches": 0,
+    "mobileNavigationLinks": 5,
+    "mobileNavigationColumns": 2,
+    "mobileMinimumNavigationTargetPx": 48,
+    "mobileRegionCardColumns": 2,
+    "desktopRegionCardColumns": 4,
+    "leafTerminalStateVisible": true,
+    "scoreHeadingSkips": 0,
+    "scoreMeaningfulH2": "악보로 읽는 코스 시간과 금액",
+    "visualInspection": "PASS"
+  },
+  "scoreHeadingQa": {
+    "path": "/score/",
+    "viewport": [
+      1440,
+      1000
+    ],
+    "httpStatus": 200,
+    "documentWidth": 1440,
+    "headingLevels": [
+      1,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2
+    ],
+    "meaningfulH2Id": "score-table-title",
+    "meaningfulH2Text": "악보로 읽는 코스 시간과 금액",
+    "headingSkips": 0,
+    "horizontalOverflow": 0,
+    "brokenImages": 0,
+    "roleForbiddenMatches": 0,
+    "consoleErrorsOrWarnings": 0
+  },
+  "contactSheet": {
+    "path": "qa/browser/contact-sheet-final-v3.png",
+    "sha256": "b105ead1386db17fa5e34ea99b7f763474dbc5ff5395e9ce4ca2fb7828d00b6d",
+    "imageMagicHex": "89504e470d0a1a0a",
+    "imageDimensions": [
+      1200,
+      1400
+    ],
+    "visualInspection": "PASS"
+  },
+  "cases": [
+    {
+      "id": "home-320",
+      "kind": "home",
+      "path": "/",
+      "viewport": [
+        320,
+        844
+      ],
+      "httpStatus": 200,
+      "documentWidth": 320,
+      "headerPosition": "sticky",
+      "headerTopBefore": 0,
+      "headerTopAfterScroll": 0,
+      "scrollDistanceObserved": 620,
+      "horizontalOverflow": 0,
+      "brokenImages": 0,
+      "roleForbiddenMatches": 0,
+      "consoleErrorsOrWarnings": 0,
+      "regionCardColumns": 2,
+      "mobileMenu": {
+        "links": 5,
+        "columns": 2,
+        "minimumTargetPx": 48,
+        "containedWithinViewport": true,
+        "linkMaximumOverflowPx": 0,
+        "navEdgeScaleRoundingPx": 0
+      },
+      "screenshot": "qa/browser/home-320-final-v3.png",
+      "screenshotSha256": "2c400a71fa8a92db3073a2a2cac9f2d5824327f29cb93af108857f55889fbeb5",
+      "imageMagicHex": "89504e470d0a1a0a",
+      "imageDimensions": [
+        320,
+        844
+      ],
+      "rawCapture": {
+        "path": "qa/browser/raw-final-v3/home-320-final-v3.jpg",
+        "sha256": "1562e434eb534d342d2baf4ffcb6efa218a37868f54f2edb17978a4f2e3c7a5f",
+        "magicHex": "ffd8ffe000104a46",
+        "bytes": 26904
+      },
+      "visualInspection": "PASS"
+    },
+    {
+      "id": "home-390",
+      "kind": "home",
+      "path": "/",
+      "viewport": [
+        390,
+        844
+      ],
+      "httpStatus": 200,
+      "documentWidth": 390,
+      "headerPosition": "sticky",
+      "headerTopBefore": 0,
+      "headerTopAfterScroll": 0,
+      "scrollDistanceObserved": 620,
+      "horizontalOverflow": 0,
+      "brokenImages": 0,
+      "roleForbiddenMatches": 0,
+      "consoleErrorsOrWarnings": 0,
+      "regionCardColumns": 2,
+      "mobileMenu": {
+        "links": 5,
+        "columns": 2,
+        "minimumTargetPx": 48,
+        "containedWithinViewport": true,
+        "linkMaximumOverflowPx": 0,
+        "navEdgeScaleRoundingPx": 0.399993896484375
+      },
+      "screenshot": "qa/browser/home-390-final-v3.png",
+      "screenshotSha256": "32920e96b42f3e7a63d29cb73f55a96c1c9938ec2656e739ee043b816754f92d",
+      "imageMagicHex": "89504e470d0a1a0a",
+      "imageDimensions": [
+        390,
+        843
+      ],
+      "rawCapture": {
+        "path": "qa/browser/raw-final-v3/home-390-final-v3.jpg",
+        "sha256": "a6d2e74738d54cb2090af67b1dc462ce8276003d176ff4816cecac03e3519d88",
+        "magicHex": "ffd8ffe000104a46",
+        "bytes": 30755
+      },
+      "visualInspection": "PASS"
+    },
+    {
+      "id": "home-1440",
+      "kind": "home",
+      "path": "/",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "httpStatus": 200,
+      "documentWidth": 1440,
+      "headerPosition": "sticky",
+      "headerTopBefore": 0,
+      "headerTopAfterScroll": 0,
+      "scrollDistanceObserved": 620,
+      "horizontalOverflow": 0,
+      "brokenImages": 0,
+      "roleForbiddenMatches": 0,
+      "consoleErrorsOrWarnings": 0,
+      "regionCardColumns": 4,
+      "screenshot": "qa/browser/home-1440-final-v3.png",
+      "screenshotSha256": "4d0c7ffad8bf68032ece046db5eb34a64917f3a83cde67c0af173591cfa077bd",
+      "imageMagicHex": "89504e470d0a1a0a",
+      "imageDimensions": [
+        1440,
+        1000
+      ],
+      "rawCapture": {
+        "path": "qa/browser/raw-final-v3/home-1440-final-v3.jpg",
+        "sha256": "44c0cef5f5b7f7e2b2f0590024aca753d2033f561d76d17bbdf18e00d9c2c0cc",
+        "magicHex": "ffd8ffe000104a46",
+        "bytes": 74762
+      },
+      "visualInspection": "PASS"
+    },
+    {
+      "id": "seoul-root-320",
+      "kind": "root",
+      "path": "/areas/seoul/",
+      "viewport": [
+        320,
+        844
+      ],
+      "httpStatus": 200,
+      "documentWidth": 320,
+      "headerPosition": "sticky",
+      "headerTopBefore": 0,
+      "headerTopAfterScroll": 0,
+      "scrollDistanceObserved": 620,
+      "horizontalOverflow": 0,
+      "brokenImages": 0,
+      "roleForbiddenMatches": 0,
+      "consoleErrorsOrWarnings": 0,
+      "regionCardColumns": 2,
+      "mobileMenu": {
+        "links": 5,
+        "columns": 2,
+        "minimumTargetPx": 48,
+        "containedWithinViewport": true,
+        "linkMaximumOverflowPx": 0,
+        "navEdgeScaleRoundingPx": 0
+      },
+      "screenshot": "qa/browser/seoul-root-320-final-v3.png",
+      "screenshotSha256": "cd75b52e2b27ecf223deac73ba0bf23d1419a082aeae678f01bbf681c21ba9e2",
+      "imageMagicHex": "89504e470d0a1a0a",
+      "imageDimensions": [
+        320,
+        844
+      ],
+      "rawCapture": {
+        "path": "qa/browser/raw-final-v3/seoul-root-320-final-v3.jpg",
+        "sha256": "621ea949ff20a874d8c37c29a614977c75dea6359a619a80dafb7146e18359d2",
+        "magicHex": "ffd8ffe000104a46",
+        "bytes": 31423
+      },
+      "visualInspection": "PASS"
+    },
+    {
+      "id": "seoul-root-390",
+      "kind": "root",
+      "path": "/areas/seoul/",
+      "viewport": [
+        390,
+        844
+      ],
+      "httpStatus": 200,
+      "documentWidth": 390,
+      "headerPosition": "sticky",
+      "headerTopBefore": 0,
+      "headerTopAfterScroll": 0,
+      "scrollDistanceObserved": 620,
+      "horizontalOverflow": 0,
+      "brokenImages": 0,
+      "roleForbiddenMatches": 0,
+      "consoleErrorsOrWarnings": 0,
+      "regionCardColumns": 2,
+      "mobileMenu": {
+        "links": 5,
+        "columns": 2,
+        "minimumTargetPx": 48,
+        "containedWithinViewport": true,
+        "linkMaximumOverflowPx": 0,
+        "navEdgeScaleRoundingPx": 0.399993896484375
+      },
+      "screenshot": "qa/browser/seoul-root-390-final-v3.png",
+      "screenshotSha256": "bf2313964982e9af772a5d9736adb03271076330604573887bb7164d6b9c4541",
+      "imageMagicHex": "89504e470d0a1a0a",
+      "imageDimensions": [
+        390,
+        843
+      ],
+      "rawCapture": {
+        "path": "qa/browser/raw-final-v3/seoul-root-390-final-v3.jpg",
+        "sha256": "b601bac5de0a84eb06629096f2b622d8e8c2208f3ebb186a6e98dc313f97b947",
+        "magicHex": "ffd8ffe000104a46",
+        "bytes": 32954
+      },
+      "visualInspection": "PASS"
+    },
+    {
+      "id": "seoul-root-1440",
+      "kind": "root",
+      "path": "/areas/seoul/",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "httpStatus": 200,
+      "documentWidth": 1440,
+      "headerPosition": "sticky",
+      "headerTopBefore": 0,
+      "headerTopAfterScroll": 0,
+      "scrollDistanceObserved": 620,
+      "horizontalOverflow": 0,
+      "brokenImages": 0,
+      "roleForbiddenMatches": 0,
+      "consoleErrorsOrWarnings": 0,
+      "regionCardColumns": 4,
+      "screenshot": "qa/browser/seoul-root-1440-final-v3.png",
+      "screenshotSha256": "bea899211a75cc782e9299b7141faa3684267af71d13a37155dce48b736198d9",
+      "imageMagicHex": "89504e470d0a1a0a",
+      "imageDimensions": [
+        1440,
+        1000
+      ],
+      "rawCapture": {
+        "path": "qa/browser/raw-final-v3/seoul-root-1440-final-v3.jpg",
+        "sha256": "04c685114d0f8a6f19bd0409c903c44ec9e9f6ac536e925ac77841ea48545994",
+        "magicHex": "ffd8ffe000104a46",
+        "bytes": 85215
+      },
+      "visualInspection": "PASS"
+    },
+    {
+      "id": "gangnam-hub-320",
+      "kind": "hub",
+      "path": "/areas/seoul/%EA%B0%95%EB%82%A8%EA%B5%AC/",
+      "viewport": [
+        320,
+        844
+      ],
+      "httpStatus": 200,
+      "documentWidth": 320,
+      "headerPosition": "sticky",
+      "headerTopBefore": 0,
+      "headerTopAfterScroll": 0,
+      "scrollDistanceObserved": 620,
+      "horizontalOverflow": 0,
+      "brokenImages": 0,
+      "roleForbiddenMatches": 0,
+      "consoleErrorsOrWarnings": 0,
+      "regionCardColumns": 2,
+      "mobileMenu": {
+        "links": 5,
+        "columns": 2,
+        "minimumTargetPx": 48,
+        "containedWithinViewport": true,
+        "linkMaximumOverflowPx": 0,
+        "navEdgeScaleRoundingPx": 0
+      },
+      "screenshot": "qa/browser/gangnam-hub-320-final-v3.png",
+      "screenshotSha256": "d2f3f69eaeb765774b1fee6567aa7dcbfa53b667269178cdc0aa0fa53decc8ae",
+      "imageMagicHex": "89504e470d0a1a0a",
+      "imageDimensions": [
+        320,
+        844
+      ],
+      "rawCapture": {
+        "path": "qa/browser/raw-final-v3/gangnam-hub-320-final-v3.jpg",
+        "sha256": "59a65db86faa2a5540852651f89caf226353851aaa4b02fadf16ab1c8886b448",
+        "magicHex": "ffd8ffe000104a46",
+        "bytes": 29975
+      },
+      "visualInspection": "PASS"
+    },
+    {
+      "id": "gangnam-hub-390",
+      "kind": "hub",
+      "path": "/areas/seoul/%EA%B0%95%EB%82%A8%EA%B5%AC/",
+      "viewport": [
+        390,
+        844
+      ],
+      "httpStatus": 200,
+      "documentWidth": 390,
+      "headerPosition": "sticky",
+      "headerTopBefore": 0,
+      "headerTopAfterScroll": 0,
+      "scrollDistanceObserved": 620,
+      "horizontalOverflow": 0,
+      "brokenImages": 0,
+      "roleForbiddenMatches": 0,
+      "consoleErrorsOrWarnings": 0,
+      "regionCardColumns": 2,
+      "mobileMenu": {
+        "links": 5,
+        "columns": 2,
+        "minimumTargetPx": 48,
+        "containedWithinViewport": true,
+        "linkMaximumOverflowPx": 0,
+        "navEdgeScaleRoundingPx": 0.399993896484375
+      },
+      "screenshot": "qa/browser/gangnam-hub-390-final-v3.png",
+      "screenshotSha256": "bf0ff7574e04f30ee379bbe420c528bf38a4c1d0971d4f165c40109d7d286f2b",
+      "imageMagicHex": "89504e470d0a1a0a",
+      "imageDimensions": [
+        390,
+        843
+      ],
+      "rawCapture": {
+        "path": "qa/browser/raw-final-v3/gangnam-hub-390-final-v3.jpg",
+        "sha256": "632690c9c251dc906b874fe0a964588fac7302ff84730e33cf0739739083a893",
+        "magicHex": "ffd8ffe000104a46",
+        "bytes": 31161
+      },
+      "visualInspection": "PASS"
+    },
+    {
+      "id": "gangnam-hub-1440",
+      "kind": "hub",
+      "path": "/areas/seoul/%EA%B0%95%EB%82%A8%EA%B5%AC/",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "httpStatus": 200,
+      "documentWidth": 1440,
+      "headerPosition": "sticky",
+      "headerTopBefore": 0,
+      "headerTopAfterScroll": 0,
+      "scrollDistanceObserved": 620,
+      "horizontalOverflow": 0,
+      "brokenImages": 0,
+      "roleForbiddenMatches": 0,
+      "consoleErrorsOrWarnings": 0,
+      "regionCardColumns": 4,
+      "screenshot": "qa/browser/gangnam-hub-1440-final-v3.png",
+      "screenshotSha256": "646692c25d813ae2f7ee58b2dad46c4353b19f0c0d9ae904f11902c9e8ac349c",
+      "imageMagicHex": "89504e470d0a1a0a",
+      "imageDimensions": [
+        1440,
+        1000
+      ],
+      "rawCapture": {
+        "path": "qa/browser/raw-final-v3/gangnam-hub-1440-final-v3.jpg",
+        "sha256": "06e75238053ef1f7e5607d5393c51ce138fb4115592972fe37f26e1c60c3cded",
+        "magicHex": "ffd8ffe000104a46",
+        "bytes": 78839
+      },
+      "visualInspection": "PASS"
+    },
+    {
+      "id": "hwabuk-leaf-320",
+      "kind": "representative",
+      "path": "/areas/jeju/%EC%A0%9C%EC%A3%BC%EC%8B%9C/%ED%99%94%EB%B6%81%EB%8F%99/",
+      "viewport": [
+        320,
+        844
+      ],
+      "httpStatus": 200,
+      "documentWidth": 320,
+      "headerPosition": "sticky",
+      "headerTopBefore": 0,
+      "headerTopAfterScroll": 0,
+      "scrollDistanceObserved": 620,
+      "horizontalOverflow": 0,
+      "brokenImages": 0,
+      "roleForbiddenMatches": 0,
+      "consoleErrorsOrWarnings": 0,
+      "terminalStateVisible": true,
+      "mobileMenu": {
+        "links": 5,
+        "columns": 2,
+        "minimumTargetPx": 48,
+        "containedWithinViewport": true,
+        "linkMaximumOverflowPx": 0,
+        "navEdgeScaleRoundingPx": 0
+      },
+      "screenshot": "qa/browser/hwabuk-leaf-320-final-v3.png",
+      "screenshotSha256": "ade7234dcb5f52599ca6157d606a8cf91d8a9c16d14b320372f92788463223bd",
+      "imageMagicHex": "89504e470d0a1a0a",
+      "imageDimensions": [
+        320,
+        844
+      ],
+      "rawCapture": {
+        "path": "qa/browser/raw-final-v3/hwabuk-leaf-320-final-v3.jpg",
+        "sha256": "3e1b14cdd408316e5fce30e03de1f0d0dc682e5aa86af4a79b0f61fc8c9f2cb1",
+        "magicHex": "ffd8ffe000104a46",
+        "bytes": 30293
+      },
+      "visualInspection": "PASS"
+    },
+    {
+      "id": "hwabuk-leaf-390",
+      "kind": "representative",
+      "path": "/areas/jeju/%EC%A0%9C%EC%A3%BC%EC%8B%9C/%ED%99%94%EB%B6%81%EB%8F%99/",
+      "viewport": [
+        390,
+        844
+      ],
+      "httpStatus": 200,
+      "documentWidth": 390,
+      "headerPosition": "sticky",
+      "headerTopBefore": 0,
+      "headerTopAfterScroll": 0,
+      "scrollDistanceObserved": 620,
+      "horizontalOverflow": 0,
+      "brokenImages": 0,
+      "roleForbiddenMatches": 0,
+      "consoleErrorsOrWarnings": 0,
+      "terminalStateVisible": true,
+      "mobileMenu": {
+        "links": 5,
+        "columns": 2,
+        "minimumTargetPx": 48,
+        "containedWithinViewport": true,
+        "linkMaximumOverflowPx": 0,
+        "navEdgeScaleRoundingPx": 0.399993896484375
+      },
+      "screenshot": "qa/browser/hwabuk-leaf-390-final-v3.png",
+      "screenshotSha256": "ba8323cbd493a5ef36d283f3a0bff3a6850eccb08073cfa740a48197b6637e84",
+      "imageMagicHex": "89504e470d0a1a0a",
+      "imageDimensions": [
+        390,
+        843
+      ],
+      "rawCapture": {
+        "path": "qa/browser/raw-final-v3/hwabuk-leaf-390-final-v3.jpg",
+        "sha256": "8c3a6e9a7d9e91d96b2e7ce5e94c9c5753ecbfbaa4c072f5a03009d295d9a6d3",
+        "magicHex": "ffd8ffe000104a46",
+        "bytes": 31973
+      },
+      "visualInspection": "PASS"
+    },
+    {
+      "id": "hwabuk-leaf-1440",
+      "kind": "representative",
+      "path": "/areas/jeju/%EC%A0%9C%EC%A3%BC%EC%8B%9C/%ED%99%94%EB%B6%81%EB%8F%99/",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "httpStatus": 200,
+      "documentWidth": 1440,
+      "headerPosition": "sticky",
+      "headerTopBefore": 0,
+      "headerTopAfterScroll": 0,
+      "scrollDistanceObserved": 620,
+      "horizontalOverflow": 0,
+      "brokenImages": 0,
+      "roleForbiddenMatches": 0,
+      "consoleErrorsOrWarnings": 0,
+      "terminalStateVisible": true,
+      "screenshot": "qa/browser/hwabuk-leaf-1440-final-v3.png",
+      "screenshotSha256": "cf97ea6ba03db5be2ff7893bb41ec7227b4c635b49b3e561e4a65f5ae4d627c1",
+      "imageMagicHex": "89504e470d0a1a0a",
+      "imageDimensions": [
+        1440,
+        1000
+      ],
+      "rawCapture": {
+        "path": "qa/browser/raw-final-v3/hwabuk-leaf-1440-final-v3.jpg",
+        "sha256": "296b7485457616ce09f94473881a8dc2fb8adf0235c1583778ab972db90db5b9",
+        "magicHex": "ffd8ffe000104a46",
+        "bytes": 81683
+      },
+      "visualInspection": "PASS"
+    }
+  ]
+}

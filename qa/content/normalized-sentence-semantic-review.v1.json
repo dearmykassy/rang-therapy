@@ -1,0 +1,234 @@
+{
+  "schemaVersion": "rang-normalized-sentence-semantic-review-candidate/v5",
+  "status": "PENDING_EXTERNAL_HUMAN_REVIEW",
+  "platformId": "rang-therapy",
+  "candidateOnly": true,
+  "releaseEligible": false,
+  "decision": {
+    "status": "UNDECIDED",
+    "reviewer": null,
+    "reviewedAt": null,
+    "verdict": null,
+    "reason": null
+  },
+  "corpusSha256": "ff9eac1282f4c7aeb356e2e492daab666e642b41fe30dac0371eecaca268ad21",
+  "corpusSourceManifestSha256": "4992c9f6ab3c8ab197fde3b1b05499977261a434f096f99e3ce736c9471a8696",
+  "reviewSource": {
+    "files": [
+      {
+        "path": "scripts/audit-content-review-candidate.ts",
+        "sha256": "9831f591a9b332bbdfcfa35a680d7229434e485bef53ae05f36891b50bdb43eb"
+      },
+      {
+        "path": "scripts/generate-content-review-receipts.ts",
+        "sha256": "607a37e416e059f934d4bfd03eb389f9ef6a4cbf8d086c46a597b1c56cc1dcae"
+      },
+      {
+        "path": "src/lib/review-candidate.ts",
+        "sha256": "3eb306c1fde85da8841116e25ec3888fcaf08e97620dba4aba69f4e5fd8836c6"
+      }
+    ],
+    "sha256": "09c5f08abf75fc8be79e3b064356784093d572c2e11a6f07016b0ad534af98b0"
+  },
+  "selection": {
+    "method": "highest distinct-normalized candidate per sentence family, then top 12 across families",
+    "sourceField": "diversityAudit.sentenceSimilarity.topCandidates",
+    "candidateCount": 12,
+    "sourceValueSha256": "ba015f92411dda6621ede06a7fa564bc71e2446a87ce65641e03f0377af98885",
+    "sha256": "b5ac39e01511d6570334654a1cf6200a78aeee22b7763c6e940702925dcb7204"
+  },
+  "automatedContext": {
+    "sampledPairs": 39033,
+    "acceptanceThresholdExclusive": 0.75,
+    "maximumSimilarity": 0.222222,
+    "note": "수치 임계값은 후보 선택에만 쓰며 문장 승인으로 해석하지 않습니다."
+  },
+  "candidates": [
+    {
+      "selectionId": "semantic-01",
+      "rank": 1,
+      "exactCandidate": {
+        "familyId": "tempo-time-window:p0:s1",
+        "similarity": 0.222222,
+        "leftRoute": "/areas/asan/%EC%9D%B8%EC%A3%BC%EB%A9%B4",
+        "rightRoute": "/areas/asan/%ED%83%95%EC%A0%95%EB%A9%B4",
+        "left": "60분과 90분, 120분 가운데 필요한 길이를 가격표에서 확인할 수 있습니다.",
+        "right": "각 코스의 이용 시간은 가격표에서 확인할 수 있습니다."
+      },
+      "exactCandidateSha256": "6ad96302ab9590b46543c0e90a0031dbc36a9f33cee658c833e1b0fe9c8f0fcc",
+      "reviewerDecision": null,
+      "reviewerReason": null
+    },
+    {
+      "selectionId": "semantic-02",
+      "rank": 2,
+      "exactCandidate": {
+        "familyId": "description",
+        "similarity": 0.166667,
+        "leftRoute": "/areas/asan/%EC%98%81%EC%9D%B8%EB%A9%B4",
+        "rightRoute": "/areas/asan/%EC%98%A8%EC%96%91%EB%8F%99",
+        "left": "영인면 랑테라피의 가격표와 관리 방식별 코스, 서비스 전 확인할 주소와 시작 시각, 당일 운영 여부, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 안내합니다.",
+        "right": "온양동 랑테라피 안내에서는 서비스를 받을 정확한 주소와 희망 시각, 코스별 시간과 표시 금액, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 한눈에 살펴볼 수 있습니다."
+      },
+      "exactCandidateSha256": "8d4cb799c27db7baebe314117d9fb67f4ecf0d6dfb98c11b567fc927f11ae878",
+      "reviewerDecision": null,
+      "reviewerReason": null
+    },
+    {
+      "selectionId": "semantic-03",
+      "rank": 3,
+      "exactCandidate": {
+        "familyId": "settlement-last-beat:p0:s1",
+        "similarity": 0.090909,
+        "leftRoute": "/areas/asan/%EC%9D%8C%EB%B4%89%EB%A9%B4",
+        "rightRoute": "/areas/asan/%EC%9D%B8%EC%A3%BC%EB%A9%B4",
+        "left": "현장에서 카드로 결제할 수 있으며, 원하면 상담할 때 미리 알려 주세요.",
+        "right": "현장에서는 카드로 결제할 수 있습니다."
+      },
+      "exactCandidateSha256": "571030d488ccb438c003cfb68f1f6e0096363a35b598c3e20a71346be786802e",
+      "reviewerDecision": null,
+      "reviewerReason": null
+    },
+    {
+      "selectionId": "semantic-04",
+      "rank": 4,
+      "exactCandidate": {
+        "familyId": "frame-directory-first:p0:s0",
+        "similarity": 0.076923,
+        "leftRoute": "/areas/busan/%EA%B8%88%EC%A0%95%EA%B5%AC",
+        "rightRoute": "/areas/jeju/%EC%A0%9C%EC%A3%BC%EC%8B%9C/%EB%8F%84%EB%91%90%EB%8F%99",
+        "left": "금정구에서 익숙한 별칭을 보더라도 서비스를 받을 정확한 주소와 맞는지 확인하세요.",
+        "right": "도두동 상담 전에는 서비스를 받을 정확한 주소의 오탈자를 살펴보세요."
+      },
+      "exactCandidateSha256": "43d5739496f6ea8475c5cf3516aad4e81e6327867ef683cd2d34251a4054ae4a",
+      "reviewerDecision": null,
+      "reviewerReason": null
+    },
+    {
+      "selectionId": "semantic-05",
+      "rank": 5,
+      "exactCandidate": {
+        "familyId": "frame-directory-first:p1:s1",
+        "similarity": 0.066667,
+        "leftRoute": "/areas/busan/%EA%B0%95%EC%84%9C%EA%B5%AC/%EB%AA%85%EC%A7%80%EB%8F%99",
+        "rightRoute": "/areas/busan/%EA%B0%95%EC%84%9C%EA%B5%AC/%EC%8B%A0%ED%98%B8%EB%8F%99",
+        "left": "지역 선택을 마쳤다면 희망 시각과 코스 후보를 따로 적어 주세요.",
+        "right": "전화상담 메모에는 이용 인원과 연락받을 고객 번호를 따로 적어 주세요."
+      },
+      "exactCandidateSha256": "978b4f5abf44fe0708c9aea8c5164f61c4d682de51b07ba6932afb7e231b711c",
+      "reviewerDecision": null,
+      "reviewerReason": null
+    },
+    {
+      "selectionId": "semantic-06",
+      "rank": 6,
+      "exactCandidate": {
+        "familyId": "settlement-last-beat:p1:s0",
+        "similarity": 0.0625,
+        "leftRoute": "/areas/asan/%EB%91%94%ED%8F%AC%EB%A9%B4",
+        "rightRoute": "/areas/asan/%EB%B0%B0%EB%B0%A9%EC%9D%8D",
+        "left": "둔포면 카드 사용 계획은 코스와 희망 시각을 정할 때 함께 알려 주세요.",
+        "right": "배방읍 이용 후 지불할 금액은 코스와 시간을 정할 때 함께 확인하세요."
+      },
+      "exactCandidateSha256": "3b14c6c65b3325c18a6cbfd28ab158df26c0c5d894470493354b0df9116685ef",
+      "reviewerDecision": null,
+      "reviewerReason": null
+    },
+    {
+      "selectionId": "semantic-07",
+      "rank": 7,
+      "exactCandidate": {
+        "familyId": "hook:0:0",
+        "similarity": 0,
+        "leftRoute": "/areas/asan/%EB%8F%84%EA%B3%A0%EB%A9%B4",
+        "rightRoute": "/areas/asan/%EB%91%94%ED%8F%AC%EB%A9%B4",
+        "left": "도고면 문의에서는 서비스를 받을 주소와 희망 시각을 전화로 알려 주세요.",
+        "right": "둔포면 서비스 주소와 출입 방법은 서로 다른 항목으로 남겨 주세요."
+      },
+      "exactCandidateSha256": "334c1525fb93086153d5d247855b71b441579d4994b25b69831db7a86809373c",
+      "reviewerDecision": null,
+      "reviewerReason": null
+    },
+    {
+      "selectionId": "semantic-08",
+      "rank": 8,
+      "exactCandidate": {
+        "familyId": "hook:1:0",
+        "similarity": 0,
+        "leftRoute": "/areas/asan/%EB%8F%84%EA%B3%A0%EB%A9%B4",
+        "rightRoute": "/areas/asan/%EB%91%94%ED%8F%AC%EB%A9%B4",
+        "left": "도고면에서 원하는 시간대가 가능한지는 24시간 전화상담으로 확인하세요.",
+        "right": "둔포면 이용 전에 표시 금액을 확인하고 카드 결제를 원하면 통화에서 알려 주세요."
+      },
+      "exactCandidateSha256": "08b3884d9dd1ab38d8cb517c6f16edc331bdd64a0a262e98094156595ed1162c",
+      "reviewerDecision": null,
+      "reviewerReason": null
+    },
+    {
+      "selectionId": "semantic-09",
+      "rank": 9,
+      "exactCandidate": {
+        "familyId": "frame-directory-first:p0:s1",
+        "similarity": 0,
+        "leftRoute": "/areas/asan/%EB%8F%84%EA%B3%A0%EB%A9%B4",
+        "rightRoute": "/areas/asan/%EB%91%94%ED%8F%AC%EB%A9%B4",
+        "left": "건물 출입 안내가 필요하다면 주소와 구분해 메모해 주세요.",
+        "right": "주소 표기가 길어도 도로명과 건물명은 생략하지 않는 편이 좋습니다."
+      },
+      "exactCandidateSha256": "d81c8c168e2fb851c1d128fc9eae3d77a4ab66a7d22d2343ffba2bdc3f5d1c8d",
+      "reviewerDecision": null,
+      "reviewerReason": null
+    },
+    {
+      "selectionId": "semantic-10",
+      "rank": 10,
+      "exactCandidate": {
+        "familyId": "frame-directory-first:p1:s0",
+        "similarity": 0,
+        "leftRoute": "/areas/asan/%EB%8F%84%EA%B3%A0%EB%A9%B4",
+        "rightRoute": "/areas/asan/%EB%91%94%ED%8F%AC%EB%A9%B4",
+        "left": "도고면 희망 시각은 가장 원하는 시간과 조정 범위로 나누세요.",
+        "right": "둔포면 이용 인원은 코스 후보와 별도 항목으로 적어 주세요."
+      },
+      "exactCandidateSha256": "2861d8b04064493fdb9162ca39813b9c5328b4114a21ce769bcc3aa653096f46",
+      "reviewerDecision": null,
+      "reviewerReason": null
+    },
+    {
+      "selectionId": "semantic-11",
+      "rank": 11,
+      "exactCandidate": {
+        "familyId": "pulse-coordinate-note:p0:s0",
+        "similarity": 0,
+        "leftRoute": "/areas/asan/%EB%8F%84%EA%B3%A0%EB%A9%B4",
+        "rightRoute": "/areas/asan/%EB%91%94%ED%8F%AC%EB%A9%B4",
+        "left": "도고면에서 이용할 건물의 이름과 희망 시간을 통화 전에 확인하세요.",
+        "right": "둔포면 요청 메모에는 지번보다 현재 도로명 주소를 우선해 적어 주세요."
+      },
+      "exactCandidateSha256": "3086f5c720870602be1c47cf85e96ff88746e8a34ee471ca6f1107642887b06e",
+      "reviewerDecision": null,
+      "reviewerReason": null
+    },
+    {
+      "selectionId": "semantic-12",
+      "rank": 12,
+      "exactCandidate": {
+        "familyId": "pulse-coordinate-note:p0:s1",
+        "similarity": 0,
+        "leftRoute": "/areas/asan/%EB%8F%84%EA%B3%A0%EB%A9%B4",
+        "rightRoute": "/areas/asan/%EB%91%94%ED%8F%AC%EB%A9%B4",
+        "left": "서비스를 받을 곳이 달라졌다면 최종 도로명과 건물명을 분명히 알려 주세요.",
+        "right": "도로명과 건물명 뒤에 필요한 동·호수를 덧붙여 주세요."
+      },
+      "exactCandidateSha256": "3d1a76cf4447ed4349aa145f5a5cca1bb0b57dff4df1e898968b57b4a2df097f",
+      "reviewerDecision": null,
+      "reviewerReason": null
+    }
+  ],
+  "requiredExternalChecks": [
+    "두 원문을 직접 읽고 조사·문법·맥락 연결이 자연스러운지 판단합니다.",
+    "지역명이나 숫자만 바꾼 문장인지 확인합니다.",
+    "같은 고객 행동·조건·결과를 반복하는지 확인합니다.",
+    "고객 이동이나 제공자 도착·대기 역할을 전제하지 않는지 확인합니다."
+  ]
+}

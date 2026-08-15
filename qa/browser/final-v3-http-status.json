@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "rang-therapy/browser-http-status/v1",
+  "checkedAt": "2026-08-14T12:44:25Z",
+  "server": "http://127.0.0.1:4181",
+  "routes": {
+    "/": 200,
+    "/areas/seoul/": 200,
+    "/areas/seoul/%EA%B0%95%EB%82%A8%EA%B5%AC/": 200,
+    "/areas/jeju/%EC%A0%9C%EC%A3%BC%EC%8B%9C/%ED%99%94%EB%B6%81%EB%8F%99/": 200,
+    "/score/": 200
+  }
+}

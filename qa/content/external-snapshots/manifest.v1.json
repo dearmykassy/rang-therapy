@@ -1,0 +1,76 @@
+{
+  "schemaVersion": "rang-external-corpus-snapshot-manifest/v1",
+  "snapshotVersion": "rang-external-snapshot-2026-08-14-v1",
+  "status": "PENDING_INDEPENDENT_GO",
+  "refreshPolicy": "EXPLICIT_ONLY",
+  "notes": "These gzip bundles are immutable audit inputs. Live peer drift is reported separately and never rewrites a snapshot or the canonical cross receipt.",
+  "platforms": [
+    {
+      "platformId": "massage-love",
+      "corpus": {
+        "path": "massage-love.content-corpus.json.gz",
+        "encoding": "gzip",
+        "sourceSha256": "4de161639f631105a69117b2082f2ce2c34af002a81685d621ffbc36b9b3004a",
+        "bundleSha256": "8299aacb6e32fa1e5cb2b6a37bcc75ec66be93dc61ee55748988888fe083018c"
+      },
+      "liveProbePath": "../massage-love/artifacts/content-corpus.json",
+      "independentGo": {
+        "status": "PENDING",
+        "exactCorpusSha256": null,
+        "evidenceSha256": null
+      }
+    },
+    {
+      "platformId": "mixed-love-massage",
+      "corpus": {
+        "path": "mixed-love-massage.content-corpus.json.gz",
+        "encoding": "gzip",
+        "sourceSha256": "0e5aa2b8a371873318340a7f04166b5289da6f670e3bbe52bccc218359d3fcba",
+        "bundleSha256": "b528c345766439184a22282ddaec6d1fd681e5f68cb2cac64d41c4d505c2a080"
+      },
+      "liveProbePath": "../mixed-love-massage/artifacts/content-corpus.json",
+      "independentGo": {
+        "status": "PENDING",
+        "exactCorpusSha256": null,
+        "evidenceSha256": null
+      }
+    },
+    {
+      "platformId": "star-todaki",
+      "corpus": {
+        "path": "star-todaki.content-corpus.json.gz",
+        "encoding": "gzip",
+        "sourceSha256": "f0b05d989d1a30b54607399525e02b81b398d262c546510808af05ce240f6c57",
+        "bundleSha256": "d15b631a4cb5c609245665ca1b51298a836bea0fc1b61b9c98aba097cd7d797e"
+      },
+      "visibleContract": {
+        "path": "star-todaki.region-visible-contract.v1.json.gz",
+        "encoding": "gzip",
+        "sourceSha256": "7601bcd530ebdbee34fb2f7fe366dc884daadb3ff8778ac7b41a98e36eb9eb05",
+        "bundleSha256": "e814b2f56384669179712bf3b0b5155505e3b102cb41e39b5b34e93a889cd99a"
+      },
+      "liveProbePath": "../star-todaki/artifacts/content-corpus.json",
+      "liveVisibleContractProbePath": "../star-todaki/artifacts/region-visible-contract.v1.json",
+      "independentGo": {
+        "status": "PENDING",
+        "exactCorpusSha256": null,
+        "evidenceSha256": null
+      }
+    },
+    {
+      "platformId": "massagebom",
+      "corpus": {
+        "path": "massagebom.content-corpus.json.gz",
+        "encoding": "gzip",
+        "sourceSha256": "0a1375e03d2e7107c420349e0832465bdbf70e710503fa9d8191c2324a0dddc9",
+        "bundleSha256": "a4a01724ff845a95760ffac6b42c166f63fe318df8202160a153c4dc6d1868f0"
+      },
+      "liveProbePath": "../platform-governance/corpora/massagebom.content-corpus.json",
+      "independentGo": {
+        "status": "PENDING",
+        "exactCorpusSha256": null,
+        "evidenceSha256": null
+      }
+    }
+  ]
+}

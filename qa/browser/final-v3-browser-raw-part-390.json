@@ -1,0 +1,454 @@
+[
+  {
+    "id": "home-390",
+    "kind": "home",
+    "path": "/",
+    "width": 390,
+    "height": 844,
+    "file": "home-390-final-v3.jpg",
+    "url": "http://127.0.0.1:4181/",
+    "title": "랑테라피 | 주소와 시간을 한 박자로",
+    "screenshotMagicHex": "ffd8ffe000104a46",
+    "screenshotBytes": 30755,
+    "before": {
+      "bodyTextLength": 1043,
+      "brokenImages": 0,
+      "clientWidth": 390,
+      "gridColumns": 2,
+      "headerPosition": "sticky",
+      "headerTop": 0,
+      "headingLevels": [
+        1,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2
+      ],
+      "headings": [
+        {
+          "id": null,
+          "tag": "H1",
+          "text": "서비스를 받을 주소에맞춰지는 한 박자"
+        },
+        {
+          "id": "region-gallery-title",
+          "tag": "H2",
+          "text": "운영 지역 갤러리"
+        },
+        {
+          "id": null,
+          "tag": "H2",
+          "text": "선택은 장면처럼,진행은 리듬처럼"
+        },
+        {
+          "id": null,
+          "tag": "H2",
+          "text": "시간과 금액의 악보"
+        },
+        {
+          "id": null,
+          "tag": "H3",
+          "text": "타이마사지"
+        },
+        {
+          "id": null,
+          "tag": "H3",
+          "text": "아로마마사지"
+        },
+        {
+          "id": null,
+          "tag": "H3",
+          "text": "힐링마사지"
+        },
+        {
+          "id": null,
+          "tag": "H3",
+          "text": "스페셜마사지"
+        },
+        {
+          "id": null,
+          "tag": "H3",
+          "text": "남성전용"
+        },
+        {
+          "id": null,
+          "tag": "H2",
+          "text": "하루의 끝에 남길 한 박자"
+        }
+      ],
+      "horizontalOverflow": 0,
+      "innerHeight": 844,
+      "innerWidth": 390,
+      "roleForbiddenCount": 0,
+      "roleForbiddenSamples": [],
+      "scrollWidth": 390,
+      "terminalVisible": false
+    },
+    "after": {
+      "headerTop": 0,
+      "scrollY": 620
+    },
+    "mobileMenu": {
+      "columns": 2,
+      "containedWithinViewport": true,
+      "links": 5,
+      "minimumHeightPx": 48,
+      "minimumTargetPx": 48,
+      "minimumWidthPx": 185,
+      "navRect": {
+        "left": 0,
+        "right": 390,
+        "width": 390
+      },
+      "open": true,
+      "linkMaximumOverflowPx": 0,
+      "navEdgeScaleRoundingPx": 0.399993896484375
+    },
+    "captureMenuOpen": true,
+    "logs": []
+  },
+  {
+    "id": "seoul-root-390",
+    "kind": "root",
+    "path": "/areas/seoul/",
+    "width": 390,
+    "height": 844,
+    "file": "seoul-root-390-final-v3.jpg",
+    "url": "http://127.0.0.1:4181/areas/seoul/",
+    "title": "서울특별시 랑테라피 | 현장 카드 결제와 코스 안내",
+    "screenshotMagicHex": "ffd8ffe000104a46",
+    "screenshotBytes": 32954,
+    "before": {
+      "bodyTextLength": 2042,
+      "brokenImages": 0,
+      "clientWidth": 390,
+      "gridColumns": 2,
+      "headerPosition": "sticky",
+      "headerTop": 0,
+      "headingLevels": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "headings": [
+        {
+          "id": null,
+          "tag": "H1",
+          "text": "서울특별시 일정에 맞춰 고르는 랑테라피"
+        },
+        {
+          "id": "region-gallery-title",
+          "tag": "H2",
+          "text": "서울특별시 연결 지역 한눈에"
+        },
+        {
+          "id": null,
+          "tag": "H2",
+          "text": "서울특별시, 먼저 지역 찾기"
+        },
+        {
+          "id": null,
+          "tag": "H2",
+          "text": "서울특별시 주소를 한 줄로 맞추기"
+        },
+        {
+          "id": null,
+          "tag": "H2",
+          "text": "서울특별시 코스와 가격표 읽기"
+        },
+        {
+          "id": null,
+          "tag": "H2",
+          "text": "서울특별시 일정에 맞는 시간 고르기"
+        },
+        {
+          "id": null,
+          "tag": "H2",
+          "text": "서울특별시 결제 기준 확인하기"
+        },
+        {
+          "id": null,
+          "tag": "H2",
+          "text": "서울특별시 서비스 전 마지막 확인"
+        },
+        {
+          "id": null,
+          "tag": "H2",
+          "text": "랑에게 일정 건네기"
+        },
+        {
+          "id": null,
+          "tag": "H2",
+          "text": "하루의 끝에 남길 한 박자"
+        }
+      ],
+      "horizontalOverflow": 0,
+      "innerHeight": 844,
+      "innerWidth": 390,
+      "roleForbiddenCount": 0,
+      "roleForbiddenSamples": [],
+      "scrollWidth": 390,
+      "terminalVisible": false
+    },
+    "after": {
+      "headerTop": 0,
+      "scrollY": 620
+    },
+    "mobileMenu": {
+      "columns": 2,
+      "containedWithinViewport": true,
+      "links": 5,
+      "minimumHeightPx": 48,
+      "minimumTargetPx": 48,
+      "minimumWidthPx": 185,
+      "navRect": {
+        "left": 0,
+        "right": 390,
+        "width": 390
+      },
+      "open": true,
+      "linkMaximumOverflowPx": 0,
+      "navEdgeScaleRoundingPx": 0.399993896484375
+    },
+    "captureMenuOpen": false,
+    "logs": []
+  },
+  {
+    "id": "gangnam-hub-390",
+    "kind": "hub",
+    "path": "/areas/seoul/%EA%B0%95%EB%82%A8%EA%B5%AC/",
+    "width": 390,
+    "height": 844,
+    "file": "gangnam-hub-390-final-v3.jpg",
+    "url": "http://127.0.0.1:4181/areas/seoul/%EA%B0%95%EB%82%A8%EA%B5%AC/",
+    "title": "강남구 랑테라피 | 주소·시간·코스 이용 안내",
+    "screenshotMagicHex": "ffd8ffe000104a46",
+    "screenshotBytes": 31161,
+    "before": {
+      "bodyTextLength": 1754,
+      "brokenImages": 0,
+      "clientWidth": 390,
+      "gridColumns": 2,
+      "headerPosition": "sticky",
+      "headerTop": 0,
+      "headingLevels": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "headings": [
+        {
+          "id": null,
+          "tag": "H1",
+          "text": "강남구 서비스 전에 확인하는 코스와 시간"
+        },
+        {
+          "id": "region-gallery-title",
+          "tag": "H2",
+          "text": "강남구 연결 지역 한눈에"
+        },
+        {
+          "id": null,
+          "tag": "H2",
+          "text": "강남구, 먼저 지역 찾기"
+        },
+        {
+          "id": null,
+          "tag": "H2",
+          "text": "강남구 코스와 가격표 읽기"
+        },
+        {
+          "id": null,
+          "tag": "H2",
+          "text": "강남구 주소를 한 줄로 맞추기"
+        },
+        {
+          "id": null,
+          "tag": "H2",
+          "text": "강남구 일정에 맞는 시간 고르기"
+        },
+        {
+          "id": null,
+          "tag": "H2",
+          "text": "강남구 결제 기준 확인하기"
+        },
+        {
+          "id": null,
+          "tag": "H2",
+          "text": "강남구 서비스 전 마지막 확인"
+        },
+        {
+          "id": null,
+          "tag": "H2",
+          "text": "랑에게 일정 건네기"
+        },
+        {
+          "id": null,
+          "tag": "H2",
+          "text": "하루의 끝에 남길 한 박자"
+        }
+      ],
+      "horizontalOverflow": 0,
+      "innerHeight": 844,
+      "innerWidth": 390,
+      "roleForbiddenCount": 0,
+      "roleForbiddenSamples": [],
+      "scrollWidth": 390,
+      "terminalVisible": false
+    },
+    "after": {
+      "headerTop": 0,
+      "scrollY": 620
+    },
+    "mobileMenu": {
+      "columns": 2,
+      "containedWithinViewport": true,
+      "links": 5,
+      "minimumHeightPx": 48,
+      "minimumTargetPx": 48,
+      "minimumWidthPx": 185,
+      "navRect": {
+        "left": 0,
+        "right": 390,
+        "width": 390
+      },
+      "open": true,
+      "linkMaximumOverflowPx": 0,
+      "navEdgeScaleRoundingPx": 0.399993896484375
+    },
+    "captureMenuOpen": false,
+    "logs": []
+  },
+  {
+    "id": "hwabuk-leaf-390",
+    "kind": "representative",
+    "path": "/areas/jeju/%EC%A0%9C%EC%A3%BC%EC%8B%9C/%ED%99%94%EB%B6%81%EB%8F%99/",
+    "width": 390,
+    "height": 844,
+    "file": "hwabuk-leaf-390-final-v3.jpg",
+    "url": "http://127.0.0.1:4181/areas/jeju/%EC%A0%9C%EC%A3%BC%EC%8B%9C/%ED%99%94%EB%B6%81%EB%8F%99/",
+    "title": "화북동 랑테라피 | 가격표부터 현장 결제까지",
+    "screenshotMagicHex": "ffd8ffe000104a46",
+    "screenshotBytes": 31973,
+    "before": {
+      "bodyTextLength": 1592,
+      "brokenImages": 0,
+      "clientWidth": 390,
+      "gridColumns": null,
+      "headerPosition": "sticky",
+      "headerTop": 0,
+      "headingLevels": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "headings": [
+        {
+          "id": null,
+          "tag": "H1",
+          "text": "화북동, 하루 일정에 맞춘 코스와 시작 시간"
+        },
+        {
+          "id": "region-gallery-title",
+          "tag": "H2",
+          "text": "화북동 이용 준비 이어보기"
+        },
+        {
+          "id": null,
+          "tag": "H2",
+          "text": "화북동, 서비스 주소 확인"
+        },
+        {
+          "id": null,
+          "tag": "H2",
+          "text": "화북동 코스와 가격표 읽기"
+        },
+        {
+          "id": null,
+          "tag": "H2",
+          "text": "화북동 주소를 한 줄로 맞추기"
+        },
+        {
+          "id": null,
+          "tag": "H2",
+          "text": "화북동 일정에 맞는 시간 고르기"
+        },
+        {
+          "id": null,
+          "tag": "H2",
+          "text": "화북동 결제 기준 확인하기"
+        },
+        {
+          "id": null,
+          "tag": "H2",
+          "text": "화북동 서비스 전 마지막 확인"
+        },
+        {
+          "id": null,
+          "tag": "H2",
+          "text": "랑에게 일정 건네기"
+        },
+        {
+          "id": null,
+          "tag": "H2",
+          "text": "하루의 끝에 남길 한 박자"
+        }
+      ],
+      "horizontalOverflow": 0,
+      "innerHeight": 844,
+      "innerWidth": 390,
+      "roleForbiddenCount": 0,
+      "roleForbiddenSamples": [],
+      "scrollWidth": 390,
+      "terminalVisible": true
+    },
+    "after": {
+      "headerTop": 0,
+      "scrollY": 620
+    },
+    "mobileMenu": {
+      "columns": 2,
+      "containedWithinViewport": true,
+      "links": 5,
+      "minimumHeightPx": 48,
+      "minimumTargetPx": 48,
+      "minimumWidthPx": 185,
+      "navRect": {
+        "left": 0,
+        "right": 390,
+        "width": 390
+      },
+      "open": true,
+      "linkMaximumOverflowPx": 0,
+      "navEdgeScaleRoundingPx": 0.399993896484375
+    },
+    "captureMenuOpen": false,
+    "logs": []
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "rang-therapy/browser-visual-review/v1",
+  "reviewedAt": "2026-08-14T12:44:25Z",
+  "status": "PASS",
+  "reviewedArtifacts": [
+    "qa/browser/contact-sheet-final-v3.png",
+    "qa/browser/home-320-final-v3.png",
+    "qa/browser/gangnam-hub-390-final-v3.png",
+    "qa/browser/hwabuk-leaf-1440-final-v3.png"
+  ],
+  "verdicts": {
+    "mobileNavigation": "PASS",
+    "mobileTwoColumnCards": "PASS",
+    "desktopFourColumnCards": "PASS",
+    "stickyHeader": "PASS",
+    "heroAndTypography": "PASS",
+    "leafTerminalState": "PASS",
+    "visibleClipping": "PASS",
+    "horizontalOverflow": "PASS"
+  },
+  "notes": "Home mobile captures intentionally show the two-column menu open. Root, hub, and leaf captures keep it closed so hero and card proportions remain directly inspectable."
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": "rang-home-hero-provenance/v1",
+  "platform": "rang-therapy",
+  "assetId": "rang-home-hero-dongtan-knit-openai-v1",
+  "generator": "OpenAI built-in image generation",
+  "generatedAt": "2026-08-16T02:31:00+09:00",
+  "referenceUse": "outfit silhouette and knit material only; no identity, pose, accessories, or background copied",
+  "promptSummary": "Adult Korean woman in a tasteful taupe ribbed-knit midi dress, positioned on the right in a premium warm Korean wellness lounge; left-side copy space; calm top band; no text, logo, watermark, massage bed, or sensual pose.",
+  "original": {
+    "path": "/images/rang-home-hero/v1/rang-home-hero-dongtan-knit-openai-v1.png",
+    "width": 1672,
+    "height": 941,
+    "sha256": "d5cd0afdbf43e5833e3259884cc781b49c62e4c2d89db211b05233bb29d307ef"
+  },
+  "web": {
+    "path": "/images/rang-home-hero/v1/rang-home-hero-dongtan-knit-openai-v1.webp",
+    "width": 1600,
+    "height": 900,
+    "sha256": "55ee55517eb178654037ca6cb7e9d81ba388e7d8db81356e4335c29fcb012644"
+  },
+  "top18Palette": {
+    "meanRgb": [120, 98, 81],
+    "dominantRgb": [56, 40, 24]
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "schemaVersion": "rang-therapy/browser-qa/v7",
+  "status": "PENDING_IAB_UNAVAILABLE",
+  "verdict": "PENDING",
+  "platformId": "rang-therapy",
+  "corpusSha256": "ff9eac1282f4c7aeb356e2e492daab666e642b41fe30dac0371eecaca268ad21",
+  "sourceManifestSha256": "4992c9f6ab3c8ab197fde3b1b05499977261a434f096f99e3ce736c9471a8696",
+  "finalReleaseEligible": false,
+  "blocker": {
+    "code": "IN_APP_BROWSER_BACKEND_UNAVAILABLE",
+    "browserConstraint": "IN_APP_BROWSER_ONLY",
+    "substitutionAllowed": false,
+    "forbiddenSubstitutes": [
+      "standalone Playwright",
+      "Chrome extension",
+      "Computer Use"
+    ]
+  },
+  "latestRetryAttempt": {
+    "attemptedAt": "2026-08-14T14:21:18Z",
+    "selector": "iab",
+    "outcome": "BACKEND_UNAVAILABLE",
+    "inAppBrowserObserved": false,
+    "unrelatedBrowserObserved": true,
+    "substitutionUsed": false,
+    "currentPassClaimed": false
+  },
+  "historicalEvidence": {
+    "status": "HISTORICAL_SUPERSEDED_NOT_CURRENT_PASS",
+    "reportPath": "qa/browser/history/946120f03bbab8cf/report.pass.v6.json",
+    "reportSha256": "dadb3d3f409786af32dc1b117bbe60431683060a30bb6dcfd97a37f786f1a16c",
+    "corpusSha256": "946120f03bbab8cf015def84dc5d68f84de1cbba919f941665f236e8a99a6d52",
+    "sourceManifestSha256": "c9b5bcb8d0140793304a64c86497d90a3311ccbf7d4bd6707d832d607a0e3c32",
+    "cases": 12,
+    "realPngMagic": "89504e470d0a1a0a",
+    "finalAuthority": false
+  },
+  "requiredFreshQa": {
+    "cases": [
+      {
+        "id": "home-320",
+        "kind": "home",
+        "path": "/",
+        "viewport": [
+          320,
+          844
+        ]
+      },
+      {
+        "id": "home-390",
+        "kind": "home",
+        "path": "/",
+        "viewport": [
+          390,
+          844
+        ]
+      },
+      {
+        "id": "home-1440",
+        "kind": "home",
+        "path": "/",
+        "viewport": [
+          1440,
+          1000
+        ]
+      },
+      {
+        "id": "seoul-root-320",
+        "kind": "root",
+        "path": "/areas/seoul/",
+        "viewport": [
+          320,
+          844
+        ]
+      },
+      {
+        "id": "seoul-root-390",
+        "kind": "root",
+        "path": "/areas/seoul/",
+        "viewport": [
+          390,
+          844
+        ]
+      },
+      {
+        "id": "seoul-root-1440",
+        "kind": "root",
+        "path": "/areas/seoul/",
+        "viewport": [
+          1440,
+          1000
+        ]
+      },
+      {
+        "id": "gangnam-hub-320",
+        "kind": "hub",
+        "path": "/areas/seoul/%EA%B0%95%EB%82%A8%EA%B5%AC/",
+        "viewport": [
+          320,
+          844
+        ]
+      },
+      {
+        "id": "gangnam-hub-390",
+        "kind": "hub",
+        "path": "/areas/seoul/%EA%B0%95%EB%82%A8%EA%B5%AC/",
+        "viewport": [
+          390,
+          844
+        ]
+      },
+      {
+        "id": "gangnam-hub-1440",
+        "kind": "hub",
+        "path": "/areas/seoul/%EA%B0%95%EB%82%A8%EA%B5%AC/",
+        "viewport": [
+          1440,
+          1000
+        ]
+      },
+      {
+        "id": "hwabuk-leaf-320",
+        "kind": "representative",
+        "path": "/areas/jeju/%EC%A0%9C%EC%A3%BC%EC%8B%9C/%ED%99%94%EB%B6%81%EB%8F%99/",
+        "viewport": [
+          320,
+          844
+        ]
+      },
+      {
+        "id": "hwabuk-leaf-390",
+        "kind": "representative",
+        "path": "/areas/jeju/%EC%A0%9C%EC%A3%BC%EC%8B%9C/%ED%99%94%EB%B6%81%EB%8F%99/",
+        "viewport": [
+          390,
+          844
+        ]
+      },
+      {
+        "id": "hwabuk-leaf-1440",
+        "kind": "representative",
+        "path": "/areas/jeju/%EC%A0%9C%EC%A3%BC%EC%8B%9C/%ED%99%94%EB%B6%81%EB%8F%99/",
+        "viewport": [
+          1440,
+          1000
+        ]
+      }
+    ],
+    "assertions": [
+      "real PNG magic, IHDR dimensions, and SHA binding",
+      "horizontal overflow 0",
+      "sticky header before and after scroll",
+      "mobile menu 2 columns with minimum 48px targets",
+      "mobile region cards 2 columns and desktop cards 4 columns",
+      "heading hierarchy, tel CTA exact label, role-forbidden text 0",
+      "console, page, network, broken-image errors 0"
+    ],
+    "freshCasesCompleted": 0
+  },
+  "retryWorkflow": {
+    "trigger": "in-app Browser backend becomes available",
+    "command": "Retry this task with the Browser skill and browser selector `iab`; do not substitute Chrome or standalone Playwright.",
+    "steps": [
+      "Build the exact current corpus and static export.",
+      "Start a temporary local static server and bind the in-app Browser.",
+      "Run home, root, hub, and representative routes at 320, 390, and 1440 widths.",
+      "Capture 12 new no-clobber PNGs and bind their magic, dimensions, SHA, metrics, console, and network results.",
+      "Replace this PENDING receipt only when every current-corpus assertion passes, then stop the server and close QA tabs."
+    ]
+  }
+}

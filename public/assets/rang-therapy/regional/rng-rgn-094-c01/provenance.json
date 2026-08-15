@@ -1,0 +1,66 @@
+{
+  "schemaVersion": "rang-therapy-regional-image-provenance/v1",
+  "platformKey": "rang-therapy",
+  "jobId": "rng-rgn-094-c01",
+  "assetId": "rng-rgn-094-c01",
+  "rootReview": {
+    "reviewPath": "reviews/rang-therapy.regional-release-review.v1.json",
+    "reviewer": "root",
+    "sourceDecision": "ACCEPT",
+    "contactSheet": {
+      "relativePath": "reviews/rang-therapy/contact-sheets/rang-c01-091-100.png",
+      "sha256": "cc343bd61c1f079f802305006f79b7f7cd00d9320d2629e3681422abead89307"
+    }
+  },
+  "source": {
+    "relativePath": "originals/rang-therapy/rng-rgn-094-c01.png",
+    "sha256": "851c1c2b240d9bb1acc5050ff596efc00d3f6ccc75183a3f7309d221988b21f2",
+    "dimensions": "1672x941",
+    "bytes": 1732659,
+    "receiptRelativePath": "receipts/by-job/rng-rgn-094-c01.receipt.json",
+    "receiptSha256": "5abe7504307d361ed1835028b07a6541dc82968d369dd0e9ae7aee3602f8a53a",
+    "jobSha256": "6100c2fe955c0fa622740a1a921158ac6739eb26c49bcc753436be207d477242",
+    "claimSha256": "c4f39d951edb93a74afef4efdd32afd64e013d741c85ee600f1bdbb6c0ff76ed",
+    "promptSha256": "ecea63127d1f2611d65fc108e80b7ec6445c390ea3282bda3d706ba5b3e64e67"
+  },
+  "palette": {
+    "sourceStrip": {
+      "topPercent": 18,
+      "sourceHeightPx": 169,
+      "sampleWidthPx": 64,
+      "sampleHeightPx": 16
+    },
+    "primary": "#604040",
+    "secondary": "#c0c0c0",
+    "navigation": {
+      "text": "#ffffff",
+      "textContrastRatio": 9.1116,
+      "overlay": "#2e1f1f",
+      "gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.76) 0%, rgba(0, 0, 0, 0.46) 62%, rgba(0, 0, 0, 0) 100%)",
+      "backdropFilter": "blur(18px)"
+    }
+  },
+  "derivatives": {
+    "desktop": {
+      "publicPath": "/assets/rang-therapy/regional/rng-rgn-094-c01/desktop.webp",
+      "sha256": "00f2b12deb6b46111260577c63263017966d794c60bac7eb497720c16b30f5ad",
+      "width": 1600,
+      "height": 900,
+      "bytes": 75874
+    },
+    "tablet": {
+      "publicPath": "/assets/rang-therapy/regional/rng-rgn-094-c01/tablet.webp",
+      "sha256": "cf7f14e789f2b3f122b533836117e3068d9b2c92ce4e5eb56f2a94f23ea110f0",
+      "width": 1200,
+      "height": 675,
+      "bytes": 54070
+    },
+    "mobile": {
+      "publicPath": "/assets/rang-therapy/regional/rng-rgn-094-c01/mobile.webp",
+      "sha256": "875a23ac6b3e5581aa2ff7b7cf047a8793533026f563c908c2ac4f1f1c692b9f",
+      "width": 768,
+      "height": 432,
+      "bytes": 31050
+    }
+  }
+}

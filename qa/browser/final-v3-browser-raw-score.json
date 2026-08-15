@@ -1,0 +1,63 @@
+{
+  "brokenImages": 0,
+  "documentWidth": 1440,
+  "headingLevels": [
+    1,
+    2,
+    3,
+    3,
+    3,
+    3,
+    3,
+    2
+  ],
+  "headingSkips": 0,
+  "headings": [
+    {
+      "id": null,
+      "tag": "H1",
+      "text": "시간과 금액을한눈에 읽는 악보"
+    },
+    {
+      "id": "score-table-title",
+      "tag": "H2",
+      "text": "악보로 읽는 코스 시간과 금액"
+    },
+    {
+      "id": null,
+      "tag": "H3",
+      "text": "타이마사지"
+    },
+    {
+      "id": null,
+      "tag": "H3",
+      "text": "아로마마사지"
+    },
+    {
+      "id": null,
+      "tag": "H3",
+      "text": "힐링마사지"
+    },
+    {
+      "id": null,
+      "tag": "H3",
+      "text": "스페셜마사지"
+    },
+    {
+      "id": null,
+      "tag": "H3",
+      "text": "남성전용"
+    },
+    {
+      "id": null,
+      "tag": "H2",
+      "text": "하루의 끝에 남길 한 박자"
+    }
+  ],
+  "horizontalOverflow": 0,
+  "innerHeight": 1000,
+  "innerWidth": 1440,
+  "meaningfulH2": "[Circular]",
+  "roleForbiddenCount": 0,
+  "logs": []
+}

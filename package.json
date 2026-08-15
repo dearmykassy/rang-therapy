@@ -1,0 +1,46 @@
+{
+  "name": "rang-therapy",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "artifacts:generate": "RANG_IMAGE_RELEASE_RECEIPT=artifacts/image-release/rang-therapy-regional-release.v1.json tsx scripts/generate-artifacts.ts",
+    "audit:cross-platform:exact": "tsx scripts/audit-cross-platform-exact.ts",
+    "audit:cross-platform:isolation": "tsx scripts/verify-cross-platform-isolation.ts",
+    "qa:content:receipts:generate": "tsx scripts/generate-content-review-receipts.ts",
+    "qa:browser:receipt:generate": "tsx scripts/generate-browser-receipt.ts",
+    "audit:browser:receipt": "tsx scripts/audit-browser-receipt.ts",
+    "qa:content:review-candidate:audit": "tsx scripts/audit-content-review-candidate.ts",
+    "qa:fast:ai-review": "tsx scripts/fast-release.ts ai",
+    "audit:fast:ai-review": "tsx scripts/fast-release.ts audit-ai",
+    "qa:fast:local-chromium": "tsx scripts/fast-release.ts browser",
+    "qa:fast:receipt:generate": "tsx scripts/fast-release.ts receipt",
+    "audit:fast:receipt": "tsx scripts/fast-release.ts audit",
+    "qa:fast": "pnpm qa:fast:ai-review && pnpm audit:fast:ai-review && pnpm qa:fast:local-chromium && pnpm qa:fast:receipt:generate && pnpm audit:fast:receipt",
+    "rang:images:template": "tsx scripts/release-rang-regional-images.ts --write-pending-review-template",
+    "rang:images:release": "tsx scripts/release-rang-regional-images.ts --release",
+    "test": "pnpm artifacts:generate && pnpm audit:cross-platform:exact && pnpm audit:cross-platform:isolation && pnpm qa:browser:receipt:generate && pnpm audit:browser:receipt && pnpm qa:content:receipts:generate && pnpm qa:content:review-candidate:audit && vitest run",
+    "typecheck": "next typegen && tsc --noEmit",
+    "lint": "eslint .",
+    "build": "pnpm artifacts:generate && next build && tsx scripts/audit-built-output.ts",
+    "verify": "pnpm test && pnpm typecheck && pnpm lint && pnpm build"
+  },
+  "dependencies": {
+    "next": "16.3.0",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.0",
+    "sharp": "0.34.5",
+    "tsx": "^4.23.12",
+    "typescript": "^5",
+    "vitest": "^4.1.10"
+  },
+  "packageManager": "pnpm@10.29.3"
+}

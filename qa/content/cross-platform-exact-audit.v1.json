@@ -1,0 +1,1039 @@
+{
+  "schemaVersion": "rang-cross-platform-exact-audit/v3",
+  "status": "PENDING",
+  "platformId": "rang-therapy",
+  "snapshotVersion": "rang-external-snapshot-2026-08-14-v1",
+  "snapshotManifest": {
+    "path": "qa/content/external-snapshots/manifest.v1.json",
+    "sha256": "076aa49c4ef4dc10c7808676d845a3586bf61d76b2909304fe9d42c3fd93cb2c",
+    "hashScope": "ORDER_AND_LIVE_PROBE_PATH_INDEPENDENT_AUTHORITY_FIELDS",
+    "refreshPolicy": "EXPLICIT_ONLY"
+  },
+  "rangCorpusSha256": "ff9eac1282f4c7aeb356e2e492daab666e642b41fe30dac0371eecaca268ad21",
+  "rangSourceManifestSha256": "4992c9f6ab3c8ab197fde3b1b05499977261a434f096f99e3ce736c9471a8696",
+  "policy": {
+    "comparison": "raw NFC-trimmed exact equality",
+    "rangSurfaceSource": "actualDomSurface.directText+fullBlockText+accessibilityText",
+    "scopes": [
+      "meta",
+      "actual-dom-direct-text",
+      "actual-dom-full-block-text",
+      "actual-dom-accessibility-text",
+      "complete-customer-sentence",
+      "cross-category-visible-value"
+    ],
+    "acceptedCollisionCount": 0,
+    "permittedSharedAtomicOverlap": "완전문장은 예외 없이 감사합니다. 지역명, 구조 UI 단어, 단독 가격·시간·결제 사실, 장식 기호만 exact 분류해 owned-copy collision에서 제외하며 raw overlap 수치는 별도로 보존합니다.",
+    "finalization": "마사지봄·스타 토닥이·마사지러브·Mixed Love 네 플랫폼 모두 독립 GO의 exact corpus/evidence SHA가 manifest에 명시되기 전에는 PENDING입니다.",
+    "dependencyRules": {
+      "missingOrTamperedLocalSnapshot": "FAIL_WITHOUT_OVERWRITING_CANONICAL_RECEIPT",
+      "changedLivePeer": "SEPARATE_PERSISTED_PENDING_CHANGED_SIGNAL_AND_EXPLICIT_REFRESH_ONLY",
+      "absentLivePeer": "CANONICAL_LOCAL_SNAPSHOT_AUDIT_REMAINS_REPRODUCIBLE",
+      "staleReceiptReuse": false
+    },
+    "notes": "Rang의 1,291개 지역 DOM과 6개 고정 DOM에서 추출한 direct/full-block/a11y 전체 multiset을 corpus에 결속하고, 프로젝트 내부 immutable gzip snapshot의 실제 surface와 raw exact 대조합니다. 형제 저장소는 canonical 입력이 아니며 별도 live drift receipt로만 관찰합니다."
+  },
+  "rangCounts": {
+    "documents": 1297,
+    "regionDocuments": 1291,
+    "fixedDocuments": 6,
+    "metaValues": 11631,
+    "bodyValues": 59385,
+    "sentences": 39068,
+    "allVisibleValues": 104882,
+    "actualDomSurfaceOccurrences": {
+      "direct": 118986,
+      "fullBlock": 60907,
+      "accessibility": 6480,
+      "exactMultiset": 186373
+    }
+  },
+  "collisionCounts": {
+    "meta": 0,
+    "body": 0,
+    "sentences": 0,
+    "anyVisibleValue": 0
+  },
+  "rawExactOverlapCounts": {
+    "meta": 0,
+    "body": 3669,
+    "sentences": 0,
+    "anyVisibleValue": 3669
+  },
+  "permittedSharedAtomicOverlapCounts": {
+    "geography": 3543,
+    "structural-ui": 11,
+    "operating-fact-atom": 43,
+    "decorative-numeric": 72
+  },
+  "collisionSamples": [],
+  "comparisons": [
+    {
+      "platformId": "massage-love",
+      "corpusPath": "qa/content/external-snapshots/massage-love.content-corpus.json.gz",
+      "corpusSha256": "4de161639f631105a69117b2082f2ce2c34af002a81685d621ffbc36b9b3004a",
+      "snapshotBundleSha256": "8299aacb6e32fa1e5cb2b6a37bcc75ec66be93dc61ee55748988888fe083018c",
+      "externalVisibleContract": null,
+      "documentCount": 1291,
+      "surfaceSource": [
+        "embedded-visible-dom-contract"
+      ],
+      "surfaceOccurrences": {
+        "direct": 140087,
+        "fullBlock": 0,
+        "accessibility": 6793,
+        "declaredFallback": 0,
+        "exactMultiset": 146880
+      },
+      "independentGo": {
+        "status": "PENDING",
+        "exactCorpusSha256": null,
+        "evidenceSha256": null
+      },
+      "dependencyState": "SNAPSHOT_AUDITED_AWAITING_INDEPENDENT_GO",
+      "collisionCounts": {
+        "meta": 0,
+        "body": 0,
+        "sentences": 0,
+        "anyVisibleValue": 0
+      },
+      "rawExactOverlapCounts": {
+        "meta": 0,
+        "body": 1220,
+        "sentences": 0,
+        "anyVisibleValue": 1220
+      },
+      "permittedSharedAtomicOverlap": {
+        "count": 1220,
+        "values": [
+          {
+            "value": "/",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "↗",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "01",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "02",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "03",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "04",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "05",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "0508-202-3906",
+            "reason": "operating-fact-atom"
+          },
+          {
+            "value": "06",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "07",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "08",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "09",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "10",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "100,000원",
+            "reason": "operating-fact-atom"
+          },
+          {
+            "value": "11",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "110,000원",
+            "reason": "operating-fact-atom"
+          },
+          {
+            "value": "12",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "120,000원",
+            "reason": "operating-fact-atom"
+          },
+          {
+            "value": "120분",
+            "reason": "operating-fact-atom"
+          },
+          {
+            "value": "13",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "130,000원",
+            "reason": "operating-fact-atom"
+          },
+          {
+            "value": "14",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "140,000원",
+            "reason": "operating-fact-atom"
+          },
+          {
+            "value": "15",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "150,000원",
+            "reason": "operating-fact-atom"
+          },
+          {
+            "value": "16",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "17",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "18",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "19",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "20",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "21",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "22",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "23",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "24",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "24시간 전화상담",
+            "reason": "operating-fact-atom"
+          },
+          {
+            "value": "25",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "26",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "27",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "28",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "29",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "30",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "31",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "60분",
+            "reason": "operating-fact-atom"
+          },
+          {
+            "value": "80,000원",
+            "reason": "operating-fact-atom"
+          },
+          {
+            "value": "90,000원",
+            "reason": "operating-fact-atom"
+          },
+          {
+            "value": "90분",
+            "reason": "operating-fact-atom"
+          },
+          {
+            "value": "가남읍",
+            "reason": "geography"
+          },
+          {
+            "value": "가능동",
+            "reason": "geography"
+          }
+        ]
+      },
+      "collisionSamples": [],
+      "verdict": "PENDING"
+    },
+    {
+      "platformId": "massagebom",
+      "corpusPath": "qa/content/external-snapshots/massagebom.content-corpus.json.gz",
+      "corpusSha256": "0a1375e03d2e7107c420349e0832465bdbf70e710503fa9d8191c2324a0dddc9",
+      "snapshotBundleSha256": "a4a01724ff845a95760ffac6b42c166f63fe318df8202160a153c4dc6d1868f0",
+      "externalVisibleContract": null,
+      "documentCount": 1291,
+      "surfaceSource": [
+        "declared-corpus-fallback"
+      ],
+      "surfaceOccurrences": {
+        "direct": 0,
+        "fullBlock": 0,
+        "accessibility": 0,
+        "declaredFallback": 149228,
+        "exactMultiset": 149228
+      },
+      "independentGo": {
+        "status": "PENDING",
+        "exactCorpusSha256": null,
+        "evidenceSha256": null
+      },
+      "dependencyState": "SNAPSHOT_AUDITED_AWAITING_INDEPENDENT_GO",
+      "collisionCounts": {
+        "meta": 0,
+        "body": 0,
+        "sentences": 0,
+        "anyVisibleValue": 0
+      },
+      "rawExactOverlapCounts": {
+        "meta": 0,
+        "body": 1172,
+        "sentences": 0,
+        "anyVisibleValue": 1172
+      },
+      "permittedSharedAtomicOverlap": {
+        "count": 1172,
+        "values": [
+          {
+            "value": "가남읍",
+            "reason": "geography"
+          },
+          {
+            "value": "가능동",
+            "reason": "geography"
+          },
+          {
+            "value": "가덕도동",
+            "reason": "geography"
+          },
+          {
+            "value": "가락동",
+            "reason": "geography"
+          },
+          {
+            "value": "가리봉동",
+            "reason": "geography"
+          },
+          {
+            "value": "가산동",
+            "reason": "geography"
+          },
+          {
+            "value": "가산면",
+            "reason": "geography"
+          },
+          {
+            "value": "가수원동",
+            "reason": "geography"
+          },
+          {
+            "value": "가야동",
+            "reason": "geography"
+          },
+          {
+            "value": "가양동",
+            "reason": "geography"
+          },
+          {
+            "value": "가장동",
+            "reason": "geography"
+          },
+          {
+            "value": "가정동",
+            "reason": "geography"
+          },
+          {
+            "value": "가좌동",
+            "reason": "geography"
+          },
+          {
+            "value": "가창면",
+            "reason": "geography"
+          },
+          {
+            "value": "가평군",
+            "reason": "geography"
+          },
+          {
+            "value": "가평읍",
+            "reason": "geography"
+          },
+          {
+            "value": "가회동",
+            "reason": "geography"
+          },
+          {
+            "value": "간석동",
+            "reason": "geography"
+          },
+          {
+            "value": "갈마동",
+            "reason": "geography"
+          },
+          {
+            "value": "갈매동",
+            "reason": "geography"
+          },
+          {
+            "value": "갈산동",
+            "reason": "geography"
+          },
+          {
+            "value": "갈현동",
+            "reason": "geography"
+          },
+          {
+            "value": "감만동",
+            "reason": "geography"
+          },
+          {
+            "value": "감북동",
+            "reason": "geography"
+          },
+          {
+            "value": "감삼동",
+            "reason": "geography"
+          },
+          {
+            "value": "감일동",
+            "reason": "geography"
+          },
+          {
+            "value": "감전동",
+            "reason": "geography"
+          },
+          {
+            "value": "감천동",
+            "reason": "geography"
+          },
+          {
+            "value": "강남구",
+            "reason": "geography"
+          },
+          {
+            "value": "강동구",
+            "reason": "geography"
+          },
+          {
+            "value": "강동동",
+            "reason": "geography"
+          },
+          {
+            "value": "강북구",
+            "reason": "geography"
+          },
+          {
+            "value": "강상면",
+            "reason": "geography"
+          },
+          {
+            "value": "강서구",
+            "reason": "geography"
+          },
+          {
+            "value": "강일동",
+            "reason": "geography"
+          },
+          {
+            "value": "강천면",
+            "reason": "geography"
+          },
+          {
+            "value": "강하면",
+            "reason": "geography"
+          },
+          {
+            "value": "강화군",
+            "reason": "geography"
+          },
+          {
+            "value": "강화읍",
+            "reason": "geography"
+          },
+          {
+            "value": "개군면",
+            "reason": "geography"
+          },
+          {
+            "value": "개금동",
+            "reason": "geography"
+          },
+          {
+            "value": "개봉동",
+            "reason": "geography"
+          },
+          {
+            "value": "개포동",
+            "reason": "geography"
+          },
+          {
+            "value": "개항동",
+            "reason": "geography"
+          },
+          {
+            "value": "거북섬동",
+            "reason": "geography"
+          },
+          {
+            "value": "거여동",
+            "reason": "geography"
+          },
+          {
+            "value": "거제동",
+            "reason": "geography"
+          },
+          {
+            "value": "건입동",
+            "reason": "geography"
+          }
+        ]
+      },
+      "collisionSamples": [],
+      "verdict": "PENDING"
+    },
+    {
+      "platformId": "mixed-love-massage",
+      "corpusPath": "qa/content/external-snapshots/mixed-love-massage.content-corpus.json.gz",
+      "corpusSha256": "0e5aa2b8a371873318340a7f04166b5289da6f670e3bbe52bccc218359d3fcba",
+      "snapshotBundleSha256": "b528c345766439184a22282ddaec6d1fd681e5f68cb2cac64d41c4d505c2a080",
+      "externalVisibleContract": null,
+      "documentCount": 1291,
+      "surfaceSource": [
+        "embedded-rendered-visible-audit-units"
+      ],
+      "surfaceOccurrences": {
+        "direct": 121668,
+        "fullBlock": 64718,
+        "accessibility": 7746,
+        "declaredFallback": 0,
+        "exactMultiset": 194132
+      },
+      "independentGo": {
+        "status": "PENDING",
+        "exactCorpusSha256": null,
+        "evidenceSha256": null
+      },
+      "dependencyState": "SNAPSHOT_AUDITED_AWAITING_INDEPENDENT_GO",
+      "collisionCounts": {
+        "meta": 0,
+        "body": 0,
+        "sentences": 0,
+        "anyVisibleValue": 0
+      },
+      "rawExactOverlapCounts": {
+        "meta": 0,
+        "body": 1208,
+        "sentences": 0,
+        "anyVisibleValue": 1208
+      },
+      "permittedSharedAtomicOverlap": {
+        "count": 1208,
+        "values": [
+          {
+            "value": "/",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "↗",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "01",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "02",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "03",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "04",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "05",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "0508-202-3906",
+            "reason": "operating-fact-atom"
+          },
+          {
+            "value": "06",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "07",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "08",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "09",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "10",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "11",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "12",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "13",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "14",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "15",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "16",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "17",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "18",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "19",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "20",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "21",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "22",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "23",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "24",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "25",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "26",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "27",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "28",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "29",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "30",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "31",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "가남읍",
+            "reason": "geography"
+          },
+          {
+            "value": "가능동",
+            "reason": "geography"
+          },
+          {
+            "value": "가덕도동",
+            "reason": "geography"
+          },
+          {
+            "value": "가락동",
+            "reason": "geography"
+          },
+          {
+            "value": "가리봉동",
+            "reason": "geography"
+          },
+          {
+            "value": "가산동",
+            "reason": "geography"
+          },
+          {
+            "value": "가산면",
+            "reason": "geography"
+          },
+          {
+            "value": "가수원동",
+            "reason": "geography"
+          },
+          {
+            "value": "가야동",
+            "reason": "geography"
+          },
+          {
+            "value": "가양동",
+            "reason": "geography"
+          },
+          {
+            "value": "가장동",
+            "reason": "geography"
+          },
+          {
+            "value": "가정동",
+            "reason": "geography"
+          },
+          {
+            "value": "가좌동",
+            "reason": "geography"
+          },
+          {
+            "value": "가창면",
+            "reason": "geography"
+          }
+        ]
+      },
+      "collisionSamples": [],
+      "verdict": "PENDING"
+    },
+    {
+      "platformId": "star-todaki",
+      "corpusPath": "qa/content/external-snapshots/star-todaki.content-corpus.json.gz",
+      "corpusSha256": "f0b05d989d1a30b54607399525e02b81b398d262c546510808af05ce240f6c57",
+      "snapshotBundleSha256": "d15b631a4cb5c609245665ca1b51298a836bea0fc1b61b9c98aba097cd7d797e",
+      "externalVisibleContract": {
+        "path": "qa/content/external-snapshots/star-todaki.region-visible-contract.v1.json.gz",
+        "sha256": "7601bcd530ebdbee34fb2f7fe366dc884daadb3ff8778ac7b41a98e36eb9eb05",
+        "snapshotBundleSha256": "e814b2f56384669179712bf3b0b5155505e3b102cb41e39b5b34e93a889cd99a"
+      },
+      "documentCount": 174,
+      "surfaceSource": [
+        "exact-pinned-external-visible-contract"
+      ],
+      "surfaceOccurrences": {
+        "direct": 19820,
+        "fullBlock": 14230,
+        "accessibility": 1218,
+        "declaredFallback": 0,
+        "exactMultiset": 35268
+      },
+      "independentGo": {
+        "status": "PENDING",
+        "exactCorpusSha256": null,
+        "evidenceSha256": null
+      },
+      "dependencyState": "SNAPSHOT_AUDITED_AWAITING_INDEPENDENT_GO",
+      "collisionCounts": {
+        "meta": 0,
+        "body": 0,
+        "sentences": 0,
+        "anyVisibleValue": 0
+      },
+      "rawExactOverlapCounts": {
+        "meta": 0,
+        "body": 69,
+        "sentences": 0,
+        "anyVisibleValue": 69
+      },
+      "permittedSharedAtomicOverlap": {
+        "count": 69,
+        "values": [
+          {
+            "value": "↗",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "01",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "02",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "03",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "04",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "05",
+            "reason": "decorative-numeric"
+          },
+          {
+            "value": "100,000원",
+            "reason": "operating-fact-atom"
+          },
+          {
+            "value": "110,000원",
+            "reason": "operating-fact-atom"
+          },
+          {
+            "value": "120,000원",
+            "reason": "operating-fact-atom"
+          },
+          {
+            "value": "120분",
+            "reason": "operating-fact-atom"
+          },
+          {
+            "value": "120분 120,000원",
+            "reason": "operating-fact-atom"
+          },
+          {
+            "value": "120분 130,000원",
+            "reason": "operating-fact-atom"
+          },
+          {
+            "value": "120분 140,000원",
+            "reason": "operating-fact-atom"
+          },
+          {
+            "value": "120분 150,000원",
+            "reason": "operating-fact-atom"
+          },
+          {
+            "value": "130,000원",
+            "reason": "operating-fact-atom"
+          },
+          {
+            "value": "140,000원",
+            "reason": "operating-fact-atom"
+          },
+          {
+            "value": "150,000원",
+            "reason": "operating-fact-atom"
+          },
+          {
+            "value": "60분",
+            "reason": "operating-fact-atom"
+          },
+          {
+            "value": "60분 100,000원",
+            "reason": "operating-fact-atom"
+          },
+          {
+            "value": "60분 110,000원",
+            "reason": "operating-fact-atom"
+          },
+          {
+            "value": "60분 120,000원",
+            "reason": "operating-fact-atom"
+          },
+          {
+            "value": "60분 80,000원",
+            "reason": "operating-fact-atom"
+          },
+          {
+            "value": "60분 90,000원",
+            "reason": "operating-fact-atom"
+          },
+          {
+            "value": "80,000원",
+            "reason": "operating-fact-atom"
+          },
+          {
+            "value": "90,000원",
+            "reason": "operating-fact-atom"
+          },
+          {
+            "value": "90분",
+            "reason": "operating-fact-atom"
+          },
+          {
+            "value": "90분 100,000원",
+            "reason": "operating-fact-atom"
+          },
+          {
+            "value": "90분 110,000원",
+            "reason": "operating-fact-atom"
+          },
+          {
+            "value": "90분 120,000원",
+            "reason": "operating-fact-atom"
+          },
+          {
+            "value": "90분 130,000원",
+            "reason": "operating-fact-atom"
+          },
+          {
+            "value": "90분 150,000원",
+            "reason": "operating-fact-atom"
+          },
+          {
+            "value": "강남구",
+            "reason": "geography"
+          },
+          {
+            "value": "강동구",
+            "reason": "geography"
+          },
+          {
+            "value": "강북구",
+            "reason": "geography"
+          },
+          {
+            "value": "강서구",
+            "reason": "geography"
+          },
+          {
+            "value": "경기",
+            "reason": "geography"
+          },
+          {
+            "value": "관악구",
+            "reason": "geography"
+          },
+          {
+            "value": "광진구",
+            "reason": "geography"
+          },
+          {
+            "value": "구로구",
+            "reason": "geography"
+          },
+          {
+            "value": "금천구",
+            "reason": "geography"
+          },
+          {
+            "value": "남성전용",
+            "reason": "operating-fact-atom"
+          },
+          {
+            "value": "노원구",
+            "reason": "geography"
+          },
+          {
+            "value": "대전",
+            "reason": "geography"
+          },
+          {
+            "value": "도봉구",
+            "reason": "geography"
+          },
+          {
+            "value": "동대문구",
+            "reason": "geography"
+          },
+          {
+            "value": "동작구",
+            "reason": "geography"
+          },
+          {
+            "value": "마포구",
+            "reason": "geography"
+          },
+          {
+            "value": "메뉴 열기",
+            "reason": "structural-ui"
+          }
+        ]
+      },
+      "collisionSamples": [],
+      "verdict": "PENDING"
+    }
+  ],
+  "pendingDependencies": [
+    {
+      "platformId": "massage-love",
+      "corpusSha256": "4de161639f631105a69117b2082f2ce2c34af002a81685d621ffbc36b9b3004a",
+      "state": "SNAPSHOT_AUDITED_AWAITING_INDEPENDENT_GO"
+    },
+    {
+      "platformId": "massagebom",
+      "corpusSha256": "0a1375e03d2e7107c420349e0832465bdbf70e710503fa9d8191c2324a0dddc9",
+      "state": "SNAPSHOT_AUDITED_AWAITING_INDEPENDENT_GO"
+    },
+    {
+      "platformId": "mixed-love-massage",
+      "corpusSha256": "0e5aa2b8a371873318340a7f04166b5289da6f670e3bbe52bccc218359d3fcba",
+      "state": "SNAPSHOT_AUDITED_AWAITING_INDEPENDENT_GO"
+    },
+    {
+      "platformId": "star-todaki",
+      "corpusSha256": "f0b05d989d1a30b54607399525e02b81b398d262c546510808af05ce240f6c57",
+      "state": "SNAPSHOT_AUDITED_AWAITING_INDEPENDENT_GO"
+    }
+  ],
+  "verdict": "PENDING"
+}

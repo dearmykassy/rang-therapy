@@ -1,0 +1,81 @@
+{
+  "schemaVersion": "rang-fast-candidate/v1",
+  "status": "FAST_CANDIDATE",
+  "platformId": "rang-therapy",
+  "candidate": {
+    "protocol": "rang-fast-candidate-binding/v1",
+    "platformId": "rang-therapy",
+    "corpusSha256": "ff9eac1282f4c7aeb356e2e492daab666e642b41fe30dac0371eecaca268ad21",
+    "sourceManifestSha256": "4992c9f6ab3c8ab197fde3b1b05499977261a434f096f99e3ce736c9471a8696",
+    "builtOutputAuditSha256": "799ca097c8cd1e6061eb0f4a8fbeb4e2081d5828973d2251362cd033db51f445",
+    "builtOutputAuditSemanticSha256": "9fd2be42d0552ef16a4f3db262cdda109acc1b4f1a6bc3fdafdecb78082eea2f",
+    "qaHarnessSha256": "974e6a50c6e1471124edd3e19e980fe76776d50dab14e5ce825aa4b7032bcd5f",
+    "inputHashes": {
+      "seoMetadataSha256": "a71508cef7e7b038dc4be027e77ee0dcc557e236c08fb10a7cbc8e321e317eaa",
+      "renderedCopySurfaceSha256": "71dcc725ae2748475e5ea16619ac1ff4a28917d1dbd5bf4f2a8f83162b5c9227",
+      "actualDomSurfaceSha256": "2fb9dfae454001fbc2249d104e55981850a12499fd60165ba8cc226424990a7e"
+    },
+    "routeCounts": {
+      "regional": 1291,
+      "fixed": 6,
+      "total": 1297
+    },
+    "id": "6ba6e53fc90093f71abd978ca2e0aea1335ab69e6b63bada067ec54570877928"
+  },
+  "evidence": {
+    "builtOutputAudit": {
+      "path": "qa/content/built-output-audit.v1.json",
+      "sha256": "799ca097c8cd1e6061eb0f4a8fbeb4e2081d5828973d2251362cd033db51f445",
+      "status": "PASS"
+    },
+    "aiCopyReview": {
+      "path": "qa/fast/ai-copy-review.v1.json",
+      "sha256": "da760898cd49287d9bd36a78df286c7f730f15494a6e1b201a72c448e3d0d739",
+      "status": "AI_REVIEW_COMPLETE",
+      "reviewerKind": "AI"
+    },
+    "localChromiumQa": {
+      "path": "qa/fast/local-chromium-qa.v1.json",
+      "sha256": "44096fcdba32f858d83d9f2b394629f32f0018c2f27aca90c502a140a6d0ab2e",
+      "status": "PASS",
+      "kind": "LOCAL_CHROMIUM",
+      "iabClaimed": false
+    }
+  },
+  "releaseScope": {
+    "profile": "FAST",
+    "fastCandidateEligible": true,
+    "deploymentEligible": false,
+    "deploymentBlockers": [
+      "실제 도메인·법적 문구·브랜드 승인 전 .invalid/noindex/robots 차단 유지",
+      "이미지는 PLANNED_NO_ASSETS / IMAGE_LAST 상태"
+    ]
+  },
+  "crossPlatform": {
+    "status": "PENDING_FINAL_CROSS_PLATFORM_COMPARISON",
+    "blockingForFastCandidate": false,
+    "includedLegacyPlatforms": [],
+    "finalInput": {
+      "corpusSha256": "ff9eac1282f4c7aeb356e2e492daab666e642b41fe30dac0371eecaca268ad21",
+      "sourceManifestSha256": "4992c9f6ab3c8ab197fde3b1b05499977261a434f096f99e3ce736c9471a8696",
+      "seoMetadataSha256": "a71508cef7e7b038dc4be027e77ee0dcc557e236c08fb10a7cbc8e321e317eaa",
+      "renderedCopySurfaceSha256": "71dcc725ae2748475e5ea16619ac1ff4a28917d1dbd5bf4f2a8f83162b5c9227",
+      "actualDomSurfaceSha256": "2fb9dfae454001fbc2249d104e55981850a12499fd60165ba8cc226424990a7e"
+    },
+    "note": "Frozen Massage Love/Rang/Mixed candidates are compared once by the separate final comparator. This receipt neither reads nor binds legacy MassageBom or Star evidence."
+  },
+  "pendingAnnotations": [
+    {
+      "id": "IN_APP_BROWSER_QA",
+      "status": "NOT_RUN",
+      "blockingForFastCandidate": false,
+      "note": "Current browser evidence is reproducible local Chromium QA; it is not labeled IAB QA."
+    },
+    {
+      "id": "EXTERNAL_HUMAN_COPY_APPROVAL",
+      "status": "NOT_RUN",
+      "blockingForFastCandidate": false,
+      "note": "Current selected-copy evidence is explicitly AI review, not human approval."
+    }
+  ]
+}
