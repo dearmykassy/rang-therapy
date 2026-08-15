@@ -7,9 +7,12 @@ import {
 } from "../src/lib/dom-surface";
 import { BLOG_POSTS, getBlogPostPath } from "../src/data/blog-posts";
 import { PHONE_DISPLAY } from "../src/lib/business";
+import { SITE_ORIGIN } from "../src/lib/metadata";
 
 const ROOT = resolve(import.meta.dirname, "..");
 const AREAS_OUTPUT = resolve(ROOT, "out/areas");
+const ROBOTS_OUTPUT = resolve(ROOT, "out/robots.txt");
+const SITEMAP_OUTPUT = resolve(ROOT, "out/sitemap.xml");
 const EXPECTED_REGION_PAGES = 1291;
 const FIXED_PAGE_OUTPUTS = [
   { kind: "fixed", id: "home", route: "/", path: resolve(ROOT, "out/index.html") },
@@ -238,6 +241,27 @@ function captureRouteMetadata(
   };
 }
 
+function assertIndexableRobots(html: string, path: string) {
+  const value = capture(
+    html,
+    /<meta name="robots" content="([^"]+)"/u,
+    "robots",
+    path,
+  );
+  const directives = new Set(
+    value.toLowerCase().split(",").map((directive) => directive.trim()),
+  );
+  if (
+    !directives.has("index") ||
+    !directives.has("follow") ||
+    directives.has("noindex") ||
+    directives.has("nofollow") ||
+    directives.has("nocache")
+  ) {
+    throw new Error(`RANG_BUILT_ROBOTS_META:${path}:${value}`);
+  }
+}
+
 function assertNaturalMetadata(
   metadata: RouteMetadataContract,
   pageKind: "region" | "fixed" | "article",
@@ -266,7 +290,7 @@ function assertNaturalMetadata(
     throw new Error(`RANG_BUILT_METADATA_UNNATURAL:${route}`);
   }
   if (
-    canonical !== new URL(route, "https://preview.rang-therapy.invalid").href ||
+    canonical !== new URL(route, SITE_ORIGIN).href ||
     openGraph.type !== (pageKind === "article" ? "article" : "website") ||
     openGraph.locale !== "ko_KR" ||
     openGraph.siteName !== "랑테라피" ||
@@ -319,6 +343,7 @@ if (files.length !== EXPECTED_REGION_PAGES) {
 const rows = await Promise.all(
   files.map(async (path) => {
     const html = await readFile(path, "utf8");
+    assertIndexableRobots(html, path);
     const route = capture(
       html,
       /<main\b[^>]*data-region-route="([^"]+)"/u,
@@ -361,7 +386,7 @@ for (const row of rows) {
   if (!document) throw new Error(`RANG_BUILT_ROUTE_NOT_IN_CORPUS:${row.route}`);
   const expectedCanonical = new URL(
     `${row.route.replace(/\/$/u, "")}/`,
-    "https://preview.rang-therapy.invalid",
+    SITE_ORIGIN,
   ).href;
   if (
     row.title !== document.title ||
@@ -464,6 +489,7 @@ for (const row of rows) {
 const staticHeadingRows = await Promise.all(
   STATIC_PAGE_OUTPUTS.map(async ({ kind, id, route, path }) => {
     const html = await readFile(path, "utf8");
+    assertIndexableRobots(html, path);
     const sourceDocuments = kind === "article"
       ? corpus.articleDocuments
       : corpus.fixedDocuments;
@@ -487,7 +513,7 @@ const staticHeadingRows = await Promise.all(
     const { title, description, canonical } = metadata;
     const expectedCanonical = new URL(
       route,
-      "https://preview.rang-therapy.invalid",
+      SITE_ORIGIN,
     ).href;
     if (
       title !== fixedDocument.title ||
@@ -540,7 +566,7 @@ const staticHeadingRows = await Promise.all(
     if (
       id === "pricing" &&
       (!html.includes('id="course-price-title"') ||
-        !html.includes("코스별 시간과 금액"))
+        !html.includes("랑 코스 시간·요금표"))
     ) {
       throw new Error("RANG_BUILT_PRICING_H2_MISSING");
     }
@@ -587,6 +613,29 @@ if (
   throw new Error("RANG_BUILT_SOCIAL_METADATA_NOT_UNIQUE");
 }
 
+const robotsText = await readFile(ROBOTS_OUTPUT, "utf8");
+if (
+  !/^User-Agent:\s*\*\s*$/imu.test(robotsText) ||
+  !/^Allow:\s*\/\s*$/imu.test(robotsText) ||
+  /^Disallow:/imu.test(robotsText) ||
+  !new RegExp(`^Host:\\s*${SITE_ORIGIN.replaceAll(".", "\\.")}\\s*$`, "imu").test(robotsText) ||
+  !robotsText.includes(`Sitemap: ${SITE_ORIGIN}/sitemap.xml`)
+) {
+  throw new Error("RANG_BUILT_ROBOTS_TXT_PRODUCTION_CONTRACT");
+}
+
+const sitemapXml = await readFile(SITEMAP_OUTPUT, "utf8");
+const sitemapUrls = [...sitemapXml.matchAll(/<loc>([^<]+)<\/loc>/gu)].map(
+  (match) => decodeHtml(match[1]),
+);
+if (
+  sitemapUrls.length !== expectedMetadataRoutes ||
+  new Set(sitemapUrls).size !== expectedMetadataRoutes ||
+  sitemapUrls.some((url) => !url.startsWith(`${SITE_ORIGIN}/`))
+) {
+  throw new Error("RANG_BUILT_SITEMAP_PRODUCTION_CONTRACT");
+}
+
 const result = {
   schemaVersion: "rang-built-output-audit/v1",
   status: "PASS",
@@ -614,6 +663,9 @@ const result = {
   twitterUniqueTitles: new Set(allMetadata.map((entry) => entry.twitter.title)).size,
   twitterUniqueDescriptions: new Set(allMetadata.map((entry) => entry.twitter.description)).size,
   canonicalMismatches: 0,
+  robotsMetaMismatches: 0,
+  robotsTxtMismatches: 0,
+  sitemapHostMismatches: 0,
   renderedCopyRoutes: rows.length,
   renderedCopyEntriesChecked,
   renderCorpusMissing: 0,

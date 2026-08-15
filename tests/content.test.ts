@@ -23,6 +23,7 @@ import {
   normalizedSentences,
 } from "@/lib/content-quality";
 import { createRegionPageModel } from "@/lib/region-page-model";
+import { SITE_ORIGIN } from "@/lib/metadata";
 import {
   assertPendingReviewPackets,
   REVIEW_SOURCE_PATHS,
@@ -759,14 +760,14 @@ describe("rang content corpus", () => {
         title: document.title,
         description: document.description,
         keywords: document.keywords,
-        canonical: `https://preview.rang-therapy.invalid${document.route}/`,
+        canonical: `${SITE_ORIGIN}${document.route}/`,
         openGraph: {
           type: "website",
           locale: "ko_KR",
           siteName: "랑테라피",
           title: document.title,
           description: document.description,
-          url: `https://preview.rang-therapy.invalid${document.route}/`,
+          url: `${SITE_ORIGIN}${document.route}/`,
         },
         twitter: {
           card: "summary",
@@ -1022,8 +1023,8 @@ describe("rang content corpus", () => {
     expect(imageState).toMatchObject({
       contractVersion: "rang-image-release-boundary/v1",
       status: "ROOT_APPROVED_RELEASE_VALIDATED_INTEGRATED",
-      deploymentAllowed: false,
-      deploymentBlockers: ["PREVIEW_INVALID_ORIGIN_NO_APPROVED_DOMAIN"],
+      deploymentAllowed: true,
+      deploymentBlockers: [],
       integration: {
         activated: true,
         publicAssetManifestBound: true,

@@ -449,7 +449,7 @@ export const CURATED_REGIONAL_SENTENCE_BANKS: Record<
     (_node, label) => `${label} 서비스 계획은 주소, 코스, 희망 시간을 구분해 메모하세요`,
     (_node, label) => `${label} 문의에서는 서비스를 받을 주소와 희망 시각을 전화로 알려 주세요`,
     (_node, label) => `${label} 서비스 주소와 출입 방법은 서로 다른 항목으로 남겨 주세요`,
-    (_node, label) => `${label} 일정을 잡기 전에 코스별 시간과 금액을 함께 살펴보세요`,
+    (_node, label) => `${label} 일정을 잡기 전에 랑 코스 시간·요금표를 함께 살펴보세요`,
     (_node, label) => `${label} 서비스 요청에는 도로명, 시작 시각, 관리 방식을 분명히 적으세요`,
     (_node, label) => `${label} 서비스 일정을 정하기 전에 희망 시각과 코스를 정리해 두세요`,
     (_node, label) => `${label} 상담 메모에는 희망 시각과 코스, 인원을 따로 적으세요`,

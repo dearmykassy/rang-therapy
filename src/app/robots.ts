@@ -1,7 +1,12 @@
 import type { MetadataRoute } from "next";
+import { SITE_ORIGIN } from "@/lib/metadata";
 
 export const dynamic = "force-static";
 
 export default function robots(): MetadataRoute.Robots {
-  return { rules: { userAgent: "*", disallow: "/" }, sitemap: "https://preview.rang-therapy.invalid/sitemap.xml" };
+  return {
+    rules: { userAgent: "*", allow: "/" },
+    sitemap: `${SITE_ORIGIN}/sitemap.xml`,
+    host: SITE_ORIGIN,
+  };
 }

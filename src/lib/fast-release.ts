@@ -56,6 +56,9 @@ const REQUIRED_ZERO_AUDIT_FIELDS = [
   "openGraphExactMismatches",
   "twitterExactMismatches",
   "canonicalMismatches",
+  "robotsMetaMismatches",
+  "robotsTxtMismatches",
+  "sitemapHostMismatches",
   "renderCorpusMissing",
   "renderBuiltMissing",
   "actualDomCorpusMissing",
@@ -184,9 +187,8 @@ function assertImageReleaseBoundary(corpus: UnknownRecord) {
   if (
     images.contractVersion !== "rang-image-release-boundary/v1" ||
     images.status !== "ROOT_APPROVED_RELEASE_VALIDATED_INTEGRATED" ||
-    images.deploymentAllowed !== false ||
-    JSON.stringify(images.deploymentBlockers) !==
-      JSON.stringify(["PREVIEW_INVALID_ORIGIN_NO_APPROVED_DOMAIN"]) ||
+    images.deploymentAllowed !== true ||
+    JSON.stringify(images.deploymentBlockers) !== JSON.stringify([]) ||
     integration.activated !== true ||
     integration.publicAssetManifestBound !== true ||
     integration.routeAssignmentsBound !== true

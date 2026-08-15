@@ -70,7 +70,7 @@ export default function Home() {
 
       <section className="content-section price-preview">
         <div className="section-heading">
-          <div><span className="section-label">COURSE &amp; PRICE</span><h2>코스별 시간과 금액</h2></div>
+          <div><span className="section-label">COURSE &amp; PRICE</span><h2>랑 코스 시간·요금표</h2></div>
           <Link href="/pricing/">가격표 보기</Link>
         </div>
         <div className="course-track">

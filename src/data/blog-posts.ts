@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { PREVIEW_ORIGIN, SITE_NAME } from "@/lib/metadata";
+import { SITE_NAME, SITE_ORIGIN } from "@/lib/metadata";
 
 export type BlogPost = {
   slug: "masaji-shop-gagi-himdeul-ttae" | "jibeseo-masaji-badeul-su-issnayo";
@@ -119,7 +119,7 @@ export function getBlogPostPath(post: Pick<BlogPost, "slug">): string {
 
 export function createBlogMetadata(post: BlogPost): Metadata {
   const path = getBlogPostPath(post);
-  const url = new URL(path, PREVIEW_ORIGIN).href;
+  const url = new URL(path, SITE_ORIGIN).href;
   return {
     title: { absolute: `${post.title} | ${SITE_NAME}` },
     description: post.description,
@@ -139,6 +139,6 @@ export function createBlogMetadata(post: BlogPost): Metadata {
       title: `${post.title} | ${SITE_NAME}`,
       description: post.description,
     },
-    robots: { index: false, follow: false, nocache: true },
+    robots: { index: true, follow: true },
   };
 }

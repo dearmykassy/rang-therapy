@@ -1,6 +1,6 @@
 import type { BlogPost } from "@/data/blog-posts";
 import { getBlogPostPath } from "@/data/blog-posts";
-import { PREVIEW_ORIGIN, SITE_NAME } from "@/lib/metadata";
+import { SITE_NAME, SITE_ORIGIN } from "@/lib/metadata";
 
 export type BlogPostingJsonLd = {
   "@context": "https://schema.org";
@@ -18,8 +18,8 @@ export type BlogPostingJsonLd = {
 };
 
 export function createBlogPostingJsonLd(post: BlogPost): BlogPostingJsonLd {
-  const url = new URL(getBlogPostPath(post), PREVIEW_ORIGIN).href;
-  const blogUrl = new URL("/blog/", PREVIEW_ORIGIN).href;
+  const url = new URL(getBlogPostPath(post), SITE_ORIGIN).href;
+  const blogUrl = new URL("/blog/", SITE_ORIGIN).href;
 
   return {
     "@context": "https://schema.org",

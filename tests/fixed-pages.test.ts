@@ -6,7 +6,7 @@ import { metadataContract as noticeMetadata } from "@/app/notice/page";
 import { metadataContract as pricingMetadata } from "@/app/pricing/page";
 import { FIXED_SITEMAP_PATHS } from "@/app/sitemap";
 import { createBlogPostingJsonLd } from "@/lib/blog-schema";
-import { PREVIEW_ORIGIN, SITE_NAME } from "@/lib/metadata";
+import { SITE_NAME, SITE_ORIGIN } from "@/lib/metadata";
 import { ACTIVE_REGION_NODES } from "@/lib/regions";
 import sitemap from "@/app/sitemap";
 
@@ -24,7 +24,7 @@ describe("rang fixed pages and blog", () => {
     ]);
     expect(new Set(fixedContracts.map((contract) => contract.canonical)).size).toBe(fixedContracts.length);
     for (const contract of fixedContracts) {
-      expect(contract.canonical).toBe(new URL(contract.route, PREVIEW_ORIGIN).href);
+      expect(contract.canonical).toBe(new URL(contract.route, SITE_ORIGIN).href);
       expect(contract.openGraph.url).toBe(contract.canonical);
       expect(contract.twitter.title).toBe(contract.title);
     }
@@ -36,7 +36,7 @@ describe("rang fixed pages and blog", () => {
 
     for (const post of BLOG_POSTS) {
       const path = getBlogPostPath(post);
-      const canonical = new URL(path, PREVIEW_ORIGIN).href;
+      const canonical = new URL(path, SITE_ORIGIN).href;
       const metadata = createBlogMetadata(post);
       const schema = createBlogPostingJsonLd(post);
 
@@ -70,7 +70,7 @@ describe("rang fixed pages and blog", () => {
     const expectedFixedUrls = [
       ...FIXED_SITEMAP_PATHS,
       ...BLOG_POSTS.map(getBlogPostPath),
-    ].map((path) => new URL(path, PREVIEW_ORIGIN).href);
+    ].map((path) => new URL(path, SITE_ORIGIN).href);
 
     expect(urls).toHaveLength(ACTIVE_REGION_NODES.length + expectedFixedUrls.length);
     expect(new Set(urls).size).toBe(urls.length);

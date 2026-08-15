@@ -5,22 +5,23 @@
   "candidate": {
     "protocol": "rang-fast-candidate-binding/v1",
     "platformId": "rang-therapy",
-    "corpusSha256": "ff9eac1282f4c7aeb356e2e492daab666e642b41fe30dac0371eecaca268ad21",
-    "sourceManifestSha256": "4992c9f6ab3c8ab197fde3b1b05499977261a434f096f99e3ce736c9471a8696",
-    "builtOutputAuditSha256": "799ca097c8cd1e6061eb0f4a8fbeb4e2081d5828973d2251362cd033db51f445",
-    "builtOutputAuditSemanticSha256": "9fd2be42d0552ef16a4f3db262cdda109acc1b4f1a6bc3fdafdecb78082eea2f",
-    "qaHarnessSha256": "974e6a50c6e1471124edd3e19e980fe76776d50dab14e5ce825aa4b7032bcd5f",
+    "corpusSha256": "edaa05e03658bd8e8523f8610d68ce131b54d76cc3d05fe5ac1918de31fc1853",
+    "sourceManifestSha256": "4f7be8017375b86d869306d5a7f15f145139859b97bfeffeac122121150435f2",
+    "builtOutputAuditSha256": "a675b45543a06b685eef6c422942c29ccefd7a836af5159843593a26da37dbde",
+    "builtOutputAuditSemanticSha256": "9b1989bb9b0c420723cde68c95389d75c796b7f52fa58b2fba546bf15c6dc1ff",
+    "qaHarnessSha256": "c4490edd1ff24881c42244ccb29486bc80c5319350b5fbe985f2694ee1b7fba5",
     "inputHashes": {
-      "seoMetadataSha256": "a71508cef7e7b038dc4be027e77ee0dcc557e236c08fb10a7cbc8e321e317eaa",
-      "renderedCopySurfaceSha256": "71dcc725ae2748475e5ea16619ac1ff4a28917d1dbd5bf4f2a8f83162b5c9227",
-      "actualDomSurfaceSha256": "2fb9dfae454001fbc2249d104e55981850a12499fd60165ba8cc226424990a7e"
+      "seoMetadataSha256": "718fdb0583bca15ddf14cb4b62f4e7dc405cd32e468ab519d8633da0d6445966",
+      "renderedCopySurfaceSha256": "b00d8027a034984766ff8ef61786df28e4c93c7bc863561e37b648ed47746dd6",
+      "actualDomSurfaceSha256": "21b2f0b2d913e420d88e13415349defdf7fc75d04547f70f27e175e5c192ed4f"
     },
     "routeCounts": {
       "regional": 1291,
       "fixed": 6,
-      "total": 1297
+      "blogPosts": 2,
+      "total": 1299
     },
-    "id": "6ba6e53fc90093f71abd978ca2e0aea1335ab69e6b63bada067ec54570877928"
+    "id": "2b7928df0d1c787cd87e0705522b02498ac5e3bbb28f16de813b296e0b72446e"
   },
   "qa": {
     "kind": "LOCAL_CHROMIUM",
@@ -60,7 +61,7 @@
       ],
       "httpStatus": 200,
       "surface": {
-        "title": "서울특별시 랑테라피 | 현장 카드 결제와 코스 안내",
+        "title": "서울특별시출장마사지 서울특별시출장안마 | 랑테라피",
         "viewport": [
           320,
           844
@@ -75,6 +76,15 @@
           2,
           2,
           2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2,
+          2,
+          2,
           2,
           2
         ],
@@ -83,7 +93,8 @@
           "전화상담",
           "전화상담",
           "전화상담",
-          "전화상담"
+          "0508-202-3906",
+          "☎상담"
         ],
         "roleCounts": {
           "providerArrivalContactWaitingAssumption": 0,
@@ -101,17 +112,17 @@
       "mobileMenu": {
         "present": true,
         "open": true,
-        "links": 5,
-        "tracks": 2,
-        "minHeight": 48,
+        "links": 7,
+        "tracks": 1,
+        "minHeight": 40,
         "overflowedLinks": 0
       },
       "stickyHeader": {
         "scrollY": 620,
         "headerTop": 0
       },
-      "screenshot": "qa/fast/screenshots/6ba6e53fc90093f71abd978ca2e0aea1335ab69e6b63bada067ec54570877928/seoul-root-320.png",
-      "screenshotSha256": "c45b1db67794d9c2ef4415349b812d24cbc4d4ac073167a13b3ea32f517307a7",
+      "screenshot": "qa/fast/screenshots/2b7928df0d1c787cd87e0705522b02498ac5e3bbb28f16de813b296e0b72446e/seoul-root-320.png",
+      "screenshotSha256": "303a411a47c8ed265dd70cbc1b2575c47f40d2e0b8199f84c19afebd94f8b392",
       "imageMagicHex": "89504e470d0a1a0a",
       "imageDimensions": [
         320,
@@ -131,7 +142,7 @@
       ],
       "httpStatus": 200,
       "surface": {
-        "title": "서울특별시 랑테라피 | 현장 카드 결제와 코스 안내",
+        "title": "서울특별시출장마사지 서울특별시출장안마 | 랑테라피",
         "viewport": [
           390,
           844
@@ -146,6 +157,15 @@
           2,
           2,
           2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2,
+          2,
+          2,
           2,
           2
         ],
@@ -154,7 +174,8 @@
           "전화상담",
           "전화상담",
           "전화상담",
-          "전화상담"
+          "0508-202-3906",
+          "☎상담"
         ],
         "roleCounts": {
           "providerArrivalContactWaitingAssumption": 0,
@@ -172,17 +193,17 @@
       "mobileMenu": {
         "present": true,
         "open": true,
-        "links": 5,
-        "tracks": 2,
-        "minHeight": 48,
+        "links": 7,
+        "tracks": 1,
+        "minHeight": 40,
         "overflowedLinks": 0
       },
       "stickyHeader": {
         "scrollY": 620,
         "headerTop": 0
       },
-      "screenshot": "qa/fast/screenshots/6ba6e53fc90093f71abd978ca2e0aea1335ab69e6b63bada067ec54570877928/seoul-root-390.png",
-      "screenshotSha256": "629dcb7911dbb50cbc6a951f2a34116115473c8d480269520536043d533a6ce2",
+      "screenshot": "qa/fast/screenshots/2b7928df0d1c787cd87e0705522b02498ac5e3bbb28f16de813b296e0b72446e/seoul-root-390.png",
+      "screenshotSha256": "017273b8d763f23ca6391a82cdcdfde26bfc3558ad0c62697b16511e58f67bdd",
       "imageMagicHex": "89504e470d0a1a0a",
       "imageDimensions": [
         390,
@@ -202,7 +223,7 @@
       ],
       "httpStatus": 200,
       "surface": {
-        "title": "서울특별시 랑테라피 | 현장 카드 결제와 코스 안내",
+        "title": "서울특별시출장마사지 서울특별시출장안마 | 랑테라피",
         "viewport": [
           1440,
           1000
@@ -217,6 +238,15 @@
           2,
           2,
           2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2,
+          2,
+          2,
           2,
           2
         ],
@@ -225,7 +255,8 @@
           "전화상담",
           "전화상담",
           "전화상담",
-          "전화상담"
+          "0508-202-3906",
+          "☎상담"
         ],
         "roleCounts": {
           "providerArrivalContactWaitingAssumption": 0,
@@ -236,7 +267,7 @@
         },
         "headerTop": 0,
         "tileGrid": true,
-        "tileGridTracks": 4,
+        "tileGridTracks": 2,
         "terminal": false,
         "brokenImages": []
       },
@@ -245,8 +276,8 @@
         "scrollY": 620,
         "headerTop": 0
       },
-      "screenshot": "qa/fast/screenshots/6ba6e53fc90093f71abd978ca2e0aea1335ab69e6b63bada067ec54570877928/seoul-root-1440.png",
-      "screenshotSha256": "00d496e885059f60c33af146c5521095158779e8ecc77d05d633ebe280e84177",
+      "screenshot": "qa/fast/screenshots/2b7928df0d1c787cd87e0705522b02498ac5e3bbb28f16de813b296e0b72446e/seoul-root-1440.png",
+      "screenshotSha256": "c3f3962c3dcc9c49e544e635746d0870bbb0b25278f25577cf736dce5843aaa0",
       "imageMagicHex": "89504e470d0a1a0a",
       "imageDimensions": [
         1440,
@@ -266,7 +297,7 @@
       ],
       "httpStatus": 200,
       "surface": {
-        "title": "강남구 랑테라피 | 주소·시간·코스 이용 안내",
+        "title": "강남구출장마사지 강남구출장안마 | 랑테라피",
         "viewport": [
           320,
           844
@@ -281,6 +312,15 @@
           2,
           2,
           2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2,
+          2,
+          2,
           2,
           2
         ],
@@ -289,7 +329,8 @@
           "전화상담",
           "전화상담",
           "전화상담",
-          "전화상담"
+          "0508-202-3906",
+          "☎상담"
         ],
         "roleCounts": {
           "providerArrivalContactWaitingAssumption": 0,
@@ -307,17 +348,17 @@
       "mobileMenu": {
         "present": true,
         "open": true,
-        "links": 5,
-        "tracks": 2,
-        "minHeight": 48,
+        "links": 7,
+        "tracks": 1,
+        "minHeight": 40,
         "overflowedLinks": 0
       },
       "stickyHeader": {
         "scrollY": 620,
         "headerTop": 0
       },
-      "screenshot": "qa/fast/screenshots/6ba6e53fc90093f71abd978ca2e0aea1335ab69e6b63bada067ec54570877928/gangnam-hub-320.png",
-      "screenshotSha256": "2e77ad9cb7b0e035e5061d45eccf08cf149c8ab9094a7f3740aebe053b76bb1c",
+      "screenshot": "qa/fast/screenshots/2b7928df0d1c787cd87e0705522b02498ac5e3bbb28f16de813b296e0b72446e/gangnam-hub-320.png",
+      "screenshotSha256": "4a621e7e82e6800e95524ea27b1faf1e8c2ca01ac825b4422d2e2f5cb92deb34",
       "imageMagicHex": "89504e470d0a1a0a",
       "imageDimensions": [
         320,
@@ -337,7 +378,7 @@
       ],
       "httpStatus": 200,
       "surface": {
-        "title": "강남구 랑테라피 | 주소·시간·코스 이용 안내",
+        "title": "강남구출장마사지 강남구출장안마 | 랑테라피",
         "viewport": [
           390,
           844
@@ -352,6 +393,15 @@
           2,
           2,
           2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2,
+          2,
+          2,
           2,
           2
         ],
@@ -360,7 +410,8 @@
           "전화상담",
           "전화상담",
           "전화상담",
-          "전화상담"
+          "0508-202-3906",
+          "☎상담"
         ],
         "roleCounts": {
           "providerArrivalContactWaitingAssumption": 0,
@@ -378,17 +429,17 @@
       "mobileMenu": {
         "present": true,
         "open": true,
-        "links": 5,
-        "tracks": 2,
-        "minHeight": 48,
+        "links": 7,
+        "tracks": 1,
+        "minHeight": 40,
         "overflowedLinks": 0
       },
       "stickyHeader": {
         "scrollY": 620,
         "headerTop": 0
       },
-      "screenshot": "qa/fast/screenshots/6ba6e53fc90093f71abd978ca2e0aea1335ab69e6b63bada067ec54570877928/gangnam-hub-390.png",
-      "screenshotSha256": "80a5687ec681afb51ba8850a67332298426c5ddbe2637af9b786dbf194629a7e",
+      "screenshot": "qa/fast/screenshots/2b7928df0d1c787cd87e0705522b02498ac5e3bbb28f16de813b296e0b72446e/gangnam-hub-390.png",
+      "screenshotSha256": "23d644634f68bce88c1628c54b30ad034aea41fd734c90d4ac2419c0a395248d",
       "imageMagicHex": "89504e470d0a1a0a",
       "imageDimensions": [
         390,
@@ -408,7 +459,7 @@
       ],
       "httpStatus": 200,
       "surface": {
-        "title": "강남구 랑테라피 | 주소·시간·코스 이용 안내",
+        "title": "강남구출장마사지 강남구출장안마 | 랑테라피",
         "viewport": [
           1440,
           1000
@@ -423,6 +474,15 @@
           2,
           2,
           2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2,
+          2,
+          2,
           2,
           2
         ],
@@ -431,7 +491,8 @@
           "전화상담",
           "전화상담",
           "전화상담",
-          "전화상담"
+          "0508-202-3906",
+          "☎상담"
         ],
         "roleCounts": {
           "providerArrivalContactWaitingAssumption": 0,
@@ -442,7 +503,7 @@
         },
         "headerTop": 0,
         "tileGrid": true,
-        "tileGridTracks": 4,
+        "tileGridTracks": 2,
         "terminal": false,
         "brokenImages": []
       },
@@ -451,8 +512,8 @@
         "scrollY": 620,
         "headerTop": 0
       },
-      "screenshot": "qa/fast/screenshots/6ba6e53fc90093f71abd978ca2e0aea1335ab69e6b63bada067ec54570877928/gangnam-hub-1440.png",
-      "screenshotSha256": "723b1bd588a725b91c5bf0eb8e07037e97c8a6744db838b99b734ce4e3a38bec",
+      "screenshot": "qa/fast/screenshots/2b7928df0d1c787cd87e0705522b02498ac5e3bbb28f16de813b296e0b72446e/gangnam-hub-1440.png",
+      "screenshotSha256": "e304177a012fd67e19ef9a2db9682673bbf8b10f26705281d1ca039fd7f911f8",
       "imageMagicHex": "89504e470d0a1a0a",
       "imageDimensions": [
         1440,
@@ -472,7 +533,7 @@
       ],
       "httpStatus": 200,
       "surface": {
-        "title": "화북동 랑테라피 | 가격표부터 현장 결제까지",
+        "title": "화북동출장마사지 화북동출장안마 | 랑테라피",
         "viewport": [
           320,
           844
@@ -487,6 +548,15 @@
           2,
           2,
           2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2,
+          2,
+          2,
           2,
           2
         ],
@@ -495,7 +565,8 @@
           "전화상담",
           "전화상담",
           "전화상담",
-          "전화상담"
+          "0508-202-3906",
+          "☎상담"
         ],
         "roleCounts": {
           "providerArrivalContactWaitingAssumption": 0,
@@ -513,17 +584,17 @@
       "mobileMenu": {
         "present": true,
         "open": true,
-        "links": 5,
-        "tracks": 2,
-        "minHeight": 48,
+        "links": 7,
+        "tracks": 1,
+        "minHeight": 40,
         "overflowedLinks": 0
       },
       "stickyHeader": {
         "scrollY": 620,
         "headerTop": 0
       },
-      "screenshot": "qa/fast/screenshots/6ba6e53fc90093f71abd978ca2e0aea1335ab69e6b63bada067ec54570877928/hwabuk-leaf-320.png",
-      "screenshotSha256": "39908052f2bb8b42ed8b8b005fb4672f9b2bae65fce61436ed958147984f4b0b",
+      "screenshot": "qa/fast/screenshots/2b7928df0d1c787cd87e0705522b02498ac5e3bbb28f16de813b296e0b72446e/hwabuk-leaf-320.png",
+      "screenshotSha256": "c0b4fe722bd24af287da86529f856380bd86977540661fc15f2d97c51ebfb32b",
       "imageMagicHex": "89504e470d0a1a0a",
       "imageDimensions": [
         320,
@@ -543,7 +614,7 @@
       ],
       "httpStatus": 200,
       "surface": {
-        "title": "화북동 랑테라피 | 가격표부터 현장 결제까지",
+        "title": "화북동출장마사지 화북동출장안마 | 랑테라피",
         "viewport": [
           390,
           844
@@ -558,6 +629,15 @@
           2,
           2,
           2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2,
+          2,
+          2,
           2,
           2
         ],
@@ -566,7 +646,8 @@
           "전화상담",
           "전화상담",
           "전화상담",
-          "전화상담"
+          "0508-202-3906",
+          "☎상담"
         ],
         "roleCounts": {
           "providerArrivalContactWaitingAssumption": 0,
@@ -584,17 +665,17 @@
       "mobileMenu": {
         "present": true,
         "open": true,
-        "links": 5,
-        "tracks": 2,
-        "minHeight": 48,
+        "links": 7,
+        "tracks": 1,
+        "minHeight": 40,
         "overflowedLinks": 0
       },
       "stickyHeader": {
         "scrollY": 620,
         "headerTop": 0
       },
-      "screenshot": "qa/fast/screenshots/6ba6e53fc90093f71abd978ca2e0aea1335ab69e6b63bada067ec54570877928/hwabuk-leaf-390.png",
-      "screenshotSha256": "0ac0f8521d7876a449568ca554d6a05b3b4b1448b997c83ca7f348079a7f2af9",
+      "screenshot": "qa/fast/screenshots/2b7928df0d1c787cd87e0705522b02498ac5e3bbb28f16de813b296e0b72446e/hwabuk-leaf-390.png",
+      "screenshotSha256": "186eef158c9249ca7a9d4c1707958dff734d0bf2eb5b7db9f39da59eba23cc9e",
       "imageMagicHex": "89504e470d0a1a0a",
       "imageDimensions": [
         390,
@@ -614,7 +695,7 @@
       ],
       "httpStatus": 200,
       "surface": {
-        "title": "화북동 랑테라피 | 가격표부터 현장 결제까지",
+        "title": "화북동출장마사지 화북동출장안마 | 랑테라피",
         "viewport": [
           1440,
           1000
@@ -629,6 +710,15 @@
           2,
           2,
           2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2,
+          2,
+          2,
           2,
           2
         ],
@@ -637,7 +727,8 @@
           "전화상담",
           "전화상담",
           "전화상담",
-          "전화상담"
+          "0508-202-3906",
+          "☎상담"
         ],
         "roleCounts": {
           "providerArrivalContactWaitingAssumption": 0,
@@ -657,8 +748,8 @@
         "scrollY": 620,
         "headerTop": 0
       },
-      "screenshot": "qa/fast/screenshots/6ba6e53fc90093f71abd978ca2e0aea1335ab69e6b63bada067ec54570877928/hwabuk-leaf-1440.png",
-      "screenshotSha256": "dab2edd0e6c558cf98d412c13d446a0a5a3d9024012b1cdde5dc8f2ae9cb8a3b",
+      "screenshot": "qa/fast/screenshots/2b7928df0d1c787cd87e0705522b02498ac5e3bbb28f16de813b296e0b72446e/hwabuk-leaf-1440.png",
+      "screenshotSha256": "fbcb60c1b88c651cc96787b74bbfb65a91a9941e7802668ea77c1dc2d5f7eab1",
       "imageMagicHex": "89504e470d0a1a0a",
       "imageDimensions": [
         1440,

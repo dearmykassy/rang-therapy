@@ -11,8 +11,8 @@
     "verdict": null,
     "reason": null
   },
-  "corpusSha256": "ff9eac1282f4c7aeb356e2e492daab666e642b41fe30dac0371eecaca268ad21",
-  "corpusSourceManifestSha256": "4992c9f6ab3c8ab197fde3b1b05499977261a434f096f99e3ce736c9471a8696",
+  "corpusSha256": "edaa05e03658bd8e8523f8610d68ce131b54d76cc3d05fe5ac1918de31fc1853",
+  "corpusSourceManifestSha256": "4f7be8017375b86d869306d5a7f15f145139859b97bfeffeac122121150435f2",
   "reviewSource": {
     "files": [
       {
@@ -35,11 +35,11 @@
     "sourceField": "documents",
     "routeCount": 33,
     "definitionSha256": "9a478c69b4c703f2cf541f6087975fdf93ce051f2ab24f821c8d04cd538944b7",
-    "selectedSourceDocumentsSha256": "5d22ac10590ba234af97605658817d486630186d4314b54816b7a0f869464994"
+    "selectedSourceDocumentsSha256": "02e0fa9635e764b5cf29aaaa972485a32793687ba2cab54951dc94d81d150c1d"
   },
   "evidenceBindings": {
-    "crossPlatformReceiptSha256": "a294b15bdc504db0cd0d5b963bc440717942edd9e6da7e6a45022e41a0dd5d76",
-    "browserReceiptSha256": "8e955c930ae30b21404afd7c4729c2b17ee40749fc0b4f029246e87bd15878e9"
+    "crossPlatformReceiptSha256": "5949905731243d4133db2421a1d81693f38e632f99260ed5d3819bd74db16219",
+    "browserReceiptSha256": "3c6a9a434f749ce50024f9b77b7f698cc32570f5f34f02fb25af807eea895c43"
   },
   "selectedRoutes": [
     {
@@ -48,34 +48,36 @@
       "kind": "root",
       "label": "서울특별시",
       "documentIndex": 0,
-      "sourceDocumentSha256": "2b83ac7d51c32e623df6358700b0c817e57549547bd0880a3f1008af72a11ac4",
+      "sourceDocumentSha256": "1a72ca4d32800d86dc2eafc0313ddd1852bc53790ff94ea9151ae43827ad32be",
       "exactCandidateCopy": {
-        "title": "서울특별시 랑테라피 | 현장 카드 결제와 코스 안내",
+        "title": "서울특별시출장마사지 서울특별시출장안마 | 랑테라피",
         "description": "서울특별시 랑테라피 소개에는 도로명 주소와 희망 시작 시각, 이용 인원, 코스별 소요 시간과 예산, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 후불과 카드 결제 기준이 담겨 있습니다.",
         "metadata": {
           "route": "/areas/seoul/",
-          "title": "서울특별시 랑테라피 | 현장 카드 결제와 코스 안내",
+          "title": "서울특별시출장마사지 서울특별시출장안마 | 랑테라피",
           "description": "서울특별시 랑테라피 소개에는 도로명 주소와 희망 시작 시각, 이용 인원, 코스별 소요 시간과 예산, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 후불과 카드 결제 기준이 담겨 있습니다.",
           "keywords": [
-            "서울특별시랑테라피",
-            "서울특별시랑출장테라피",
-            "서울특별시랑방문마사지",
-            "서울특별시랑아로마리듬",
-            "서울특별시랑타이리듬",
-            "서울특별시랑현장결제"
+            "서울특별시출장마사지",
+            "서울특별시출장안마",
+            "서울특별시출장타이마사지",
+            "서울특별시출장스웨디시",
+            "서울특별시출장홈타이",
+            "서울특별시토닥이",
+            "서울특별시남성전용마사지",
+            "서울특별시여성전용마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/seoul/",
+          "canonical": "https://langtheraphy.kr/areas/seoul/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
             "siteName": "랑테라피",
-            "title": "서울특별시 랑테라피 | 현장 카드 결제와 코스 안내",
+            "title": "서울특별시출장마사지 서울특별시출장안마 | 랑테라피",
             "description": "서울특별시 랑테라피 소개에는 도로명 주소와 희망 시작 시각, 이용 인원, 코스별 소요 시간과 예산, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 후불과 카드 결제 기준이 담겨 있습니다.",
-            "url": "https://preview.rang-therapy.invalid/areas/seoul/"
+            "url": "https://langtheraphy.kr/areas/seoul/"
           },
           "twitter": {
             "card": "summary",
-            "title": "서울특별시 랑테라피 | 현장 카드 결제와 코스 안내",
+            "title": "서울특별시출장마사지 서울특별시출장안마 | 랑테라피",
             "description": "서울특별시 랑테라피 소개에는 도로명 주소와 희망 시작 시각, 이용 인원, 코스별 소요 시간과 예산, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 후불과 카드 결제 기준이 담겨 있습니다."
           }
         },
@@ -136,16 +138,27 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "다음 지역 찾기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 5,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 3,
+            "☎ 전화상담": 0,
+            "☎ 상담": 1,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "exactCandidateCopySha256": "e5fedb287fb166ff971eed8dd4b4740d0cb25a3d64fe783d655b3d97d5b7228f",
+      "exactCandidateCopySha256": "776a43257a834dce4051fe1930375322f8d1a7996b946593382d1d067d37b5e7",
       "reviewerDecision": null,
       "reviewerNotes": null
     },
@@ -155,34 +168,36 @@
       "kind": "hub",
       "label": "강남구",
       "documentIndex": 1,
-      "sourceDocumentSha256": "5bb4646e5bb3e09af6044193e7744405395914b6bccc7c5a8f818fdf1c94bafb",
+      "sourceDocumentSha256": "b469360237d0439f9b5d12e830088f33d106884de17d9a23baaff97d581db138",
       "exactCandidateCopy": {
-        "title": "강남구 랑테라피 | 주소·시간·코스 이용 안내",
+        "title": "강남구출장마사지 강남구출장안마 | 랑테라피",
         "description": "강남구 랑테라피 이용 안내에서는 도로명 주소와 건물명, 희망 시각, 관리 방식별 가격표, 24시간 전화상담, 선입금 없는 현장 후불·카드 결제 정보를 확인할 수 있습니다.",
         "metadata": {
           "route": "/areas/seoul/%EA%B0%95%EB%82%A8%EA%B5%AC/",
-          "title": "강남구 랑테라피 | 주소·시간·코스 이용 안내",
+          "title": "강남구출장마사지 강남구출장안마 | 랑테라피",
           "description": "강남구 랑테라피 이용 안내에서는 도로명 주소와 건물명, 희망 시각, 관리 방식별 가격표, 24시간 전화상담, 선입금 없는 현장 후불·카드 결제 정보를 확인할 수 있습니다.",
           "keywords": [
-            "강남구랑테라피",
-            "강남구랑출장테라피",
-            "강남구랑방문마사지",
-            "강남구랑아로마리듬",
-            "강남구랑타이리듬",
-            "강남구랑현장결제"
+            "강남구출장마사지",
+            "강남구출장안마",
+            "강남구출장타이마사지",
+            "강남구출장스웨디시",
+            "강남구출장홈타이",
+            "강남구토닥이",
+            "강남구남성전용마사지",
+            "강남구여성전용마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/seoul/%EA%B0%95%EB%82%A8%EA%B5%AC/",
+          "canonical": "https://langtheraphy.kr/areas/seoul/%EA%B0%95%EB%82%A8%EA%B5%AC/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
             "siteName": "랑테라피",
-            "title": "강남구 랑테라피 | 주소·시간·코스 이용 안내",
+            "title": "강남구출장마사지 강남구출장안마 | 랑테라피",
             "description": "강남구 랑테라피 이용 안내에서는 도로명 주소와 건물명, 희망 시각, 관리 방식별 가격표, 24시간 전화상담, 선입금 없는 현장 후불·카드 결제 정보를 확인할 수 있습니다.",
-            "url": "https://preview.rang-therapy.invalid/areas/seoul/%EA%B0%95%EB%82%A8%EA%B5%AC/"
+            "url": "https://langtheraphy.kr/areas/seoul/%EA%B0%95%EB%82%A8%EA%B5%AC/"
           },
           "twitter": {
             "card": "summary",
-            "title": "강남구 랑테라피 | 주소·시간·코스 이용 안내",
+            "title": "강남구출장마사지 강남구출장안마 | 랑테라피",
             "description": "강남구 랑테라피 이용 안내에서는 도로명 주소와 건물명, 희망 시각, 관리 방식별 가격표, 24시간 전화상담, 선입금 없는 현장 후불·카드 결제 정보를 확인할 수 있습니다."
           }
         },
@@ -243,16 +258,27 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "다음 지역 찾기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 5,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 3,
+            "☎ 전화상담": 0,
+            "☎ 상담": 1,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "exactCandidateCopySha256": "839159f106361f689d142b59a847df837e62c97af5787af606d0b38a851fe215",
+      "exactCandidateCopySha256": "c29251d50c1c2def340f0b391b9cfa0a17bea6cf647c12fceee013d550d84e07",
       "reviewerDecision": null,
       "reviewerNotes": null
     },
@@ -262,34 +288,36 @@
       "kind": "representative",
       "label": "중랑구 중화동",
       "documentIndex": 261,
-      "sourceDocumentSha256": "a7d59b12da16192dc17b87cace8ee8e9b71fa0feb002bf2aec2e63a919e4e4da",
+      "sourceDocumentSha256": "47e0ad809d11c76c1623ea8195001e60bc6a94e55291fc03c63630459bac1790",
       "exactCandidateCopy": {
-        "title": "중화동 랑테라피 | 선입금 없는 현장 후불 안내",
+        "title": "중화동출장마사지 중화동출장안마 | 랑테라피",
         "description": "중화동 랑테라피 안내에서는 서비스를 받을 정확한 주소와 희망 시각, 코스별 시간과 표시 금액, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 한눈에 살펴볼 수 있습니다.",
         "metadata": {
           "route": "/areas/seoul/%EC%A4%91%EB%9E%91%EA%B5%AC/%EC%A4%91%ED%99%94%EB%8F%99/",
-          "title": "중화동 랑테라피 | 선입금 없는 현장 후불 안내",
+          "title": "중화동출장마사지 중화동출장안마 | 랑테라피",
           "description": "중화동 랑테라피 안내에서는 서비스를 받을 정확한 주소와 희망 시각, 코스별 시간과 표시 금액, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 한눈에 살펴볼 수 있습니다.",
           "keywords": [
-            "중화동랑테라피",
-            "중화동랑출장테라피",
-            "중화동랑방문마사지",
-            "중화동랑아로마리듬",
-            "중화동랑타이리듬",
-            "중화동랑현장결제"
+            "중화동출장마사지",
+            "중화동출장안마",
+            "중화동출장타이마사지",
+            "중화동출장스웨디시",
+            "중화동출장홈타이",
+            "중화동토닥이",
+            "중화동남성전용마사지",
+            "중화동여성전용마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/seoul/%EC%A4%91%EB%9E%91%EA%B5%AC/%EC%A4%91%ED%99%94%EB%8F%99/",
+          "canonical": "https://langtheraphy.kr/areas/seoul/%EC%A4%91%EB%9E%91%EA%B5%AC/%EC%A4%91%ED%99%94%EB%8F%99/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
             "siteName": "랑테라피",
-            "title": "중화동 랑테라피 | 선입금 없는 현장 후불 안내",
+            "title": "중화동출장마사지 중화동출장안마 | 랑테라피",
             "description": "중화동 랑테라피 안내에서는 서비스를 받을 정확한 주소와 희망 시각, 코스별 시간과 표시 금액, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 한눈에 살펴볼 수 있습니다.",
-            "url": "https://preview.rang-therapy.invalid/areas/seoul/%EC%A4%91%EB%9E%91%EA%B5%AC/%EC%A4%91%ED%99%94%EB%8F%99/"
+            "url": "https://langtheraphy.kr/areas/seoul/%EC%A4%91%EB%9E%91%EA%B5%AC/%EC%A4%91%ED%99%94%EB%8F%99/"
           },
           "twitter": {
             "card": "summary",
-            "title": "중화동 랑테라피 | 선입금 없는 현장 후불 안내",
+            "title": "중화동출장마사지 중화동출장안마 | 랑테라피",
             "description": "중화동 랑테라피 안내에서는 서비스를 받을 정확한 주소와 희망 시각, 코스별 시간과 표시 금액, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 한눈에 살펴볼 수 있습니다."
           }
         },
@@ -350,16 +378,27 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "상위 지역 다시 보기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 5,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 3,
+            "☎ 전화상담": 0,
+            "☎ 상담": 1,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "exactCandidateCopySha256": "3c0a7ffa981eb2f5d47856bde21f40ba713c486823b4d5f45760d06627ef6984",
+      "exactCandidateCopySha256": "7c01ad7e5fa5234a192762055c30ecba5d8fe099d0c340c23fd2174a1d37ddea",
       "reviewerDecision": null,
       "reviewerNotes": null
     },
@@ -369,34 +408,36 @@
       "kind": "root",
       "label": "인천광역시",
       "documentIndex": 262,
-      "sourceDocumentSha256": "2c3af50de0b530e67058ecb667922363f4dd8963bbef555109b3092c800a65dd",
+      "sourceDocumentSha256": "c6aac72d2f1d5e1cbe14aa745617e4b6e9efcb29fb14098b59bbf3887cd7f63a",
       "exactCandidateCopy": {
-        "title": "인천광역시 랑테라피 | 코스별 시간과 가격표 확인",
+        "title": "인천광역시출장마사지 인천광역시출장안마 | 랑테라피",
         "description": "인천광역시 랑테라피 이용 안내에는 도로명과 건물명, 원하는 시작 시각, 코스별 소요 시간과 표시 금액, 24시간 전화상담, 현장 후불과 카드 결제 기준이 정리되어 있습니다.",
         "metadata": {
           "route": "/areas/incheon/",
-          "title": "인천광역시 랑테라피 | 코스별 시간과 가격표 확인",
+          "title": "인천광역시출장마사지 인천광역시출장안마 | 랑테라피",
           "description": "인천광역시 랑테라피 이용 안내에는 도로명과 건물명, 원하는 시작 시각, 코스별 소요 시간과 표시 금액, 24시간 전화상담, 현장 후불과 카드 결제 기준이 정리되어 있습니다.",
           "keywords": [
-            "인천광역시랑테라피",
-            "인천광역시랑출장테라피",
-            "인천광역시랑방문마사지",
-            "인천광역시랑아로마리듬",
-            "인천광역시랑타이리듬",
-            "인천광역시랑현장결제"
+            "인천광역시출장마사지",
+            "인천광역시출장안마",
+            "인천광역시출장타이마사지",
+            "인천광역시출장스웨디시",
+            "인천광역시출장홈타이",
+            "인천광역시토닥이",
+            "인천광역시남성전용마사지",
+            "인천광역시여성전용마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/incheon/",
+          "canonical": "https://langtheraphy.kr/areas/incheon/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
             "siteName": "랑테라피",
-            "title": "인천광역시 랑테라피 | 코스별 시간과 가격표 확인",
+            "title": "인천광역시출장마사지 인천광역시출장안마 | 랑테라피",
             "description": "인천광역시 랑테라피 이용 안내에는 도로명과 건물명, 원하는 시작 시각, 코스별 소요 시간과 표시 금액, 24시간 전화상담, 현장 후불과 카드 결제 기준이 정리되어 있습니다.",
-            "url": "https://preview.rang-therapy.invalid/areas/incheon/"
+            "url": "https://langtheraphy.kr/areas/incheon/"
           },
           "twitter": {
             "card": "summary",
-            "title": "인천광역시 랑테라피 | 코스별 시간과 가격표 확인",
+            "title": "인천광역시출장마사지 인천광역시출장안마 | 랑테라피",
             "description": "인천광역시 랑테라피 이용 안내에는 도로명과 건물명, 원하는 시작 시각, 코스별 소요 시간과 표시 금액, 24시간 전화상담, 현장 후불과 카드 결제 기준이 정리되어 있습니다."
           }
         },
@@ -457,16 +498,27 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "다음 지역 찾기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 5,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 3,
+            "☎ 전화상담": 0,
+            "☎ 상담": 1,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "exactCandidateCopySha256": "f4a914295e76be84189c4681825fb66f3da82b8a4c9cf09020dc35c1916b103e",
+      "exactCandidateCopySha256": "a03680249ed91461b8db249757a7cb512a0199cc0e8f2560035fa60391609abd",
       "reviewerDecision": null,
       "reviewerNotes": null
     },
@@ -476,34 +528,36 @@
       "kind": "hub",
       "label": "강화군",
       "documentIndex": 263,
-      "sourceDocumentSha256": "bbd740da1951a9b3f9cf8d789ab1d5a35b12c06fc3a6346ad19f21f16dcf292b",
+      "sourceDocumentSha256": "9957b06d92b262b72d7ce795385f0491bf06b1442144d567b9e3ee72e27cd6d4",
       "exactCandidateCopy": {
-        "title": "강화군 랑테라피 | 서비스 전 주소·일정 준비",
+        "title": "강화군출장마사지 강화군출장안마 | 랑테라피",
         "description": "강화군 랑테라피는 서비스를 받을 정확한 주소와 연락받을 고객 번호를 준비하는 방법, 관리 방식별 코스 시간과 표시 금액, 24시간 전화상담, 선입금 없는 현장 결제 원칙을 간결하게 안내합니다.",
         "metadata": {
           "route": "/areas/incheon/%EA%B0%95%ED%99%94%EA%B5%B0/",
-          "title": "강화군 랑테라피 | 서비스 전 주소·일정 준비",
+          "title": "강화군출장마사지 강화군출장안마 | 랑테라피",
           "description": "강화군 랑테라피는 서비스를 받을 정확한 주소와 연락받을 고객 번호를 준비하는 방법, 관리 방식별 코스 시간과 표시 금액, 24시간 전화상담, 선입금 없는 현장 결제 원칙을 간결하게 안내합니다.",
           "keywords": [
-            "강화군랑테라피",
-            "강화군랑출장테라피",
-            "강화군랑방문마사지",
-            "강화군랑아로마리듬",
-            "강화군랑타이리듬",
-            "강화군랑현장결제"
+            "강화군출장마사지",
+            "강화군출장안마",
+            "강화군출장타이마사지",
+            "강화군출장스웨디시",
+            "강화군출장홈타이",
+            "강화군토닥이",
+            "강화군남성전용마사지",
+            "강화군여성전용마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/incheon/%EA%B0%95%ED%99%94%EA%B5%B0/",
+          "canonical": "https://langtheraphy.kr/areas/incheon/%EA%B0%95%ED%99%94%EA%B5%B0/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
             "siteName": "랑테라피",
-            "title": "강화군 랑테라피 | 서비스 전 주소·일정 준비",
+            "title": "강화군출장마사지 강화군출장안마 | 랑테라피",
             "description": "강화군 랑테라피는 서비스를 받을 정확한 주소와 연락받을 고객 번호를 준비하는 방법, 관리 방식별 코스 시간과 표시 금액, 24시간 전화상담, 선입금 없는 현장 결제 원칙을 간결하게 안내합니다.",
-            "url": "https://preview.rang-therapy.invalid/areas/incheon/%EA%B0%95%ED%99%94%EA%B5%B0/"
+            "url": "https://langtheraphy.kr/areas/incheon/%EA%B0%95%ED%99%94%EA%B5%B0/"
           },
           "twitter": {
             "card": "summary",
-            "title": "강화군 랑테라피 | 서비스 전 주소·일정 준비",
+            "title": "강화군출장마사지 강화군출장안마 | 랑테라피",
             "description": "강화군 랑테라피는 서비스를 받을 정확한 주소와 연락받을 고객 번호를 준비하는 방법, 관리 방식별 코스 시간과 표시 금액, 24시간 전화상담, 선입금 없는 현장 결제 원칙을 간결하게 안내합니다."
           }
         },
@@ -564,16 +618,27 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "다음 지역 찾기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 5,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 3,
+            "☎ 전화상담": 0,
+            "☎ 상담": 1,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "exactCandidateCopySha256": "3c889d7ba23db966204846f9f4ba9b7f87929162de952ba2067599fc51e4d7ae",
+      "exactCandidateCopySha256": "58c5553d7b44213449542c4da1ead73e49d10adaba0388e42b27ad687ebf36ab",
       "reviewerDecision": null,
       "reviewerNotes": null
     },
@@ -583,34 +648,36 @@
       "kind": "representative",
       "label": "제물포구 화수1.화평동",
       "documentIndex": 357,
-      "sourceDocumentSha256": "6d2930b56b5d6000b767038bb45de3c91c8eba86012652b9c1140c31ba0d361a",
+      "sourceDocumentSha256": "955686e2bd68131fc48fad0f772c99c090bb8d801f72bd4792db3267a51b4844",
       "exactCandidateCopy": {
-        "title": "화수1.화평동 랑테라피 | 코스·가격·시작 시간 안내",
+        "title": "화수1.화평동출장마사지 화수1.화평동출장안마 | 랑테라피",
         "description": "화수1.화평동 랑테라피 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다.",
         "metadata": {
           "route": "/areas/incheon/%EC%A0%9C%EB%AC%BC%ED%8F%AC%EA%B5%AC/%ED%99%94%EC%88%981.%ED%99%94%ED%8F%89%EB%8F%99/",
-          "title": "화수1.화평동 랑테라피 | 코스·가격·시작 시간 안내",
+          "title": "화수1.화평동출장마사지 화수1.화평동출장안마 | 랑테라피",
           "description": "화수1.화평동 랑테라피 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다.",
           "keywords": [
-            "화수1.화평동랑테라피",
-            "화수1.화평동랑출장테라피",
-            "화수1.화평동랑방문마사지",
-            "화수1.화평동랑아로마리듬",
-            "화수1.화평동랑타이리듬",
-            "화수1.화평동랑현장결제"
+            "화수1.화평동출장마사지",
+            "화수1.화평동출장안마",
+            "화수1.화평동출장타이마사지",
+            "화수1.화평동출장스웨디시",
+            "화수1.화평동출장홈타이",
+            "화수1.화평동토닥이",
+            "화수1.화평동남성전용마사지",
+            "화수1.화평동여성전용마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/incheon/%EC%A0%9C%EB%AC%BC%ED%8F%AC%EA%B5%AC/%ED%99%94%EC%88%981.%ED%99%94%ED%8F%89%EB%8F%99/",
+          "canonical": "https://langtheraphy.kr/areas/incheon/%EC%A0%9C%EB%AC%BC%ED%8F%AC%EA%B5%AC/%ED%99%94%EC%88%981.%ED%99%94%ED%8F%89%EB%8F%99/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
             "siteName": "랑테라피",
-            "title": "화수1.화평동 랑테라피 | 코스·가격·시작 시간 안내",
+            "title": "화수1.화평동출장마사지 화수1.화평동출장안마 | 랑테라피",
             "description": "화수1.화평동 랑테라피 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다.",
-            "url": "https://preview.rang-therapy.invalid/areas/incheon/%EC%A0%9C%EB%AC%BC%ED%8F%AC%EA%B5%AC/%ED%99%94%EC%88%981.%ED%99%94%ED%8F%89%EB%8F%99/"
+            "url": "https://langtheraphy.kr/areas/incheon/%EC%A0%9C%EB%AC%BC%ED%8F%AC%EA%B5%AC/%ED%99%94%EC%88%981.%ED%99%94%ED%8F%89%EB%8F%99/"
           },
           "twitter": {
             "card": "summary",
-            "title": "화수1.화평동 랑테라피 | 코스·가격·시작 시간 안내",
+            "title": "화수1.화평동출장마사지 화수1.화평동출장안마 | 랑테라피",
             "description": "화수1.화평동 랑테라피 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다."
           }
         },
@@ -671,16 +738,27 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "상위 지역 다시 보기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 5,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 3,
+            "☎ 전화상담": 0,
+            "☎ 상담": 1,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "exactCandidateCopySha256": "b224e8e06607b7338d84622713a6eab188c3ba249ac92830c65ea7c0c8449722",
+      "exactCandidateCopySha256": "d5be8bf617eb5d9e4353cc1be554ebb5dc577a2d2dccd4adee42175071911376",
       "reviewerDecision": null,
       "reviewerNotes": null
     },
@@ -690,34 +768,36 @@
       "kind": "root",
       "label": "경기도",
       "documentIndex": 358,
-      "sourceDocumentSha256": "fbe488d3f16a3bd36245909d2c172617fe28841cb2aaebf2bde5041398fb0e75",
+      "sourceDocumentSha256": "083217fe0b21256f567e4336c86d37590d31d2523ffb898c25100addf7ad5592",
       "exactCandidateCopy": {
-        "title": "경기도 랑테라피 | 서비스 주소와 희망 시각 상담",
+        "title": "경기도출장마사지 경기도출장안마 | 랑테라피",
         "description": "경기도 랑테라피 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요.",
         "metadata": {
           "route": "/areas/gyeonggi/",
-          "title": "경기도 랑테라피 | 서비스 주소와 희망 시각 상담",
+          "title": "경기도출장마사지 경기도출장안마 | 랑테라피",
           "description": "경기도 랑테라피 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요.",
           "keywords": [
-            "경기도랑테라피",
-            "경기도랑출장테라피",
-            "경기도랑방문마사지",
-            "경기도랑아로마리듬",
-            "경기도랑타이리듬",
-            "경기도랑현장결제"
+            "경기도출장마사지",
+            "경기도출장안마",
+            "경기도출장타이마사지",
+            "경기도출장스웨디시",
+            "경기도출장홈타이",
+            "경기도토닥이",
+            "경기도남성전용마사지",
+            "경기도여성전용마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/gyeonggi/",
+          "canonical": "https://langtheraphy.kr/areas/gyeonggi/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
             "siteName": "랑테라피",
-            "title": "경기도 랑테라피 | 서비스 주소와 희망 시각 상담",
+            "title": "경기도출장마사지 경기도출장안마 | 랑테라피",
             "description": "경기도 랑테라피 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요.",
-            "url": "https://preview.rang-therapy.invalid/areas/gyeonggi/"
+            "url": "https://langtheraphy.kr/areas/gyeonggi/"
           },
           "twitter": {
             "card": "summary",
-            "title": "경기도 랑테라피 | 서비스 주소와 희망 시각 상담",
+            "title": "경기도출장마사지 경기도출장안마 | 랑테라피",
             "description": "경기도 랑테라피 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요."
           }
         },
@@ -778,16 +858,27 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "다음 지역 찾기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 5,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 3,
+            "☎ 전화상담": 0,
+            "☎ 상담": 1,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "exactCandidateCopySha256": "598de8717f1024bbcab6d17d1f552b6b46516ab5caf0fe96148ca9cfcfbfd76c",
+      "exactCandidateCopySha256": "d753ba28b178128edf1f3125e0bc6e68f1acf6aaa77e6dfd6be7d659b929b521",
       "reviewerDecision": null,
       "reviewerNotes": null
     },
@@ -797,34 +888,36 @@
       "kind": "hub",
       "label": "가평군",
       "documentIndex": 359,
-      "sourceDocumentSha256": "0e90b7f47411073f1b010a346b31abd1a5b4084a41361878475958eeac760b1b",
+      "sourceDocumentSha256": "e69e069219d6e3d605d8a85dcfecea4c08eafd0bf7eea7c83f4fe0eada744dd7",
       "exactCandidateCopy": {
-        "title": "가평군 랑테라피 | 24시간 이용 일정 상담",
+        "title": "가평군출장마사지 가평군출장안마 | 랑테라피",
         "description": "가평군 랑테라피의 가격표와 관리 방식별 코스, 서비스 전 확인할 주소와 시작 시각, 당일 운영 여부, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 안내합니다.",
         "metadata": {
           "route": "/areas/gyeonggi/%EA%B0%80%ED%8F%89%EA%B5%B0/",
-          "title": "가평군 랑테라피 | 24시간 이용 일정 상담",
+          "title": "가평군출장마사지 가평군출장안마 | 랑테라피",
           "description": "가평군 랑테라피의 가격표와 관리 방식별 코스, 서비스 전 확인할 주소와 시작 시각, 당일 운영 여부, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 안내합니다.",
           "keywords": [
-            "가평군랑테라피",
-            "가평군랑출장테라피",
-            "가평군랑방문마사지",
-            "가평군랑아로마리듬",
-            "가평군랑타이리듬",
-            "가평군랑현장결제"
+            "가평군출장마사지",
+            "가평군출장안마",
+            "가평군출장타이마사지",
+            "가평군출장스웨디시",
+            "가평군출장홈타이",
+            "가평군토닥이",
+            "가평군남성전용마사지",
+            "가평군여성전용마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/gyeonggi/%EA%B0%80%ED%8F%89%EA%B5%B0/",
+          "canonical": "https://langtheraphy.kr/areas/gyeonggi/%EA%B0%80%ED%8F%89%EA%B5%B0/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
             "siteName": "랑테라피",
-            "title": "가평군 랑테라피 | 24시간 이용 일정 상담",
+            "title": "가평군출장마사지 가평군출장안마 | 랑테라피",
             "description": "가평군 랑테라피의 가격표와 관리 방식별 코스, 서비스 전 확인할 주소와 시작 시각, 당일 운영 여부, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 안내합니다.",
-            "url": "https://preview.rang-therapy.invalid/areas/gyeonggi/%EA%B0%80%ED%8F%89%EA%B5%B0/"
+            "url": "https://langtheraphy.kr/areas/gyeonggi/%EA%B0%80%ED%8F%89%EA%B5%B0/"
           },
           "twitter": {
             "card": "summary",
-            "title": "가평군 랑테라피 | 24시간 이용 일정 상담",
+            "title": "가평군출장마사지 가평군출장안마 | 랑테라피",
             "description": "가평군 랑테라피의 가격표와 관리 방식별 코스, 서비스 전 확인할 주소와 시작 시각, 당일 운영 여부, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 안내합니다."
           }
         },
@@ -885,16 +978,27 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "다음 지역 찾기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 5,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 3,
+            "☎ 전화상담": 0,
+            "☎ 상담": 1,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "exactCandidateCopySha256": "ac0987180321fed90bbc898a5cc744323192b660d0e66750c2696d984fcb9b29",
+      "exactCandidateCopySha256": "e6b70cf3a98bdc13e4719a06fdb1183e108e704fda3109531b7c7f6c1604afad",
       "reviewerDecision": null,
       "reviewerNotes": null
     },
@@ -904,34 +1008,36 @@
       "kind": "representative",
       "label": "화성시 효행구 정남면",
       "documentIndex": 861,
-      "sourceDocumentSha256": "57a92856e8b5b71e5edc919c6fcbc55ea1330e4e95229473a9ce806f214af5a5",
+      "sourceDocumentSha256": "4a7370d779a5577b85a582a5b3ecabaa535cae10d5a170dad0efdbba13d995f3",
       "exactCandidateCopy": {
-        "title": "정남면 랑테라피 | 가격표부터 현장 결제까지",
+        "title": "정남면출장마사지 정남면출장안마 | 랑테라피",
         "description": "정남면 랑테라피에서는 관리 방식별 코스와 가격표, 요청한 주소와 희망 시각의 서비스 가능 여부, 24시간 전화상담, 예약금 없는 현장 후불과 카드 결제 기준을 차례로 소개합니다.",
         "metadata": {
           "route": "/areas/gyeonggi/%ED%99%94%EC%84%B1%EC%8B%9C/%ED%9A%A8%ED%96%89%EA%B5%AC/%EC%A0%95%EB%82%A8%EB%A9%B4/",
-          "title": "정남면 랑테라피 | 가격표부터 현장 결제까지",
+          "title": "정남면출장마사지 정남면출장안마 | 랑테라피",
           "description": "정남면 랑테라피에서는 관리 방식별 코스와 가격표, 요청한 주소와 희망 시각의 서비스 가능 여부, 24시간 전화상담, 예약금 없는 현장 후불과 카드 결제 기준을 차례로 소개합니다.",
           "keywords": [
-            "정남면랑테라피",
-            "정남면랑출장테라피",
-            "정남면랑방문마사지",
-            "정남면랑아로마리듬",
-            "정남면랑타이리듬",
-            "정남면랑현장결제"
+            "정남면출장마사지",
+            "정남면출장안마",
+            "정남면출장타이마사지",
+            "정남면출장스웨디시",
+            "정남면출장홈타이",
+            "정남면토닥이",
+            "정남면남성전용마사지",
+            "정남면여성전용마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/gyeonggi/%ED%99%94%EC%84%B1%EC%8B%9C/%ED%9A%A8%ED%96%89%EA%B5%AC/%EC%A0%95%EB%82%A8%EB%A9%B4/",
+          "canonical": "https://langtheraphy.kr/areas/gyeonggi/%ED%99%94%EC%84%B1%EC%8B%9C/%ED%9A%A8%ED%96%89%EA%B5%AC/%EC%A0%95%EB%82%A8%EB%A9%B4/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
             "siteName": "랑테라피",
-            "title": "정남면 랑테라피 | 가격표부터 현장 결제까지",
+            "title": "정남면출장마사지 정남면출장안마 | 랑테라피",
             "description": "정남면 랑테라피에서는 관리 방식별 코스와 가격표, 요청한 주소와 희망 시각의 서비스 가능 여부, 24시간 전화상담, 예약금 없는 현장 후불과 카드 결제 기준을 차례로 소개합니다.",
-            "url": "https://preview.rang-therapy.invalid/areas/gyeonggi/%ED%99%94%EC%84%B1%EC%8B%9C/%ED%9A%A8%ED%96%89%EA%B5%AC/%EC%A0%95%EB%82%A8%EB%A9%B4/"
+            "url": "https://langtheraphy.kr/areas/gyeonggi/%ED%99%94%EC%84%B1%EC%8B%9C/%ED%9A%A8%ED%96%89%EA%B5%AC/%EC%A0%95%EB%82%A8%EB%A9%B4/"
           },
           "twitter": {
             "card": "summary",
-            "title": "정남면 랑테라피 | 가격표부터 현장 결제까지",
+            "title": "정남면출장마사지 정남면출장안마 | 랑테라피",
             "description": "정남면 랑테라피에서는 관리 방식별 코스와 가격표, 요청한 주소와 희망 시각의 서비스 가능 여부, 24시간 전화상담, 예약금 없는 현장 후불과 카드 결제 기준을 차례로 소개합니다."
           }
         },
@@ -992,16 +1098,27 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "상위 지역 다시 보기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 5,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 3,
+            "☎ 전화상담": 0,
+            "☎ 상담": 1,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "exactCandidateCopySha256": "a81ae1486aed40313dd0bd265a8dccdb5a7425b5c7ea36c066959ed620c645ad",
+      "exactCandidateCopySha256": "43f33a6cf01dbde87762af3d8d4ee6953bc8c2b00ed058db7258d31f5fe3e9cd",
       "reviewerDecision": null,
       "reviewerNotes": null
     },
@@ -1011,34 +1128,36 @@
       "kind": "root",
       "label": "천안시",
       "documentIndex": 862,
-      "sourceDocumentSha256": "09565f9c4a90c0093a3a8407988a8c3a9703b304ea7851bc8bcb212419e196fe",
+      "sourceDocumentSha256": "9996354bf3a38c51b903933d40de0ce71e36ca47714d781840f86f7833e88ef6",
       "exactCandidateCopy": {
-        "title": "천안시 랑테라피 | 원하는 일정에 맞춘 테라피",
+        "title": "천안시출장마사지 천안시출장안마 | 랑테라피",
         "description": "천안시 랑테라피를 알아보는 분을 위해 건물명과 도로명, 시작 시각, 코스별 시간과 예산, 당일 가능 여부를 묻는 상담, 선입금 없는 후불 및 카드 결제 기준을 보기 쉽게 정리했습니다.",
         "metadata": {
           "route": "/areas/cheonan/",
-          "title": "천안시 랑테라피 | 원하는 일정에 맞춘 테라피",
+          "title": "천안시출장마사지 천안시출장안마 | 랑테라피",
           "description": "천안시 랑테라피를 알아보는 분을 위해 건물명과 도로명, 시작 시각, 코스별 시간과 예산, 당일 가능 여부를 묻는 상담, 선입금 없는 후불 및 카드 결제 기준을 보기 쉽게 정리했습니다.",
           "keywords": [
-            "천안시랑테라피",
-            "천안시랑출장테라피",
-            "천안시랑방문마사지",
-            "천안시랑아로마리듬",
-            "천안시랑타이리듬",
-            "천안시랑현장결제"
+            "천안시출장마사지",
+            "천안시출장안마",
+            "천안시출장타이마사지",
+            "천안시출장스웨디시",
+            "천안시출장홈타이",
+            "천안시토닥이",
+            "천안시남성전용마사지",
+            "천안시여성전용마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/cheonan/",
+          "canonical": "https://langtheraphy.kr/areas/cheonan/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
             "siteName": "랑테라피",
-            "title": "천안시 랑테라피 | 원하는 일정에 맞춘 테라피",
+            "title": "천안시출장마사지 천안시출장안마 | 랑테라피",
             "description": "천안시 랑테라피를 알아보는 분을 위해 건물명과 도로명, 시작 시각, 코스별 시간과 예산, 당일 가능 여부를 묻는 상담, 선입금 없는 후불 및 카드 결제 기준을 보기 쉽게 정리했습니다.",
-            "url": "https://preview.rang-therapy.invalid/areas/cheonan/"
+            "url": "https://langtheraphy.kr/areas/cheonan/"
           },
           "twitter": {
             "card": "summary",
-            "title": "천안시 랑테라피 | 원하는 일정에 맞춘 테라피",
+            "title": "천안시출장마사지 천안시출장안마 | 랑테라피",
             "description": "천안시 랑테라피를 알아보는 분을 위해 건물명과 도로명, 시작 시각, 코스별 시간과 예산, 당일 가능 여부를 묻는 상담, 선입금 없는 후불 및 카드 결제 기준을 보기 쉽게 정리했습니다."
           }
         },
@@ -1099,16 +1218,27 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "다음 지역 찾기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 5,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 3,
+            "☎ 전화상담": 0,
+            "☎ 상담": 1,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "exactCandidateCopySha256": "3f100731e769cfa23d7ddf143c03d45503de75ee98af7120b49c68598e6a5280",
+      "exactCandidateCopySha256": "5132db6f082a54d3467d52e755a9d21da499b56ce2462bfdaf57bfff0ecca642",
       "reviewerDecision": null,
       "reviewerNotes": null
     },
@@ -1118,34 +1248,36 @@
       "kind": "hub",
       "label": "동남구",
       "documentIndex": 863,
-      "sourceDocumentSha256": "68b1b3da820250c725f75e1bff164d3f027a631910beb6c33198e7fd2e4237da",
+      "sourceDocumentSha256": "0c6a0089d23487b24e601bd989649392b9951417f68fb8f9d3bc4f4406709e8d",
       "exactCandidateCopy": {
-        "title": "동남구 랑테라피 | 코스·가격·시작 시간 안내",
+        "title": "동남구출장마사지 동남구출장안마 | 랑테라피",
         "description": "동남구 랑테라피 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다.",
         "metadata": {
           "route": "/areas/cheonan/%EB%8F%99%EB%82%A8%EA%B5%AC/",
-          "title": "동남구 랑테라피 | 코스·가격·시작 시간 안내",
+          "title": "동남구출장마사지 동남구출장안마 | 랑테라피",
           "description": "동남구 랑테라피 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다.",
           "keywords": [
-            "동남구랑테라피",
-            "동남구랑출장테라피",
-            "동남구랑방문마사지",
-            "동남구랑아로마리듬",
-            "동남구랑타이리듬",
-            "동남구랑현장결제"
+            "동남구출장마사지",
+            "동남구출장안마",
+            "동남구출장타이마사지",
+            "동남구출장스웨디시",
+            "동남구출장홈타이",
+            "동남구토닥이",
+            "동남구남성전용마사지",
+            "동남구여성전용마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/cheonan/%EB%8F%99%EB%82%A8%EA%B5%AC/",
+          "canonical": "https://langtheraphy.kr/areas/cheonan/%EB%8F%99%EB%82%A8%EA%B5%AC/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
             "siteName": "랑테라피",
-            "title": "동남구 랑테라피 | 코스·가격·시작 시간 안내",
+            "title": "동남구출장마사지 동남구출장안마 | 랑테라피",
             "description": "동남구 랑테라피 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다.",
-            "url": "https://preview.rang-therapy.invalid/areas/cheonan/%EB%8F%99%EB%82%A8%EA%B5%AC/"
+            "url": "https://langtheraphy.kr/areas/cheonan/%EB%8F%99%EB%82%A8%EA%B5%AC/"
           },
           "twitter": {
             "card": "summary",
-            "title": "동남구 랑테라피 | 코스·가격·시작 시간 안내",
+            "title": "동남구출장마사지 동남구출장안마 | 랑테라피",
             "description": "동남구 랑테라피 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다."
           }
         },
@@ -1206,16 +1338,27 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "다음 지역 찾기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 5,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 3,
+            "☎ 전화상담": 0,
+            "☎ 상담": 1,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "exactCandidateCopySha256": "d2085d822ac2b58e33a94749b0ce1b7cc99f181c1b77191a2f970ca9d7d079e5",
+      "exactCandidateCopySha256": "e65423468fd7815b1e6b0cd8526878f497056cd28049fcb77f52a8df131e7fec",
       "reviewerDecision": null,
       "reviewerNotes": null
     },
@@ -1225,34 +1368,36 @@
       "kind": "representative",
       "label": "서북구 직산읍",
       "documentIndex": 889,
-      "sourceDocumentSha256": "c6a442df69add7bda4d410ff96e499dcec215188e3260c59ac1f4ea7a1408c1c",
+      "sourceDocumentSha256": "4b1ed4486c077a7aaaead713396d4b9356c8b7bfa743932809c832e1762606c3",
       "exactCandidateCopy": {
-        "title": "직산읍 랑테라피 | 코스별 시간과 가격표 확인",
+        "title": "직산읍출장마사지 직산읍출장안마 | 랑테라피",
         "description": "직산읍 랑테라피 이용 안내에는 도로명과 건물명, 원하는 시작 시각, 코스별 소요 시간과 표시 금액, 24시간 전화상담, 현장 후불과 카드 결제 기준이 정리되어 있습니다.",
         "metadata": {
           "route": "/areas/cheonan/%EC%84%9C%EB%B6%81%EA%B5%AC/%EC%A7%81%EC%82%B0%EC%9D%8D/",
-          "title": "직산읍 랑테라피 | 코스별 시간과 가격표 확인",
+          "title": "직산읍출장마사지 직산읍출장안마 | 랑테라피",
           "description": "직산읍 랑테라피 이용 안내에는 도로명과 건물명, 원하는 시작 시각, 코스별 소요 시간과 표시 금액, 24시간 전화상담, 현장 후불과 카드 결제 기준이 정리되어 있습니다.",
           "keywords": [
-            "직산읍랑테라피",
-            "직산읍랑출장테라피",
-            "직산읍랑방문마사지",
-            "직산읍랑아로마리듬",
-            "직산읍랑타이리듬",
-            "직산읍랑현장결제"
+            "직산읍출장마사지",
+            "직산읍출장안마",
+            "직산읍출장타이마사지",
+            "직산읍출장스웨디시",
+            "직산읍출장홈타이",
+            "직산읍토닥이",
+            "직산읍남성전용마사지",
+            "직산읍여성전용마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/cheonan/%EC%84%9C%EB%B6%81%EA%B5%AC/%EC%A7%81%EC%82%B0%EC%9D%8D/",
+          "canonical": "https://langtheraphy.kr/areas/cheonan/%EC%84%9C%EB%B6%81%EA%B5%AC/%EC%A7%81%EC%82%B0%EC%9D%8D/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
             "siteName": "랑테라피",
-            "title": "직산읍 랑테라피 | 코스별 시간과 가격표 확인",
+            "title": "직산읍출장마사지 직산읍출장안마 | 랑테라피",
             "description": "직산읍 랑테라피 이용 안내에는 도로명과 건물명, 원하는 시작 시각, 코스별 소요 시간과 표시 금액, 24시간 전화상담, 현장 후불과 카드 결제 기준이 정리되어 있습니다.",
-            "url": "https://preview.rang-therapy.invalid/areas/cheonan/%EC%84%9C%EB%B6%81%EA%B5%AC/%EC%A7%81%EC%82%B0%EC%9D%8D/"
+            "url": "https://langtheraphy.kr/areas/cheonan/%EC%84%9C%EB%B6%81%EA%B5%AC/%EC%A7%81%EC%82%B0%EC%9D%8D/"
           },
           "twitter": {
             "card": "summary",
-            "title": "직산읍 랑테라피 | 코스별 시간과 가격표 확인",
+            "title": "직산읍출장마사지 직산읍출장안마 | 랑테라피",
             "description": "직산읍 랑테라피 이용 안내에는 도로명과 건물명, 원하는 시작 시각, 코스별 소요 시간과 표시 금액, 24시간 전화상담, 현장 후불과 카드 결제 기준이 정리되어 있습니다."
           }
         },
@@ -1313,16 +1458,27 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "상위 지역 다시 보기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 5,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 3,
+            "☎ 전화상담": 0,
+            "☎ 상담": 1,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "exactCandidateCopySha256": "64571970c68545e59c47076f84a58ea43ed29421e38795ac6ba3c3309e9e44cf",
+      "exactCandidateCopySha256": "aa826ff194276645e8a68625e52645f0008c044f3cb97bad7890dce29de51967",
       "reviewerDecision": null,
       "reviewerNotes": null
     },
@@ -1332,34 +1488,36 @@
       "kind": "root",
       "label": "아산시",
       "documentIndex": 890,
-      "sourceDocumentSha256": "0992f7341fc4c243e9db3cf9c13dfd30f65e570b535520d93f96b7c847f10cfb",
+      "sourceDocumentSha256": "13f42b581f61d27975b222fb193fa5f720897e455e9a1a80aa1b059e5549cc21",
       "exactCandidateCopy": {
-        "title": "아산시 랑테라피 | 서비스 전 주소·일정 준비",
+        "title": "아산시출장마사지 아산시출장안마 | 랑테라피",
         "description": "아산시 랑테라피는 서비스를 받을 정확한 주소와 연락받을 고객 번호를 준비하는 방법, 관리 방식별 코스 시간과 표시 금액, 24시간 전화상담, 선입금 없는 현장 결제 원칙을 간결하게 안내합니다.",
         "metadata": {
           "route": "/areas/asan/",
-          "title": "아산시 랑테라피 | 서비스 전 주소·일정 준비",
+          "title": "아산시출장마사지 아산시출장안마 | 랑테라피",
           "description": "아산시 랑테라피는 서비스를 받을 정확한 주소와 연락받을 고객 번호를 준비하는 방법, 관리 방식별 코스 시간과 표시 금액, 24시간 전화상담, 선입금 없는 현장 결제 원칙을 간결하게 안내합니다.",
           "keywords": [
-            "아산시랑테라피",
-            "아산시랑출장테라피",
-            "아산시랑방문마사지",
-            "아산시랑아로마리듬",
-            "아산시랑타이리듬",
-            "아산시랑현장결제"
+            "아산시출장마사지",
+            "아산시출장안마",
+            "아산시출장타이마사지",
+            "아산시출장스웨디시",
+            "아산시출장홈타이",
+            "아산시토닥이",
+            "아산시남성전용마사지",
+            "아산시여성전용마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/asan/",
+          "canonical": "https://langtheraphy.kr/areas/asan/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
             "siteName": "랑테라피",
-            "title": "아산시 랑테라피 | 서비스 전 주소·일정 준비",
+            "title": "아산시출장마사지 아산시출장안마 | 랑테라피",
             "description": "아산시 랑테라피는 서비스를 받을 정확한 주소와 연락받을 고객 번호를 준비하는 방법, 관리 방식별 코스 시간과 표시 금액, 24시간 전화상담, 선입금 없는 현장 결제 원칙을 간결하게 안내합니다.",
-            "url": "https://preview.rang-therapy.invalid/areas/asan/"
+            "url": "https://langtheraphy.kr/areas/asan/"
           },
           "twitter": {
             "card": "summary",
-            "title": "아산시 랑테라피 | 서비스 전 주소·일정 준비",
+            "title": "아산시출장마사지 아산시출장안마 | 랑테라피",
             "description": "아산시 랑테라피는 서비스를 받을 정확한 주소와 연락받을 고객 번호를 준비하는 방법, 관리 방식별 코스 시간과 표시 금액, 24시간 전화상담, 선입금 없는 현장 결제 원칙을 간결하게 안내합니다."
           }
         },
@@ -1420,16 +1578,27 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "다음 지역 찾기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 5,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 3,
+            "☎ 전화상담": 0,
+            "☎ 상담": 1,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "exactCandidateCopySha256": "c48c5afd4119b487339233fbf63fc085ac7967e2471b3105cc52548c8a901b1d",
+      "exactCandidateCopySha256": "89ba041be23002e3fff519592e1b3410f1dbfede30348bc670a3a367639a6b9b",
       "reviewerDecision": null,
       "reviewerNotes": null
     },
@@ -1439,34 +1608,36 @@
       "kind": "representative",
       "label": "도고면",
       "documentIndex": 891,
-      "sourceDocumentSha256": "b1b21bb46d0bd816e2d52759ba5cd3246b12121574df6d8521dfb24d82c0168e",
+      "sourceDocumentSha256": "d8ebd2f86971327c50678b318af58599f955012be9df1fec7f74c6697ce82e99",
       "exactCandidateCopy": {
-        "title": "도고면 랑테라피 | 현장 카드 결제와 코스 안내",
+        "title": "도고면출장마사지 도고면출장안마 | 랑테라피",
         "description": "도고면 랑테라피 소개에는 도로명 주소와 희망 시작 시각, 이용 인원, 코스별 소요 시간과 예산, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 후불과 카드 결제 기준이 담겨 있습니다.",
         "metadata": {
           "route": "/areas/asan/%EB%8F%84%EA%B3%A0%EB%A9%B4/",
-          "title": "도고면 랑테라피 | 현장 카드 결제와 코스 안내",
+          "title": "도고면출장마사지 도고면출장안마 | 랑테라피",
           "description": "도고면 랑테라피 소개에는 도로명 주소와 희망 시작 시각, 이용 인원, 코스별 소요 시간과 예산, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 후불과 카드 결제 기준이 담겨 있습니다.",
           "keywords": [
-            "도고면랑테라피",
-            "도고면랑출장테라피",
-            "도고면랑방문마사지",
-            "도고면랑아로마리듬",
-            "도고면랑타이리듬",
-            "도고면랑현장결제"
+            "도고면출장마사지",
+            "도고면출장안마",
+            "도고면출장타이마사지",
+            "도고면출장스웨디시",
+            "도고면출장홈타이",
+            "도고면토닥이",
+            "도고면남성전용마사지",
+            "도고면여성전용마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/asan/%EB%8F%84%EA%B3%A0%EB%A9%B4/",
+          "canonical": "https://langtheraphy.kr/areas/asan/%EB%8F%84%EA%B3%A0%EB%A9%B4/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
             "siteName": "랑테라피",
-            "title": "도고면 랑테라피 | 현장 카드 결제와 코스 안내",
+            "title": "도고면출장마사지 도고면출장안마 | 랑테라피",
             "description": "도고면 랑테라피 소개에는 도로명 주소와 희망 시작 시각, 이용 인원, 코스별 소요 시간과 예산, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 후불과 카드 결제 기준이 담겨 있습니다.",
-            "url": "https://preview.rang-therapy.invalid/areas/asan/%EB%8F%84%EA%B3%A0%EB%A9%B4/"
+            "url": "https://langtheraphy.kr/areas/asan/%EB%8F%84%EA%B3%A0%EB%A9%B4/"
           },
           "twitter": {
             "card": "summary",
-            "title": "도고면 랑테라피 | 현장 카드 결제와 코스 안내",
+            "title": "도고면출장마사지 도고면출장안마 | 랑테라피",
             "description": "도고면 랑테라피 소개에는 도로명 주소와 희망 시작 시각, 이용 인원, 코스별 소요 시간과 예산, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 후불과 카드 결제 기준이 담겨 있습니다."
           }
         },
@@ -1527,16 +1698,27 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "상위 지역 다시 보기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 5,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 3,
+            "☎ 전화상담": 0,
+            "☎ 상담": 1,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "exactCandidateCopySha256": "dabf5767ca5908c00728505c1ef642ddde885d7839bcceafc980a15a7305ddbc",
+      "exactCandidateCopySha256": "b8a116125331e17a09c15332e0601e35673676cb1a2494a20b74b57205cdae34",
       "reviewerDecision": null,
       "reviewerNotes": null
     },
@@ -1546,34 +1728,36 @@
       "kind": "representative",
       "label": "제주시 추자면",
       "documentIndex": 1287,
-      "sourceDocumentSha256": "f0b1730d8dcbcee2adec316939710d903d10b752ae2c0f2f0be0e009bc9d47a8",
+      "sourceDocumentSha256": "ecfa987445ea025424009906181433012f6875d2dc4e4ff08c74cd4a177e75a5",
       "exactCandidateCopy": {
-        "title": "추자면 랑테라피 | 현장 카드 결제와 코스 안내",
+        "title": "추자면출장마사지 추자면출장안마 | 랑테라피",
         "description": "추자면 랑테라피 소개에는 도로명 주소와 희망 시작 시각, 이용 인원, 코스별 소요 시간과 예산, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 후불과 카드 결제 기준이 담겨 있습니다.",
         "metadata": {
           "route": "/areas/jeju/%EC%A0%9C%EC%A3%BC%EC%8B%9C/%EC%B6%94%EC%9E%90%EB%A9%B4/",
-          "title": "추자면 랑테라피 | 현장 카드 결제와 코스 안내",
+          "title": "추자면출장마사지 추자면출장안마 | 랑테라피",
           "description": "추자면 랑테라피 소개에는 도로명 주소와 희망 시작 시각, 이용 인원, 코스별 소요 시간과 예산, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 후불과 카드 결제 기준이 담겨 있습니다.",
           "keywords": [
-            "추자면랑테라피",
-            "추자면랑출장테라피",
-            "추자면랑방문마사지",
-            "추자면랑아로마리듬",
-            "추자면랑타이리듬",
-            "추자면랑현장결제"
+            "추자면출장마사지",
+            "추자면출장안마",
+            "추자면출장타이마사지",
+            "추자면출장스웨디시",
+            "추자면출장홈타이",
+            "추자면토닥이",
+            "추자면남성전용마사지",
+            "추자면여성전용마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/jeju/%EC%A0%9C%EC%A3%BC%EC%8B%9C/%EC%B6%94%EC%9E%90%EB%A9%B4/",
+          "canonical": "https://langtheraphy.kr/areas/jeju/%EC%A0%9C%EC%A3%BC%EC%8B%9C/%EC%B6%94%EC%9E%90%EB%A9%B4/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
             "siteName": "랑테라피",
-            "title": "추자면 랑테라피 | 현장 카드 결제와 코스 안내",
+            "title": "추자면출장마사지 추자면출장안마 | 랑테라피",
             "description": "추자면 랑테라피 소개에는 도로명 주소와 희망 시작 시각, 이용 인원, 코스별 소요 시간과 예산, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 후불과 카드 결제 기준이 담겨 있습니다.",
-            "url": "https://preview.rang-therapy.invalid/areas/jeju/%EC%A0%9C%EC%A3%BC%EC%8B%9C/%EC%B6%94%EC%9E%90%EB%A9%B4/"
+            "url": "https://langtheraphy.kr/areas/jeju/%EC%A0%9C%EC%A3%BC%EC%8B%9C/%EC%B6%94%EC%9E%90%EB%A9%B4/"
           },
           "twitter": {
             "card": "summary",
-            "title": "추자면 랑테라피 | 현장 카드 결제와 코스 안내",
+            "title": "추자면출장마사지 추자면출장안마 | 랑테라피",
             "description": "추자면 랑테라피 소개에는 도로명 주소와 희망 시작 시각, 이용 인원, 코스별 소요 시간과 예산, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 후불과 카드 결제 기준이 담겨 있습니다."
           }
         },
@@ -1634,16 +1818,27 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "상위 지역 다시 보기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 5,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 3,
+            "☎ 전화상담": 0,
+            "☎ 상담": 1,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "exactCandidateCopySha256": "4e9d6a2ac1fbfb3595ffe8b88da77efd3cfdc1a2105c78c60d7b61f59bf563f0",
+      "exactCandidateCopySha256": "63a259b12bcc4bd6f712ff0db6a20a000e9e16fa4829493cb73e0695c74074ee",
       "reviewerDecision": null,
       "reviewerNotes": null
     },
@@ -1653,34 +1848,36 @@
       "kind": "root",
       "label": "대전광역시",
       "documentIndex": 903,
-      "sourceDocumentSha256": "9e62768c81ea30eb58866c6422324581f94f83862bb84d97e16e88e70d295556",
+      "sourceDocumentSha256": "16357faad1ad0511d604dcbaaf637d585763701e36ff89c4a7a56fc0a12f54aa",
       "exactCandidateCopy": {
-        "title": "대전광역시 랑테라피 | 주소·시간·코스 이용 안내",
+        "title": "대전광역시출장마사지 대전광역시출장안마 | 랑테라피",
         "description": "대전광역시 랑테라피 이용 안내에서는 도로명 주소와 건물명, 희망 시각, 관리 방식별 가격표, 24시간 전화상담, 선입금 없는 현장 후불·카드 결제 정보를 확인할 수 있습니다.",
         "metadata": {
           "route": "/areas/daejeon/",
-          "title": "대전광역시 랑테라피 | 주소·시간·코스 이용 안내",
+          "title": "대전광역시출장마사지 대전광역시출장안마 | 랑테라피",
           "description": "대전광역시 랑테라피 이용 안내에서는 도로명 주소와 건물명, 희망 시각, 관리 방식별 가격표, 24시간 전화상담, 선입금 없는 현장 후불·카드 결제 정보를 확인할 수 있습니다.",
           "keywords": [
-            "대전광역시랑테라피",
-            "대전광역시랑출장테라피",
-            "대전광역시랑방문마사지",
-            "대전광역시랑아로마리듬",
-            "대전광역시랑타이리듬",
-            "대전광역시랑현장결제"
+            "대전광역시출장마사지",
+            "대전광역시출장안마",
+            "대전광역시출장타이마사지",
+            "대전광역시출장스웨디시",
+            "대전광역시출장홈타이",
+            "대전광역시토닥이",
+            "대전광역시남성전용마사지",
+            "대전광역시여성전용마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/daejeon/",
+          "canonical": "https://langtheraphy.kr/areas/daejeon/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
             "siteName": "랑테라피",
-            "title": "대전광역시 랑테라피 | 주소·시간·코스 이용 안내",
+            "title": "대전광역시출장마사지 대전광역시출장안마 | 랑테라피",
             "description": "대전광역시 랑테라피 이용 안내에서는 도로명 주소와 건물명, 희망 시각, 관리 방식별 가격표, 24시간 전화상담, 선입금 없는 현장 후불·카드 결제 정보를 확인할 수 있습니다.",
-            "url": "https://preview.rang-therapy.invalid/areas/daejeon/"
+            "url": "https://langtheraphy.kr/areas/daejeon/"
           },
           "twitter": {
             "card": "summary",
-            "title": "대전광역시 랑테라피 | 주소·시간·코스 이용 안내",
+            "title": "대전광역시출장마사지 대전광역시출장안마 | 랑테라피",
             "description": "대전광역시 랑테라피 이용 안내에서는 도로명 주소와 건물명, 희망 시각, 관리 방식별 가격표, 24시간 전화상담, 선입금 없는 현장 후불·카드 결제 정보를 확인할 수 있습니다."
           }
         },
@@ -1741,16 +1938,27 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "다음 지역 찾기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 5,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 3,
+            "☎ 전화상담": 0,
+            "☎ 상담": 1,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "exactCandidateCopySha256": "f63eff6e9d7e1999a65d45f8c91c3647606590f54dbc71bf85978ddf6dca48ea",
+      "exactCandidateCopySha256": "8ab397b6cffd74bfa02d635afd12479382021bdeffcdcd2b9c0cca9084b27cd4",
       "reviewerDecision": null,
       "reviewerNotes": null
     },
@@ -1760,40 +1968,42 @@
       "kind": "hub",
       "label": "대덕구",
       "documentIndex": 904,
-      "sourceDocumentSha256": "e49fcf5f341088091171eb6be5241d51f76b3c5c864417445d02238f68ea8a88",
+      "sourceDocumentSha256": "67d36052a8c497fa6b7b660480b0c10ae099ba1fe4ddf0639b761bd4f2c37a37",
       "exactCandidateCopy": {
-        "title": "대덕구 랑테라피 | 코스와 시간을 고르는 이용 안내",
+        "title": "대덕구출장마사지 대덕구출장안마 | 랑테라피",
         "description": "대덕구 랑테라피 방문 정보에는 코스 종류와 소요 시간, 표시 금액, 상담 전에 준비할 서비스 주소와 연락받을 고객 번호, 당일 운영 여부, 이용 후 현장 결제 원칙이 보기 쉽게 정리되어 있습니다.",
         "metadata": {
           "route": "/areas/daejeon/%EB%8C%80%EB%8D%95%EA%B5%AC/",
-          "title": "대덕구 랑테라피 | 코스와 시간을 고르는 이용 안내",
+          "title": "대덕구출장마사지 대덕구출장안마 | 랑테라피",
           "description": "대덕구 랑테라피 방문 정보에는 코스 종류와 소요 시간, 표시 금액, 상담 전에 준비할 서비스 주소와 연락받을 고객 번호, 당일 운영 여부, 이용 후 현장 결제 원칙이 보기 쉽게 정리되어 있습니다.",
           "keywords": [
-            "대덕구랑테라피",
-            "대덕구랑출장테라피",
-            "대덕구랑방문마사지",
-            "대덕구랑아로마리듬",
-            "대덕구랑타이리듬",
-            "대덕구랑현장결제"
+            "대덕구출장마사지",
+            "대덕구출장안마",
+            "대덕구출장타이마사지",
+            "대덕구출장스웨디시",
+            "대덕구출장홈타이",
+            "대덕구토닥이",
+            "대덕구남성전용마사지",
+            "대덕구여성전용마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/daejeon/%EB%8C%80%EB%8D%95%EA%B5%AC/",
+          "canonical": "https://langtheraphy.kr/areas/daejeon/%EB%8C%80%EB%8D%95%EA%B5%AC/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
             "siteName": "랑테라피",
-            "title": "대덕구 랑테라피 | 코스와 시간을 고르는 이용 안내",
+            "title": "대덕구출장마사지 대덕구출장안마 | 랑테라피",
             "description": "대덕구 랑테라피 방문 정보에는 코스 종류와 소요 시간, 표시 금액, 상담 전에 준비할 서비스 주소와 연락받을 고객 번호, 당일 운영 여부, 이용 후 현장 결제 원칙이 보기 쉽게 정리되어 있습니다.",
-            "url": "https://preview.rang-therapy.invalid/areas/daejeon/%EB%8C%80%EB%8D%95%EA%B5%AC/"
+            "url": "https://langtheraphy.kr/areas/daejeon/%EB%8C%80%EB%8D%95%EA%B5%AC/"
           },
           "twitter": {
             "card": "summary",
-            "title": "대덕구 랑테라피 | 코스와 시간을 고르는 이용 안내",
+            "title": "대덕구출장마사지 대덕구출장안마 | 랑테라피",
             "description": "대덕구 랑테라피 방문 정보에는 코스 종류와 소요 시간, 표시 금액, 상담 전에 준비할 서비스 주소와 연락받을 고객 번호, 당일 운영 여부, 이용 후 현장 결제 원칙이 보기 쉽게 정리되어 있습니다."
           }
         },
         "h1": "대덕구, 서비스를 받을 주소와 희망 시각을 맞추는 랑테라피",
         "hooks": [
-          "대덕구 일정을 잡기 전에 코스별 시간과 금액을 함께 살펴보세요.",
+          "대덕구 일정을 잡기 전에 랑 코스 시간·요금표를 함께 살펴보세요.",
           "대덕구 서비스 일정은 주소와 시각, 코스를 확인한 뒤에만 확정됩니다."
         ],
         "sections": [
@@ -1848,16 +2058,27 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "다음 지역 찾기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 5,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 3,
+            "☎ 전화상담": 0,
+            "☎ 상담": 1,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "exactCandidateCopySha256": "86b9c3fa8685935132152fe2810cbd5cb69e8e7c0dd42e0fe12e0702f68788c5",
+      "exactCandidateCopySha256": "5cdbe4831e49c3ff8cdc9b5da04cb513bd13ee8334bd35552688c07cb0e9fbee",
       "reviewerDecision": null,
       "reviewerNotes": null
     },
@@ -1867,34 +2088,36 @@
       "kind": "representative",
       "label": "중구 태평동",
       "documentIndex": 974,
-      "sourceDocumentSha256": "10e4c3edf117b0c3e346570ebaed4e1bd97d4ce5eecf05294d3574fc489ee718",
+      "sourceDocumentSha256": "cad1869f0711ee6674741de8cc98c85052f962a83fa930e8ae1aa0c71810f823",
       "exactCandidateCopy": {
-        "title": "대전광역시 중구 태평동 랑테라피 | 서비스 주소와 희망 시각 상담",
+        "title": "대전광역시중구태평동출장마사지 대전광역시중구태평동출장안마 | 랑테라피",
         "description": "대전광역시 중구 태평동 랑테라피 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요.",
         "metadata": {
           "route": "/areas/daejeon/%EC%A4%91%EA%B5%AC/%ED%83%9C%ED%8F%89%EB%8F%99/",
-          "title": "대전광역시 중구 태평동 랑테라피 | 서비스 주소와 희망 시각 상담",
+          "title": "대전광역시중구태평동출장마사지 대전광역시중구태평동출장안마 | 랑테라피",
           "description": "대전광역시 중구 태평동 랑테라피 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요.",
           "keywords": [
-            "대전광역시중구태평동랑테라피",
-            "대전광역시중구태평동랑출장테라피",
-            "대전광역시중구태평동랑방문마사지",
-            "대전광역시중구태평동랑아로마리듬",
-            "대전광역시중구태평동랑타이리듬",
-            "대전광역시중구태평동랑현장결제"
+            "대전광역시중구태평동출장마사지",
+            "대전광역시중구태평동출장안마",
+            "대전광역시중구태평동출장타이마사지",
+            "대전광역시중구태평동출장스웨디시",
+            "대전광역시중구태평동출장홈타이",
+            "대전광역시중구태평동토닥이",
+            "대전광역시중구태평동남성전용마사지",
+            "대전광역시중구태평동여성전용마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/daejeon/%EC%A4%91%EA%B5%AC/%ED%83%9C%ED%8F%89%EB%8F%99/",
+          "canonical": "https://langtheraphy.kr/areas/daejeon/%EC%A4%91%EA%B5%AC/%ED%83%9C%ED%8F%89%EB%8F%99/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
             "siteName": "랑테라피",
-            "title": "대전광역시 중구 태평동 랑테라피 | 서비스 주소와 희망 시각 상담",
+            "title": "대전광역시중구태평동출장마사지 대전광역시중구태평동출장안마 | 랑테라피",
             "description": "대전광역시 중구 태평동 랑테라피 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요.",
-            "url": "https://preview.rang-therapy.invalid/areas/daejeon/%EC%A4%91%EA%B5%AC/%ED%83%9C%ED%8F%89%EB%8F%99/"
+            "url": "https://langtheraphy.kr/areas/daejeon/%EC%A4%91%EA%B5%AC/%ED%83%9C%ED%8F%89%EB%8F%99/"
           },
           "twitter": {
             "card": "summary",
-            "title": "대전광역시 중구 태평동 랑테라피 | 서비스 주소와 희망 시각 상담",
+            "title": "대전광역시중구태평동출장마사지 대전광역시중구태평동출장안마 | 랑테라피",
             "description": "대전광역시 중구 태평동 랑테라피 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요."
           }
         },
@@ -1955,16 +2178,27 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "상위 지역 다시 보기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 5,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 3,
+            "☎ 전화상담": 0,
+            "☎ 상담": 1,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "exactCandidateCopySha256": "1a182043b619ba87f6aff2c5dbf5acd151307c66d41b8d48c6c8c997e8bb769c",
+      "exactCandidateCopySha256": "ca90064fe16dfa6dc53d1ec7f584221fa93e69ebc12ff376b0abdd4e249b437c",
       "reviewerDecision": null,
       "reviewerNotes": null
     },
@@ -1974,34 +2208,36 @@
       "kind": "root",
       "label": "대구광역시",
       "documentIndex": 975,
-      "sourceDocumentSha256": "f33656784c9a91a12f4eaa34a439165facc6d124866ac56404562d0c0871d38a",
+      "sourceDocumentSha256": "4bc81cee482033207189f7700be07bd39d469e96c597f3846b0bab222e67a619",
       "exactCandidateCopy": {
-        "title": "대구광역시 랑테라피 | 24시간 이용 일정 상담",
+        "title": "대구광역시출장마사지 대구광역시출장안마 | 랑테라피",
         "description": "대구광역시 랑테라피의 가격표와 관리 방식별 코스, 서비스 전 확인할 주소와 시작 시각, 당일 운영 여부, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 안내합니다.",
         "metadata": {
           "route": "/areas/daegu/",
-          "title": "대구광역시 랑테라피 | 24시간 이용 일정 상담",
+          "title": "대구광역시출장마사지 대구광역시출장안마 | 랑테라피",
           "description": "대구광역시 랑테라피의 가격표와 관리 방식별 코스, 서비스 전 확인할 주소와 시작 시각, 당일 운영 여부, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 안내합니다.",
           "keywords": [
-            "대구광역시랑테라피",
-            "대구광역시랑출장테라피",
-            "대구광역시랑방문마사지",
-            "대구광역시랑아로마리듬",
-            "대구광역시랑타이리듬",
-            "대구광역시랑현장결제"
+            "대구광역시출장마사지",
+            "대구광역시출장안마",
+            "대구광역시출장타이마사지",
+            "대구광역시출장스웨디시",
+            "대구광역시출장홈타이",
+            "대구광역시토닥이",
+            "대구광역시남성전용마사지",
+            "대구광역시여성전용마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/daegu/",
+          "canonical": "https://langtheraphy.kr/areas/daegu/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
             "siteName": "랑테라피",
-            "title": "대구광역시 랑테라피 | 24시간 이용 일정 상담",
+            "title": "대구광역시출장마사지 대구광역시출장안마 | 랑테라피",
             "description": "대구광역시 랑테라피의 가격표와 관리 방식별 코스, 서비스 전 확인할 주소와 시작 시각, 당일 운영 여부, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 안내합니다.",
-            "url": "https://preview.rang-therapy.invalid/areas/daegu/"
+            "url": "https://langtheraphy.kr/areas/daegu/"
           },
           "twitter": {
             "card": "summary",
-            "title": "대구광역시 랑테라피 | 24시간 이용 일정 상담",
+            "title": "대구광역시출장마사지 대구광역시출장안마 | 랑테라피",
             "description": "대구광역시 랑테라피의 가격표와 관리 방식별 코스, 서비스 전 확인할 주소와 시작 시각, 당일 운영 여부, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 안내합니다."
           }
         },
@@ -2062,16 +2298,27 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "다음 지역 찾기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 5,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 3,
+            "☎ 전화상담": 0,
+            "☎ 상담": 1,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "exactCandidateCopySha256": "12c845ca1ed494d975779ebe0d33167da00d18ad4dacfc552ef18daa80c5b82f",
+      "exactCandidateCopySha256": "4278dabe6cb0763aaecbc3b586f5cc0c972b3a32a335742bd1e0000c14b48a27",
       "reviewerDecision": null,
       "reviewerNotes": null
     },
@@ -2081,34 +2328,36 @@
       "kind": "hub",
       "label": "군위군",
       "documentIndex": 976,
-      "sourceDocumentSha256": "adf5d2d3b95d35bfa14f0d6079667126fdfffc080c1d3eb351cdcd4b63093ee7",
+      "sourceDocumentSha256": "9cb68f8eeb65fc32cef56bf961a9d32ca4fc4762d9f84f682256e74f813d5ab2",
       "exactCandidateCopy": {
-        "title": "군위군 랑테라피 | 선입금 없는 현장 후불 안내",
+        "title": "군위군출장마사지 군위군출장안마 | 랑테라피",
         "description": "군위군 랑테라피 안내에서는 서비스를 받을 정확한 주소와 희망 시각, 코스별 시간과 표시 금액, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 한눈에 살펴볼 수 있습니다.",
         "metadata": {
           "route": "/areas/daegu/%EA%B5%B0%EC%9C%84%EA%B5%B0/",
-          "title": "군위군 랑테라피 | 선입금 없는 현장 후불 안내",
+          "title": "군위군출장마사지 군위군출장안마 | 랑테라피",
           "description": "군위군 랑테라피 안내에서는 서비스를 받을 정확한 주소와 희망 시각, 코스별 시간과 표시 금액, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 한눈에 살펴볼 수 있습니다.",
           "keywords": [
-            "군위군랑테라피",
-            "군위군랑출장테라피",
-            "군위군랑방문마사지",
-            "군위군랑아로마리듬",
-            "군위군랑타이리듬",
-            "군위군랑현장결제"
+            "군위군출장마사지",
+            "군위군출장안마",
+            "군위군출장타이마사지",
+            "군위군출장스웨디시",
+            "군위군출장홈타이",
+            "군위군토닥이",
+            "군위군남성전용마사지",
+            "군위군여성전용마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/daegu/%EA%B5%B0%EC%9C%84%EA%B5%B0/",
+          "canonical": "https://langtheraphy.kr/areas/daegu/%EA%B5%B0%EC%9C%84%EA%B5%B0/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
             "siteName": "랑테라피",
-            "title": "군위군 랑테라피 | 선입금 없는 현장 후불 안내",
+            "title": "군위군출장마사지 군위군출장안마 | 랑테라피",
             "description": "군위군 랑테라피 안내에서는 서비스를 받을 정확한 주소와 희망 시각, 코스별 시간과 표시 금액, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 한눈에 살펴볼 수 있습니다.",
-            "url": "https://preview.rang-therapy.invalid/areas/daegu/%EA%B5%B0%EC%9C%84%EA%B5%B0/"
+            "url": "https://langtheraphy.kr/areas/daegu/%EA%B5%B0%EC%9C%84%EA%B5%B0/"
           },
           "twitter": {
             "card": "summary",
-            "title": "군위군 랑테라피 | 선입금 없는 현장 후불 안내",
+            "title": "군위군출장마사지 군위군출장안마 | 랑테라피",
             "description": "군위군 랑테라피 안내에서는 서비스를 받을 정확한 주소와 희망 시각, 코스별 시간과 표시 금액, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 한눈에 살펴볼 수 있습니다."
           }
         },
@@ -2169,16 +2418,27 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "다음 지역 찾기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 5,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 3,
+            "☎ 전화상담": 0,
+            "☎ 상담": 1,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "exactCandidateCopySha256": "53ff47a5f90b023fb26cc54f02c82583313bb293786e24f58d28ca172b401b3a",
+      "exactCandidateCopySha256": "cab4a9f1b5aea5c802ba0db8ce53043a3753c4aaa8b5d8b30ffb0853bcd11cd9",
       "reviewerDecision": null,
       "reviewerNotes": null
     },
@@ -2188,34 +2448,36 @@
       "kind": "representative",
       "label": "중구 성내동",
       "documentIndex": 1070,
-      "sourceDocumentSha256": "4e2b0f7f47da5ebd39b444895174efe5fbddc9978391f0da5c0e68bffe827aae",
+      "sourceDocumentSha256": "2ebe5f2783edea0a991fa84f0ec63193c4382209bc689c095ec3c4a3696f53c5",
       "exactCandidateCopy": {
-        "title": "대구광역시 중구 성내동 랑테라피 | 가격표부터 현장 결제까지",
+        "title": "대구광역시중구성내동출장마사지 대구광역시중구성내동출장안마 | 랑테라피",
         "description": "대구광역시 중구 성내동 랑테라피에서는 관리 방식별 코스와 가격표, 요청한 주소와 희망 시각의 서비스 가능 여부, 24시간 전화상담, 예약금 없는 현장 후불과 카드 결제 기준을 차례로 소개합니다.",
         "metadata": {
           "route": "/areas/daegu/%EC%A4%91%EA%B5%AC/%EC%84%B1%EB%82%B4%EB%8F%99/",
-          "title": "대구광역시 중구 성내동 랑테라피 | 가격표부터 현장 결제까지",
+          "title": "대구광역시중구성내동출장마사지 대구광역시중구성내동출장안마 | 랑테라피",
           "description": "대구광역시 중구 성내동 랑테라피에서는 관리 방식별 코스와 가격표, 요청한 주소와 희망 시각의 서비스 가능 여부, 24시간 전화상담, 예약금 없는 현장 후불과 카드 결제 기준을 차례로 소개합니다.",
           "keywords": [
-            "대구광역시중구성내동랑테라피",
-            "대구광역시중구성내동랑출장테라피",
-            "대구광역시중구성내동랑방문마사지",
-            "대구광역시중구성내동랑아로마리듬",
-            "대구광역시중구성내동랑타이리듬",
-            "대구광역시중구성내동랑현장결제"
+            "대구광역시중구성내동출장마사지",
+            "대구광역시중구성내동출장안마",
+            "대구광역시중구성내동출장타이마사지",
+            "대구광역시중구성내동출장스웨디시",
+            "대구광역시중구성내동출장홈타이",
+            "대구광역시중구성내동토닥이",
+            "대구광역시중구성내동남성전용마사지",
+            "대구광역시중구성내동여성전용마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/daegu/%EC%A4%91%EA%B5%AC/%EC%84%B1%EB%82%B4%EB%8F%99/",
+          "canonical": "https://langtheraphy.kr/areas/daegu/%EC%A4%91%EA%B5%AC/%EC%84%B1%EB%82%B4%EB%8F%99/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
             "siteName": "랑테라피",
-            "title": "대구광역시 중구 성내동 랑테라피 | 가격표부터 현장 결제까지",
+            "title": "대구광역시중구성내동출장마사지 대구광역시중구성내동출장안마 | 랑테라피",
             "description": "대구광역시 중구 성내동 랑테라피에서는 관리 방식별 코스와 가격표, 요청한 주소와 희망 시각의 서비스 가능 여부, 24시간 전화상담, 예약금 없는 현장 후불과 카드 결제 기준을 차례로 소개합니다.",
-            "url": "https://preview.rang-therapy.invalid/areas/daegu/%EC%A4%91%EA%B5%AC/%EC%84%B1%EB%82%B4%EB%8F%99/"
+            "url": "https://langtheraphy.kr/areas/daegu/%EC%A4%91%EA%B5%AC/%EC%84%B1%EB%82%B4%EB%8F%99/"
           },
           "twitter": {
             "card": "summary",
-            "title": "대구광역시 중구 성내동 랑테라피 | 가격표부터 현장 결제까지",
+            "title": "대구광역시중구성내동출장마사지 대구광역시중구성내동출장안마 | 랑테라피",
             "description": "대구광역시 중구 성내동 랑테라피에서는 관리 방식별 코스와 가격표, 요청한 주소와 희망 시각의 서비스 가능 여부, 24시간 전화상담, 예약금 없는 현장 후불과 카드 결제 기준을 차례로 소개합니다."
           }
         },
@@ -2276,16 +2538,27 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "상위 지역 다시 보기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 5,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 3,
+            "☎ 전화상담": 0,
+            "☎ 상담": 1,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "exactCandidateCopySha256": "e8ae6dddc116f79c36fe5fd081ff713b98a1ca59cd180db67ef81313dbe173dd",
+      "exactCandidateCopySha256": "16f072f0ea6fafda363ae84147eeb3a2c58ce04c42cee648e8ab0d575d8d9c19",
       "reviewerDecision": null,
       "reviewerNotes": null
     },
@@ -2295,34 +2568,36 @@
       "kind": "root",
       "label": "구미시",
       "documentIndex": 1071,
-      "sourceDocumentSha256": "3f10e762a1ea02506b7bd4dbb5a44bbd5c996099fccd2d8c4111a6163f73901e",
+      "sourceDocumentSha256": "542b40902180f1ccd719a1643487dca8f60e7bd592222faf9a254d5781dc01bb",
       "exactCandidateCopy": {
-        "title": "구미시 랑테라피 | 원하는 일정에 맞춘 테라피",
+        "title": "구미시출장마사지 구미시출장안마 | 랑테라피",
         "description": "구미시 랑테라피를 알아보는 분을 위해 건물명과 도로명, 시작 시각, 코스별 시간과 예산, 당일 가능 여부를 묻는 상담, 선입금 없는 후불 및 카드 결제 기준을 보기 쉽게 정리했습니다.",
         "metadata": {
           "route": "/areas/gumi/",
-          "title": "구미시 랑테라피 | 원하는 일정에 맞춘 테라피",
+          "title": "구미시출장마사지 구미시출장안마 | 랑테라피",
           "description": "구미시 랑테라피를 알아보는 분을 위해 건물명과 도로명, 시작 시각, 코스별 시간과 예산, 당일 가능 여부를 묻는 상담, 선입금 없는 후불 및 카드 결제 기준을 보기 쉽게 정리했습니다.",
           "keywords": [
-            "구미시랑테라피",
-            "구미시랑출장테라피",
-            "구미시랑방문마사지",
-            "구미시랑아로마리듬",
-            "구미시랑타이리듬",
-            "구미시랑현장결제"
+            "구미시출장마사지",
+            "구미시출장안마",
+            "구미시출장타이마사지",
+            "구미시출장스웨디시",
+            "구미시출장홈타이",
+            "구미시토닥이",
+            "구미시남성전용마사지",
+            "구미시여성전용마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/gumi/",
+          "canonical": "https://langtheraphy.kr/areas/gumi/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
             "siteName": "랑테라피",
-            "title": "구미시 랑테라피 | 원하는 일정에 맞춘 테라피",
+            "title": "구미시출장마사지 구미시출장안마 | 랑테라피",
             "description": "구미시 랑테라피를 알아보는 분을 위해 건물명과 도로명, 시작 시각, 코스별 시간과 예산, 당일 가능 여부를 묻는 상담, 선입금 없는 후불 및 카드 결제 기준을 보기 쉽게 정리했습니다.",
-            "url": "https://preview.rang-therapy.invalid/areas/gumi/"
+            "url": "https://langtheraphy.kr/areas/gumi/"
           },
           "twitter": {
             "card": "summary",
-            "title": "구미시 랑테라피 | 원하는 일정에 맞춘 테라피",
+            "title": "구미시출장마사지 구미시출장안마 | 랑테라피",
             "description": "구미시 랑테라피를 알아보는 분을 위해 건물명과 도로명, 시작 시각, 코스별 시간과 예산, 당일 가능 여부를 묻는 상담, 선입금 없는 후불 및 카드 결제 기준을 보기 쉽게 정리했습니다."
           }
         },
@@ -2383,16 +2658,27 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "다음 지역 찾기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 5,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 3,
+            "☎ 전화상담": 0,
+            "☎ 상담": 1,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "exactCandidateCopySha256": "359127800d5eedaa8771e3b1b214b1233fb7278555a3ce996e6997982299dfd3",
+      "exactCandidateCopySha256": "9f946a81735a17f87e5f91055728ce315805427370b1622979de3fed920ce2e1",
       "reviewerDecision": null,
       "reviewerNotes": null
     },
@@ -2402,34 +2688,36 @@
       "kind": "representative",
       "label": "고아읍",
       "documentIndex": 1072,
-      "sourceDocumentSha256": "e3977b2c27f19e7bec0d826b65ff53965a3ed0bc77a0eee0c4e35100c5689e57",
+      "sourceDocumentSha256": "2f46932375e61e02e6d0c0fc8feafdaec0227c1f16574e611e7015c4dd9107fa",
       "exactCandidateCopy": {
-        "title": "고아읍 랑테라피 | 코스·가격·시작 시간 안내",
+        "title": "고아읍출장마사지 고아읍출장안마 | 랑테라피",
         "description": "고아읍 랑테라피 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다.",
         "metadata": {
           "route": "/areas/gumi/%EA%B3%A0%EC%95%84%EC%9D%8D/",
-          "title": "고아읍 랑테라피 | 코스·가격·시작 시간 안내",
+          "title": "고아읍출장마사지 고아읍출장안마 | 랑테라피",
           "description": "고아읍 랑테라피 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다.",
           "keywords": [
-            "고아읍랑테라피",
-            "고아읍랑출장테라피",
-            "고아읍랑방문마사지",
-            "고아읍랑아로마리듬",
-            "고아읍랑타이리듬",
-            "고아읍랑현장결제"
+            "고아읍출장마사지",
+            "고아읍출장안마",
+            "고아읍출장타이마사지",
+            "고아읍출장스웨디시",
+            "고아읍출장홈타이",
+            "고아읍토닥이",
+            "고아읍남성전용마사지",
+            "고아읍여성전용마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/gumi/%EA%B3%A0%EC%95%84%EC%9D%8D/",
+          "canonical": "https://langtheraphy.kr/areas/gumi/%EA%B3%A0%EC%95%84%EC%9D%8D/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
             "siteName": "랑테라피",
-            "title": "고아읍 랑테라피 | 코스·가격·시작 시간 안내",
+            "title": "고아읍출장마사지 고아읍출장안마 | 랑테라피",
             "description": "고아읍 랑테라피 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다.",
-            "url": "https://preview.rang-therapy.invalid/areas/gumi/%EA%B3%A0%EC%95%84%EC%9D%8D/"
+            "url": "https://langtheraphy.kr/areas/gumi/%EA%B3%A0%EC%95%84%EC%9D%8D/"
           },
           "twitter": {
             "card": "summary",
-            "title": "고아읍 랑테라피 | 코스·가격·시작 시간 안내",
+            "title": "고아읍출장마사지 고아읍출장안마 | 랑테라피",
             "description": "고아읍 랑테라피 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다."
           }
         },
@@ -2490,16 +2778,27 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "상위 지역 다시 보기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 5,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 3,
+            "☎ 전화상담": 0,
+            "☎ 상담": 1,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "exactCandidateCopySha256": "5ab59101ef391f3c0c20d0c2c673feab07f324a9d1dc52bfa1419c1ec28d55c8",
+      "exactCandidateCopySha256": "f0a6ca08a1869d30e408d897c9ad3292cccda5223fe288930263aed2dec7709e",
       "reviewerDecision": null,
       "reviewerNotes": null
     },
@@ -2509,34 +2808,36 @@
       "kind": "representative",
       "label": "제주시 한경면",
       "documentIndex": 1288,
-      "sourceDocumentSha256": "ee313035099fb953ad6b7440118b5d894b4c780229e05204b58d3be1c32c4b5f",
+      "sourceDocumentSha256": "c64f86b51dcc72781caac4501595c54b6cf749532560793ca7e923b45c1f3ba8",
       "exactCandidateCopy": {
-        "title": "한경면 랑테라피 | 주소·시간·코스 이용 안내",
+        "title": "한경면출장마사지 한경면출장안마 | 랑테라피",
         "description": "한경면 랑테라피 이용 안내에서는 도로명 주소와 건물명, 희망 시각, 관리 방식별 가격표, 24시간 전화상담, 선입금 없는 현장 후불·카드 결제 정보를 확인할 수 있습니다.",
         "metadata": {
           "route": "/areas/jeju/%EC%A0%9C%EC%A3%BC%EC%8B%9C/%ED%95%9C%EA%B2%BD%EB%A9%B4/",
-          "title": "한경면 랑테라피 | 주소·시간·코스 이용 안내",
+          "title": "한경면출장마사지 한경면출장안마 | 랑테라피",
           "description": "한경면 랑테라피 이용 안내에서는 도로명 주소와 건물명, 희망 시각, 관리 방식별 가격표, 24시간 전화상담, 선입금 없는 현장 후불·카드 결제 정보를 확인할 수 있습니다.",
           "keywords": [
-            "한경면랑테라피",
-            "한경면랑출장테라피",
-            "한경면랑방문마사지",
-            "한경면랑아로마리듬",
-            "한경면랑타이리듬",
-            "한경면랑현장결제"
+            "한경면출장마사지",
+            "한경면출장안마",
+            "한경면출장타이마사지",
+            "한경면출장스웨디시",
+            "한경면출장홈타이",
+            "한경면토닥이",
+            "한경면남성전용마사지",
+            "한경면여성전용마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/jeju/%EC%A0%9C%EC%A3%BC%EC%8B%9C/%ED%95%9C%EA%B2%BD%EB%A9%B4/",
+          "canonical": "https://langtheraphy.kr/areas/jeju/%EC%A0%9C%EC%A3%BC%EC%8B%9C/%ED%95%9C%EA%B2%BD%EB%A9%B4/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
             "siteName": "랑테라피",
-            "title": "한경면 랑테라피 | 주소·시간·코스 이용 안내",
+            "title": "한경면출장마사지 한경면출장안마 | 랑테라피",
             "description": "한경면 랑테라피 이용 안내에서는 도로명 주소와 건물명, 희망 시각, 관리 방식별 가격표, 24시간 전화상담, 선입금 없는 현장 후불·카드 결제 정보를 확인할 수 있습니다.",
-            "url": "https://preview.rang-therapy.invalid/areas/jeju/%EC%A0%9C%EC%A3%BC%EC%8B%9C/%ED%95%9C%EA%B2%BD%EB%A9%B4/"
+            "url": "https://langtheraphy.kr/areas/jeju/%EC%A0%9C%EC%A3%BC%EC%8B%9C/%ED%95%9C%EA%B2%BD%EB%A9%B4/"
           },
           "twitter": {
             "card": "summary",
-            "title": "한경면 랑테라피 | 주소·시간·코스 이용 안내",
+            "title": "한경면출장마사지 한경면출장안마 | 랑테라피",
             "description": "한경면 랑테라피 이용 안내에서는 도로명 주소와 건물명, 희망 시각, 관리 방식별 가격표, 24시간 전화상담, 선입금 없는 현장 후불·카드 결제 정보를 확인할 수 있습니다."
           }
         },
@@ -2597,16 +2898,27 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "상위 지역 다시 보기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 5,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 3,
+            "☎ 전화상담": 0,
+            "☎ 상담": 1,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "exactCandidateCopySha256": "5bb155a3a5c866f81e649fffa3b2d6d01e3e8c70f4130affa72672c391ae2153",
+      "exactCandidateCopySha256": "7fd974339b39e9d42faeadf49e4b4d2f3c50815daec84f61358800b572f192c9",
       "reviewerDecision": null,
       "reviewerNotes": null
     },
@@ -2616,34 +2928,36 @@
       "kind": "root",
       "label": "포항시",
       "documentIndex": 1095,
-      "sourceDocumentSha256": "40971ece10d8c00ed45b5071acdf20ad5bfb897458974a32e2800dc4a747316a",
+      "sourceDocumentSha256": "f3db73a5c03882ca9acfb2bb3f439082e9665c035ff5493291321f382316d681",
       "exactCandidateCopy": {
-        "title": "포항시 랑테라피 | 서비스 주소와 희망 시각 상담",
+        "title": "포항시출장마사지 포항시출장안마 | 랑테라피",
         "description": "포항시 랑테라피 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요.",
         "metadata": {
           "route": "/areas/pohang/",
-          "title": "포항시 랑테라피 | 서비스 주소와 희망 시각 상담",
+          "title": "포항시출장마사지 포항시출장안마 | 랑테라피",
           "description": "포항시 랑테라피 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요.",
           "keywords": [
-            "포항시랑테라피",
-            "포항시랑출장테라피",
-            "포항시랑방문마사지",
-            "포항시랑아로마리듬",
-            "포항시랑타이리듬",
-            "포항시랑현장결제"
+            "포항시출장마사지",
+            "포항시출장안마",
+            "포항시출장타이마사지",
+            "포항시출장스웨디시",
+            "포항시출장홈타이",
+            "포항시토닥이",
+            "포항시남성전용마사지",
+            "포항시여성전용마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/pohang/",
+          "canonical": "https://langtheraphy.kr/areas/pohang/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
             "siteName": "랑테라피",
-            "title": "포항시 랑테라피 | 서비스 주소와 희망 시각 상담",
+            "title": "포항시출장마사지 포항시출장안마 | 랑테라피",
             "description": "포항시 랑테라피 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요.",
-            "url": "https://preview.rang-therapy.invalid/areas/pohang/"
+            "url": "https://langtheraphy.kr/areas/pohang/"
           },
           "twitter": {
             "card": "summary",
-            "title": "포항시 랑테라피 | 서비스 주소와 희망 시각 상담",
+            "title": "포항시출장마사지 포항시출장안마 | 랑테라피",
             "description": "포항시 랑테라피 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요."
           }
         },
@@ -2704,16 +3018,27 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "다음 지역 찾기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 5,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 3,
+            "☎ 전화상담": 0,
+            "☎ 상담": 1,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "exactCandidateCopySha256": "03cda28421d64d46304fa0c14757d094fa5287eee098ec5cfcfccc100f652b6a",
+      "exactCandidateCopySha256": "9de4d72fd74f204bc845517e7e840e254cc3853de451627601a50f8eebccd23d",
       "reviewerDecision": null,
       "reviewerNotes": null
     },
@@ -2723,34 +3048,36 @@
       "kind": "hub",
       "label": "남구",
       "documentIndex": 1096,
-      "sourceDocumentSha256": "2c7011135a8dff9ff04e28500c380373a94bd620a389a58581a5f49e1656bc83",
+      "sourceDocumentSha256": "c84f7bb6cef4006175f358b024949adf8e08c966164dc4d99d4faf4939f68d6f",
       "exactCandidateCopy": {
-        "title": "포항시 남구 랑테라피 | 24시간 이용 일정 상담",
+        "title": "포항시남구출장마사지 포항시남구출장안마 | 랑테라피",
         "description": "포항시 남구 랑테라피의 가격표와 관리 방식별 코스, 서비스 전 확인할 주소와 시작 시각, 당일 운영 여부, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 안내합니다.",
         "metadata": {
           "route": "/areas/pohang/%EB%82%A8%EA%B5%AC/",
-          "title": "포항시 남구 랑테라피 | 24시간 이용 일정 상담",
+          "title": "포항시남구출장마사지 포항시남구출장안마 | 랑테라피",
           "description": "포항시 남구 랑테라피의 가격표와 관리 방식별 코스, 서비스 전 확인할 주소와 시작 시각, 당일 운영 여부, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 안내합니다.",
           "keywords": [
-            "포항시남구랑테라피",
-            "포항시남구랑출장테라피",
-            "포항시남구랑방문마사지",
-            "포항시남구랑아로마리듬",
-            "포항시남구랑타이리듬",
-            "포항시남구랑현장결제"
+            "포항시남구출장마사지",
+            "포항시남구출장안마",
+            "포항시남구출장타이마사지",
+            "포항시남구출장스웨디시",
+            "포항시남구출장홈타이",
+            "포항시남구토닥이",
+            "포항시남구남성전용마사지",
+            "포항시남구여성전용마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/pohang/%EB%82%A8%EA%B5%AC/",
+          "canonical": "https://langtheraphy.kr/areas/pohang/%EB%82%A8%EA%B5%AC/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
             "siteName": "랑테라피",
-            "title": "포항시 남구 랑테라피 | 24시간 이용 일정 상담",
+            "title": "포항시남구출장마사지 포항시남구출장안마 | 랑테라피",
             "description": "포항시 남구 랑테라피의 가격표와 관리 방식별 코스, 서비스 전 확인할 주소와 시작 시각, 당일 운영 여부, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 안내합니다.",
-            "url": "https://preview.rang-therapy.invalid/areas/pohang/%EB%82%A8%EA%B5%AC/"
+            "url": "https://langtheraphy.kr/areas/pohang/%EB%82%A8%EA%B5%AC/"
           },
           "twitter": {
             "card": "summary",
-            "title": "포항시 남구 랑테라피 | 24시간 이용 일정 상담",
+            "title": "포항시남구출장마사지 포항시남구출장안마 | 랑테라피",
             "description": "포항시 남구 랑테라피의 가격표와 관리 방식별 코스, 서비스 전 확인할 주소와 시작 시각, 당일 운영 여부, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 안내합니다."
           }
         },
@@ -2811,16 +3138,27 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "다음 지역 찾기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 5,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 3,
+            "☎ 전화상담": 0,
+            "☎ 상담": 1,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "exactCandidateCopySha256": "35471330b3577119b2adbdec71943d8d369a212f7a67ac89098f16fbcdf795fe",
+      "exactCandidateCopySha256": "02738db12e5e11d9acf235dbf3bc914ce9d655c4561da545ae3f6089bb22853d",
       "reviewerDecision": null,
       "reviewerNotes": null
     },
@@ -2830,34 +3168,36 @@
       "kind": "representative",
       "label": "북구 흥해읍",
       "documentIndex": 1126,
-      "sourceDocumentSha256": "c44ed1cc29187ea29fd104e2192e0e23c8d97ccedcd1b9b6137564a58722b719",
+      "sourceDocumentSha256": "ce08d075f11192397d3e6154b12a24c2aa1d1a2d3834f3ed54b4a98fcc0b4fbe",
       "exactCandidateCopy": {
-        "title": "흥해읍 랑테라피 | 원하는 일정에 맞춘 테라피",
+        "title": "흥해읍출장마사지 흥해읍출장안마 | 랑테라피",
         "description": "흥해읍 랑테라피를 알아보는 분을 위해 건물명과 도로명, 시작 시각, 코스별 시간과 예산, 당일 가능 여부를 묻는 상담, 선입금 없는 후불 및 카드 결제 기준을 보기 쉽게 정리했습니다.",
         "metadata": {
           "route": "/areas/pohang/%EB%B6%81%EA%B5%AC/%ED%9D%A5%ED%95%B4%EC%9D%8D/",
-          "title": "흥해읍 랑테라피 | 원하는 일정에 맞춘 테라피",
+          "title": "흥해읍출장마사지 흥해읍출장안마 | 랑테라피",
           "description": "흥해읍 랑테라피를 알아보는 분을 위해 건물명과 도로명, 시작 시각, 코스별 시간과 예산, 당일 가능 여부를 묻는 상담, 선입금 없는 후불 및 카드 결제 기준을 보기 쉽게 정리했습니다.",
           "keywords": [
-            "흥해읍랑테라피",
-            "흥해읍랑출장테라피",
-            "흥해읍랑방문마사지",
-            "흥해읍랑아로마리듬",
-            "흥해읍랑타이리듬",
-            "흥해읍랑현장결제"
+            "흥해읍출장마사지",
+            "흥해읍출장안마",
+            "흥해읍출장타이마사지",
+            "흥해읍출장스웨디시",
+            "흥해읍출장홈타이",
+            "흥해읍토닥이",
+            "흥해읍남성전용마사지",
+            "흥해읍여성전용마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/pohang/%EB%B6%81%EA%B5%AC/%ED%9D%A5%ED%95%B4%EC%9D%8D/",
+          "canonical": "https://langtheraphy.kr/areas/pohang/%EB%B6%81%EA%B5%AC/%ED%9D%A5%ED%95%B4%EC%9D%8D/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
             "siteName": "랑테라피",
-            "title": "흥해읍 랑테라피 | 원하는 일정에 맞춘 테라피",
+            "title": "흥해읍출장마사지 흥해읍출장안마 | 랑테라피",
             "description": "흥해읍 랑테라피를 알아보는 분을 위해 건물명과 도로명, 시작 시각, 코스별 시간과 예산, 당일 가능 여부를 묻는 상담, 선입금 없는 후불 및 카드 결제 기준을 보기 쉽게 정리했습니다.",
-            "url": "https://preview.rang-therapy.invalid/areas/pohang/%EB%B6%81%EA%B5%AC/%ED%9D%A5%ED%95%B4%EC%9D%8D/"
+            "url": "https://langtheraphy.kr/areas/pohang/%EB%B6%81%EA%B5%AC/%ED%9D%A5%ED%95%B4%EC%9D%8D/"
           },
           "twitter": {
             "card": "summary",
-            "title": "흥해읍 랑테라피 | 원하는 일정에 맞춘 테라피",
+            "title": "흥해읍출장마사지 흥해읍출장안마 | 랑테라피",
             "description": "흥해읍 랑테라피를 알아보는 분을 위해 건물명과 도로명, 시작 시각, 코스별 시간과 예산, 당일 가능 여부를 묻는 상담, 선입금 없는 후불 및 카드 결제 기준을 보기 쉽게 정리했습니다."
           }
         },
@@ -2918,16 +3258,27 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "상위 지역 다시 보기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 5,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 3,
+            "☎ 전화상담": 0,
+            "☎ 상담": 1,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "exactCandidateCopySha256": "5f356e5c17dd1c733819a4116fb88ff9e209962a16ba8b8087f621f126dc6bba",
+      "exactCandidateCopySha256": "82bccb6e9b13125693bff3369eb53ee3e401f450f0c5549e71b889a64c584e81",
       "reviewerDecision": null,
       "reviewerNotes": null
     },
@@ -2937,34 +3288,36 @@
       "kind": "root",
       "label": "부산광역시",
       "documentIndex": 1127,
-      "sourceDocumentSha256": "3f3ae6984a7e45a211bc8c834abe446e7b503813efcbfc3b1f46181653ceb151",
+      "sourceDocumentSha256": "34a65e6d1fbb42cbf326491302f452b16a6776feeb7645d73727a9d8509858d2",
       "exactCandidateCopy": {
-        "title": "부산광역시 랑테라피 | 코스·가격·시작 시간 안내",
+        "title": "부산광역시출장마사지 부산광역시출장안마 | 랑테라피",
         "description": "부산광역시 랑테라피 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다.",
         "metadata": {
           "route": "/areas/busan/",
-          "title": "부산광역시 랑테라피 | 코스·가격·시작 시간 안내",
+          "title": "부산광역시출장마사지 부산광역시출장안마 | 랑테라피",
           "description": "부산광역시 랑테라피 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다.",
           "keywords": [
-            "부산광역시랑테라피",
-            "부산광역시랑출장테라피",
-            "부산광역시랑방문마사지",
-            "부산광역시랑아로마리듬",
-            "부산광역시랑타이리듬",
-            "부산광역시랑현장결제"
+            "부산광역시출장마사지",
+            "부산광역시출장안마",
+            "부산광역시출장타이마사지",
+            "부산광역시출장스웨디시",
+            "부산광역시출장홈타이",
+            "부산광역시토닥이",
+            "부산광역시남성전용마사지",
+            "부산광역시여성전용마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/busan/",
+          "canonical": "https://langtheraphy.kr/areas/busan/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
             "siteName": "랑테라피",
-            "title": "부산광역시 랑테라피 | 코스·가격·시작 시간 안내",
+            "title": "부산광역시출장마사지 부산광역시출장안마 | 랑테라피",
             "description": "부산광역시 랑테라피 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다.",
-            "url": "https://preview.rang-therapy.invalid/areas/busan/"
+            "url": "https://langtheraphy.kr/areas/busan/"
           },
           "twitter": {
             "card": "summary",
-            "title": "부산광역시 랑테라피 | 코스·가격·시작 시간 안내",
+            "title": "부산광역시출장마사지 부산광역시출장안마 | 랑테라피",
             "description": "부산광역시 랑테라피 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다."
           }
         },
@@ -3025,16 +3378,27 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "다음 지역 찾기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 5,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 3,
+            "☎ 전화상담": 0,
+            "☎ 상담": 1,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "exactCandidateCopySha256": "b625c1ec3aaf2111b20eeddfa7023be60f13b0686e929b361fad15b86e0cd968",
+      "exactCandidateCopySha256": "b6d1b919f091f677c1b1ade315294041d93b21f747482e7e8f19b9ba53e4b34f",
       "reviewerDecision": null,
       "reviewerNotes": null
     },
@@ -3044,34 +3408,36 @@
       "kind": "hub",
       "label": "강서구",
       "documentIndex": 1128,
-      "sourceDocumentSha256": "13ffc1068f72700382a4afc8a19e5834d232415cd972a512566f25611983fbe7",
+      "sourceDocumentSha256": "b4e9914ac19349c3c963d560781eccbabda8979ec6d3d8e5c62bc0a54e322c5c",
       "exactCandidateCopy": {
-        "title": "부산광역시 강서구 랑테라피 | 서비스 주소와 희망 시각 상담",
+        "title": "부산광역시강서구출장마사지 부산광역시강서구출장안마 | 랑테라피",
         "description": "부산광역시 강서구 랑테라피 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요.",
         "metadata": {
           "route": "/areas/busan/%EA%B0%95%EC%84%9C%EA%B5%AC/",
-          "title": "부산광역시 강서구 랑테라피 | 서비스 주소와 희망 시각 상담",
+          "title": "부산광역시강서구출장마사지 부산광역시강서구출장안마 | 랑테라피",
           "description": "부산광역시 강서구 랑테라피 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요.",
           "keywords": [
-            "부산광역시강서구랑테라피",
-            "부산광역시강서구랑출장테라피",
-            "부산광역시강서구랑방문마사지",
-            "부산광역시강서구랑아로마리듬",
-            "부산광역시강서구랑타이리듬",
-            "부산광역시강서구랑현장결제"
+            "부산광역시강서구출장마사지",
+            "부산광역시강서구출장안마",
+            "부산광역시강서구출장타이마사지",
+            "부산광역시강서구출장스웨디시",
+            "부산광역시강서구출장홈타이",
+            "부산광역시강서구토닥이",
+            "부산광역시강서구남성전용마사지",
+            "부산광역시강서구여성전용마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/busan/%EA%B0%95%EC%84%9C%EA%B5%AC/",
+          "canonical": "https://langtheraphy.kr/areas/busan/%EA%B0%95%EC%84%9C%EA%B5%AC/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
             "siteName": "랑테라피",
-            "title": "부산광역시 강서구 랑테라피 | 서비스 주소와 희망 시각 상담",
+            "title": "부산광역시강서구출장마사지 부산광역시강서구출장안마 | 랑테라피",
             "description": "부산광역시 강서구 랑테라피 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요.",
-            "url": "https://preview.rang-therapy.invalid/areas/busan/%EA%B0%95%EC%84%9C%EA%B5%AC/"
+            "url": "https://langtheraphy.kr/areas/busan/%EA%B0%95%EC%84%9C%EA%B5%AC/"
           },
           "twitter": {
             "card": "summary",
-            "title": "부산광역시 강서구 랑테라피 | 서비스 주소와 희망 시각 상담",
+            "title": "부산광역시강서구출장마사지 부산광역시강서구출장안마 | 랑테라피",
             "description": "부산광역시 강서구 랑테라피 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요."
           }
         },
@@ -3132,16 +3498,27 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "다음 지역 찾기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 5,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 3,
+            "☎ 전화상담": 0,
+            "☎ 상담": 1,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "exactCandidateCopySha256": "7a9d7dddf3a2a08b87fc2a59272fcce4e93f754187ef608068449e1bf458f2e6",
+      "exactCandidateCopySha256": "4cb44d2639232922e68995aa16f69ae8d4786ae3d4e71df4c831816803c8a779",
       "reviewerDecision": null,
       "reviewerNotes": null
     },
@@ -3151,34 +3528,36 @@
       "kind": "representative",
       "label": "해운대구 중동",
       "documentIndex": 1248,
-      "sourceDocumentSha256": "c9f7e183e2f1af2bb12b45cc477b07a2353d41f46da4c518eeafcdbb866908d4",
+      "sourceDocumentSha256": "121d9d511fccb5c3bac6906968aa12495831408651833642eeedbe49b0c87fe1",
       "exactCandidateCopy": {
-        "title": "부산광역시 해운대구 중동 랑테라피 | 코스·가격·시작 시간 안내",
+        "title": "부산광역시해운대구중동출장마사지 부산광역시해운대구중동출장안마 | 랑테라피",
         "description": "부산광역시 해운대구 중동 랑테라피 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다.",
         "metadata": {
           "route": "/areas/busan/%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC/%EC%A4%91%EB%8F%99/",
-          "title": "부산광역시 해운대구 중동 랑테라피 | 코스·가격·시작 시간 안내",
+          "title": "부산광역시해운대구중동출장마사지 부산광역시해운대구중동출장안마 | 랑테라피",
           "description": "부산광역시 해운대구 중동 랑테라피 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다.",
           "keywords": [
-            "부산광역시해운대구중동랑테라피",
-            "부산광역시해운대구중동랑출장테라피",
-            "부산광역시해운대구중동랑방문마사지",
-            "부산광역시해운대구중동랑아로마리듬",
-            "부산광역시해운대구중동랑타이리듬",
-            "부산광역시해운대구중동랑현장결제"
+            "부산광역시해운대구중동출장마사지",
+            "부산광역시해운대구중동출장안마",
+            "부산광역시해운대구중동출장타이마사지",
+            "부산광역시해운대구중동출장스웨디시",
+            "부산광역시해운대구중동출장홈타이",
+            "부산광역시해운대구중동토닥이",
+            "부산광역시해운대구중동남성전용마사지",
+            "부산광역시해운대구중동여성전용마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/busan/%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC/%EC%A4%91%EB%8F%99/",
+          "canonical": "https://langtheraphy.kr/areas/busan/%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC/%EC%A4%91%EB%8F%99/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
             "siteName": "랑테라피",
-            "title": "부산광역시 해운대구 중동 랑테라피 | 코스·가격·시작 시간 안내",
+            "title": "부산광역시해운대구중동출장마사지 부산광역시해운대구중동출장안마 | 랑테라피",
             "description": "부산광역시 해운대구 중동 랑테라피 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다.",
-            "url": "https://preview.rang-therapy.invalid/areas/busan/%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC/%EC%A4%91%EB%8F%99/"
+            "url": "https://langtheraphy.kr/areas/busan/%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC/%EC%A4%91%EB%8F%99/"
           },
           "twitter": {
             "card": "summary",
-            "title": "부산광역시 해운대구 중동 랑테라피 | 코스·가격·시작 시간 안내",
+            "title": "부산광역시해운대구중동출장마사지 부산광역시해운대구중동출장안마 | 랑테라피",
             "description": "부산광역시 해운대구 중동 랑테라피 안내에는 서비스 주소·이용 인원·연락받을 고객 번호, 관리 방식별 코스 시간과 표시 금액, 당일 가능 여부를 묻는 상담, 선입금 없는 현장 후불과 카드 결제 기준이 담겨 있습니다."
           }
         },
@@ -3239,16 +3618,27 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "상위 지역 다시 보기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 5,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 3,
+            "☎ 전화상담": 0,
+            "☎ 상담": 1,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "exactCandidateCopySha256": "77dd7a9516c2f5706525901d05b8f098c48ba0a05e9efa709d5aab28e82f5f3f",
+      "exactCandidateCopySha256": "b5ba197cc5d8923d2c9eb2d5c003800ada76b869e9236d74dcdc55481ef43fc5",
       "reviewerDecision": null,
       "reviewerNotes": null
     },
@@ -3258,34 +3648,36 @@
       "kind": "root",
       "label": "제주특별자치도",
       "documentIndex": 1249,
-      "sourceDocumentSha256": "178b300c2883807de2a323c946effbb3435bfbb3da1c96ff46417d24474bbbb7",
+      "sourceDocumentSha256": "655ac73466c9127d1d21b902c203f370e598e06c787c6ed5b846dd9fd8e85ae9",
       "exactCandidateCopy": {
-        "title": "제주특별자치도 랑테라피 | 서비스 주소와 희망 시각 상담",
+        "title": "제주특별자치도출장마사지 제주특별자치도출장안마 | 랑테라피",
         "description": "제주특별자치도 랑테라피 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요.",
         "metadata": {
           "route": "/areas/jeju/",
-          "title": "제주특별자치도 랑테라피 | 서비스 주소와 희망 시각 상담",
+          "title": "제주특별자치도출장마사지 제주특별자치도출장안마 | 랑테라피",
           "description": "제주특별자치도 랑테라피 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요.",
           "keywords": [
-            "제주특별자치도랑테라피",
-            "제주특별자치도랑출장테라피",
-            "제주특별자치도랑방문마사지",
-            "제주특별자치도랑아로마리듬",
-            "제주특별자치도랑타이리듬",
-            "제주특별자치도랑현장결제"
+            "제주특별자치도출장마사지",
+            "제주특별자치도출장안마",
+            "제주특별자치도출장타이마사지",
+            "제주특별자치도출장스웨디시",
+            "제주특별자치도출장홈타이",
+            "제주특별자치도토닥이",
+            "제주특별자치도남성전용마사지",
+            "제주특별자치도여성전용마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/jeju/",
+          "canonical": "https://langtheraphy.kr/areas/jeju/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
             "siteName": "랑테라피",
-            "title": "제주특별자치도 랑테라피 | 서비스 주소와 희망 시각 상담",
+            "title": "제주특별자치도출장마사지 제주특별자치도출장안마 | 랑테라피",
             "description": "제주특별자치도 랑테라피 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요.",
-            "url": "https://preview.rang-therapy.invalid/areas/jeju/"
+            "url": "https://langtheraphy.kr/areas/jeju/"
           },
           "twitter": {
             "card": "summary",
-            "title": "제주특별자치도 랑테라피 | 서비스 주소와 희망 시각 상담",
+            "title": "제주특별자치도출장마사지 제주특별자치도출장안마 | 랑테라피",
             "description": "제주특별자치도 랑테라피 소개에서 코스별 관리 방식과 가격, 서비스를 받을 정확한 주소와 희망 시각, 당일 가능 여부를 묻는 24시간 전화상담, 예약금 없는 현장 결제 정보를 한눈에 확인하세요."
           }
         },
@@ -3346,16 +3738,27 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "다음 지역 찾기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 5,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 3,
+            "☎ 전화상담": 0,
+            "☎ 상담": 1,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "exactCandidateCopySha256": "088001443018b033f4f6caa76cc6699188ad2e1b9a6e963765590d136578dc88",
+      "exactCandidateCopySha256": "81ef19eb175163527bb6b30c71142beeaa2d2daa4b27d8bde2a7860cf7a46def",
       "reviewerDecision": null,
       "reviewerNotes": null
     },
@@ -3365,34 +3768,36 @@
       "kind": "hub",
       "label": "서귀포시",
       "documentIndex": 1250,
-      "sourceDocumentSha256": "9a59d0b2af73aadb020a6495e0bc00d633fc799ac3285a55059e55d64f36555d",
+      "sourceDocumentSha256": "34d13580527d9fac8ddf737f6d9dd043293c98ad0ae170ef21b08c450ef176ef",
       "exactCandidateCopy": {
-        "title": "서귀포시 랑테라피 | 24시간 이용 일정 상담",
+        "title": "서귀포시출장마사지 서귀포시출장안마 | 랑테라피",
         "description": "서귀포시 랑테라피의 가격표와 관리 방식별 코스, 서비스 전 확인할 주소와 시작 시각, 당일 운영 여부, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 안내합니다.",
         "metadata": {
           "route": "/areas/jeju/%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C/",
-          "title": "서귀포시 랑테라피 | 24시간 이용 일정 상담",
+          "title": "서귀포시출장마사지 서귀포시출장안마 | 랑테라피",
           "description": "서귀포시 랑테라피의 가격표와 관리 방식별 코스, 서비스 전 확인할 주소와 시작 시각, 당일 운영 여부, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 안내합니다.",
           "keywords": [
-            "서귀포시랑테라피",
-            "서귀포시랑출장테라피",
-            "서귀포시랑방문마사지",
-            "서귀포시랑아로마리듬",
-            "서귀포시랑타이리듬",
-            "서귀포시랑현장결제"
+            "서귀포시출장마사지",
+            "서귀포시출장안마",
+            "서귀포시출장타이마사지",
+            "서귀포시출장스웨디시",
+            "서귀포시출장홈타이",
+            "서귀포시토닥이",
+            "서귀포시남성전용마사지",
+            "서귀포시여성전용마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/jeju/%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C/",
+          "canonical": "https://langtheraphy.kr/areas/jeju/%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
             "siteName": "랑테라피",
-            "title": "서귀포시 랑테라피 | 24시간 이용 일정 상담",
+            "title": "서귀포시출장마사지 서귀포시출장안마 | 랑테라피",
             "description": "서귀포시 랑테라피의 가격표와 관리 방식별 코스, 서비스 전 확인할 주소와 시작 시각, 당일 운영 여부, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 안내합니다.",
-            "url": "https://preview.rang-therapy.invalid/areas/jeju/%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C/"
+            "url": "https://langtheraphy.kr/areas/jeju/%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C/"
           },
           "twitter": {
             "card": "summary",
-            "title": "서귀포시 랑테라피 | 24시간 이용 일정 상담",
+            "title": "서귀포시출장마사지 서귀포시출장안마 | 랑테라피",
             "description": "서귀포시 랑테라피의 가격표와 관리 방식별 코스, 서비스 전 확인할 주소와 시작 시각, 당일 운영 여부, 24시간 전화상담, 선입금 없는 현장 후불과 카드 결제 기준을 안내합니다."
           }
         },
@@ -3453,16 +3858,27 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "다음 지역 찾기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 5,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 3,
+            "☎ 전화상담": 0,
+            "☎ 상담": 1,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "exactCandidateCopySha256": "03537bbf6bd8820365f62375048ff4621dc0506108977d7bd8be9f02c268747e",
+      "exactCandidateCopySha256": "94fb8b368e7a73b61a8cba33c80bb47eb95951aa903c94004536d1ffb4ded242",
       "reviewerDecision": null,
       "reviewerNotes": null
     },
@@ -3472,34 +3888,36 @@
       "kind": "representative",
       "label": "제주시 화북동",
       "documentIndex": 1290,
-      "sourceDocumentSha256": "1b007c38f9b1bc6de42abbcfb915c10a2d73c0d3a5aed06f988c64f02fe96f96",
+      "sourceDocumentSha256": "3e8d67644281dc98ad7d0bdea5b4cc78f1ae52872df54e76901a98fb28f2ee01",
       "exactCandidateCopy": {
-        "title": "화북동 랑테라피 | 가격표부터 현장 결제까지",
+        "title": "화북동출장마사지 화북동출장안마 | 랑테라피",
         "description": "화북동 랑테라피에서는 관리 방식별 코스와 가격표, 요청한 주소와 희망 시각의 서비스 가능 여부, 24시간 전화상담, 예약금 없는 현장 후불과 카드 결제 기준을 차례로 소개합니다.",
         "metadata": {
           "route": "/areas/jeju/%EC%A0%9C%EC%A3%BC%EC%8B%9C/%ED%99%94%EB%B6%81%EB%8F%99/",
-          "title": "화북동 랑테라피 | 가격표부터 현장 결제까지",
+          "title": "화북동출장마사지 화북동출장안마 | 랑테라피",
           "description": "화북동 랑테라피에서는 관리 방식별 코스와 가격표, 요청한 주소와 희망 시각의 서비스 가능 여부, 24시간 전화상담, 예약금 없는 현장 후불과 카드 결제 기준을 차례로 소개합니다.",
           "keywords": [
-            "화북동랑테라피",
-            "화북동랑출장테라피",
-            "화북동랑방문마사지",
-            "화북동랑아로마리듬",
-            "화북동랑타이리듬",
-            "화북동랑현장결제"
+            "화북동출장마사지",
+            "화북동출장안마",
+            "화북동출장타이마사지",
+            "화북동출장스웨디시",
+            "화북동출장홈타이",
+            "화북동토닥이",
+            "화북동남성전용마사지",
+            "화북동여성전용마사지"
           ],
-          "canonical": "https://preview.rang-therapy.invalid/areas/jeju/%EC%A0%9C%EC%A3%BC%EC%8B%9C/%ED%99%94%EB%B6%81%EB%8F%99/",
+          "canonical": "https://langtheraphy.kr/areas/jeju/%EC%A0%9C%EC%A3%BC%EC%8B%9C/%ED%99%94%EB%B6%81%EB%8F%99/",
           "openGraph": {
             "type": "website",
             "locale": "ko_KR",
             "siteName": "랑테라피",
-            "title": "화북동 랑테라피 | 가격표부터 현장 결제까지",
+            "title": "화북동출장마사지 화북동출장안마 | 랑테라피",
             "description": "화북동 랑테라피에서는 관리 방식별 코스와 가격표, 요청한 주소와 희망 시각의 서비스 가능 여부, 24시간 전화상담, 예약금 없는 현장 후불과 카드 결제 기준을 차례로 소개합니다.",
-            "url": "https://preview.rang-therapy.invalid/areas/jeju/%EC%A0%9C%EC%A3%BC%EC%8B%9C/%ED%99%94%EB%B6%81%EB%8F%99/"
+            "url": "https://langtheraphy.kr/areas/jeju/%EC%A0%9C%EC%A3%BC%EC%8B%9C/%ED%99%94%EB%B6%81%EB%8F%99/"
           },
           "twitter": {
             "card": "summary",
-            "title": "화북동 랑테라피 | 가격표부터 현장 결제까지",
+            "title": "화북동출장마사지 화북동출장안마 | 랑테라피",
             "description": "화북동 랑테라피에서는 관리 방식별 코스와 가격표, 요청한 주소와 희망 시각의 서비스 가능 여부, 24시간 전화상담, 예약금 없는 현장 후불과 카드 결제 기준을 차례로 소개합니다."
           }
         },
@@ -3560,16 +3978,27 @@
         ],
         "ctaLabels": [
           "전화상담",
-          "코스 악보 펼치기",
+          "가격표 보기",
           "상위 지역 다시 보기"
         ],
         "telActions": {
-          "hrefCount": 4,
-          "exactShortLabel": "전화상담",
+          "hrefCount": 5,
+          "allowedLabels": [
+            "전화상담",
+            "☎ 전화상담",
+            "☎ 상담",
+            "0508-202-3906"
+          ],
+          "labelCounts": {
+            "전화상담": 3,
+            "☎ 전화상담": 0,
+            "☎ 상담": 1,
+            "0508-202-3906": 1
+          },
           "mismatchedLabelCount": 0
         }
       },
-      "exactCandidateCopySha256": "38021542c03f460d2fc5c21009b887a261d1b2b11e228a7d657c7f9abba41b9e",
+      "exactCandidateCopySha256": "cc37ce8afffa427c8caa0b7dffd37a2287b1dce767bb6f255ecb1be3e998bc98",
       "reviewerDecision": null,
       "reviewerNotes": null
     }
@@ -3583,7 +4012,7 @@
   "automatedEvidenceOnly": {
     "regionRoutes": 1291,
     "fixedRoutes": 6,
-    "actualDomRoutes": 1297,
+    "actualDomRoutes": 1299,
     "telActionLabelMismatches": 0,
     "adjacentSemanticDuplicates": 0,
     "humanDecisionInferred": false

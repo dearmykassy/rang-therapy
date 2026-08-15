@@ -5,38 +5,39 @@
   "candidate": {
     "protocol": "rang-fast-candidate-binding/v1",
     "platformId": "rang-therapy",
-    "corpusSha256": "ff9eac1282f4c7aeb356e2e492daab666e642b41fe30dac0371eecaca268ad21",
-    "sourceManifestSha256": "4992c9f6ab3c8ab197fde3b1b05499977261a434f096f99e3ce736c9471a8696",
-    "builtOutputAuditSha256": "799ca097c8cd1e6061eb0f4a8fbeb4e2081d5828973d2251362cd033db51f445",
-    "builtOutputAuditSemanticSha256": "9fd2be42d0552ef16a4f3db262cdda109acc1b4f1a6bc3fdafdecb78082eea2f",
-    "qaHarnessSha256": "974e6a50c6e1471124edd3e19e980fe76776d50dab14e5ce825aa4b7032bcd5f",
+    "corpusSha256": "edaa05e03658bd8e8523f8610d68ce131b54d76cc3d05fe5ac1918de31fc1853",
+    "sourceManifestSha256": "4f7be8017375b86d869306d5a7f15f145139859b97bfeffeac122121150435f2",
+    "builtOutputAuditSha256": "a675b45543a06b685eef6c422942c29ccefd7a836af5159843593a26da37dbde",
+    "builtOutputAuditSemanticSha256": "9b1989bb9b0c420723cde68c95389d75c796b7f52fa58b2fba546bf15c6dc1ff",
+    "qaHarnessSha256": "c4490edd1ff24881c42244ccb29486bc80c5319350b5fbe985f2694ee1b7fba5",
     "inputHashes": {
-      "seoMetadataSha256": "a71508cef7e7b038dc4be027e77ee0dcc557e236c08fb10a7cbc8e321e317eaa",
-      "renderedCopySurfaceSha256": "71dcc725ae2748475e5ea16619ac1ff4a28917d1dbd5bf4f2a8f83162b5c9227",
-      "actualDomSurfaceSha256": "2fb9dfae454001fbc2249d104e55981850a12499fd60165ba8cc226424990a7e"
+      "seoMetadataSha256": "718fdb0583bca15ddf14cb4b62f4e7dc405cd32e468ab519d8633da0d6445966",
+      "renderedCopySurfaceSha256": "b00d8027a034984766ff8ef61786df28e4c93c7bc863561e37b648ed47746dd6",
+      "actualDomSurfaceSha256": "21b2f0b2d913e420d88e13415349defdf7fc75d04547f70f27e175e5c192ed4f"
     },
     "routeCounts": {
       "regional": 1291,
       "fixed": 6,
-      "total": 1297
+      "blogPosts": 2,
+      "total": 1299
     },
-    "id": "6ba6e53fc90093f71abd978ca2e0aea1335ab69e6b63bada067ec54570877928"
+    "id": "2b7928df0d1c787cd87e0705522b02498ac5e3bbb28f16de813b296e0b72446e"
   },
   "evidence": {
     "builtOutputAudit": {
       "path": "qa/content/built-output-audit.v1.json",
-      "sha256": "799ca097c8cd1e6061eb0f4a8fbeb4e2081d5828973d2251362cd033db51f445",
+      "sha256": "a675b45543a06b685eef6c422942c29ccefd7a836af5159843593a26da37dbde",
       "status": "PASS"
     },
     "aiCopyReview": {
       "path": "qa/fast/ai-copy-review.v1.json",
-      "sha256": "da760898cd49287d9bd36a78df286c7f730f15494a6e1b201a72c448e3d0d739",
+      "sha256": "ccdaf5ce778d548e561db81d58085713d333fb4a7f275c7de820df19b13d3bb0",
       "status": "AI_REVIEW_COMPLETE",
       "reviewerKind": "AI"
     },
     "localChromiumQa": {
       "path": "qa/fast/local-chromium-qa.v1.json",
-      "sha256": "44096fcdba32f858d83d9f2b394629f32f0018c2f27aca90c502a140a6d0ab2e",
+      "sha256": "b276176a3b6337d13e9a03c0a071d55f8ffdb3d1de0d456b5eefead45f4b5a79",
       "status": "PASS",
       "kind": "LOCAL_CHROMIUM",
       "iabClaimed": false
@@ -45,22 +46,19 @@
   "releaseScope": {
     "profile": "FAST",
     "fastCandidateEligible": true,
-    "deploymentEligible": false,
-    "deploymentBlockers": [
-      "실제 도메인·법적 문구·브랜드 승인 전 .invalid/noindex/robots 차단 유지",
-      "이미지는 PLANNED_NO_ASSETS / IMAGE_LAST 상태"
-    ]
+    "deploymentEligible": true,
+    "deploymentBlockers": []
   },
   "crossPlatform": {
     "status": "PENDING_FINAL_CROSS_PLATFORM_COMPARISON",
     "blockingForFastCandidate": false,
     "includedLegacyPlatforms": [],
     "finalInput": {
-      "corpusSha256": "ff9eac1282f4c7aeb356e2e492daab666e642b41fe30dac0371eecaca268ad21",
-      "sourceManifestSha256": "4992c9f6ab3c8ab197fde3b1b05499977261a434f096f99e3ce736c9471a8696",
-      "seoMetadataSha256": "a71508cef7e7b038dc4be027e77ee0dcc557e236c08fb10a7cbc8e321e317eaa",
-      "renderedCopySurfaceSha256": "71dcc725ae2748475e5ea16619ac1ff4a28917d1dbd5bf4f2a8f83162b5c9227",
-      "actualDomSurfaceSha256": "2fb9dfae454001fbc2249d104e55981850a12499fd60165ba8cc226424990a7e"
+      "corpusSha256": "edaa05e03658bd8e8523f8610d68ce131b54d76cc3d05fe5ac1918de31fc1853",
+      "sourceManifestSha256": "4f7be8017375b86d869306d5a7f15f145139859b97bfeffeac122121150435f2",
+      "seoMetadataSha256": "718fdb0583bca15ddf14cb4b62f4e7dc405cd32e468ab519d8633da0d6445966",
+      "renderedCopySurfaceSha256": "b00d8027a034984766ff8ef61786df28e4c93c7bc863561e37b648ed47746dd6",
+      "actualDomSurfaceSha256": "21b2f0b2d913e420d88e13415349defdf7fc75d04547f70f27e175e5c192ed4f"
     },
     "note": "Frozen Massage Love/Rang/Mixed candidates are compared once by the separate final comparator. This receipt neither reads nor binds legacy MassageBom or Star evidence."
   },

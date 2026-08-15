@@ -4,15 +4,17 @@ import { BLOG_POSTS } from "@/data/blog-posts";
 import robots from "@/app/robots";
 import sitemap, { FIXED_SITEMAP_PATHS } from "@/app/sitemap";
 import { ACTIVE_REGION_NODES } from "@/lib/regions";
+import { SITE_ORIGIN } from "@/lib/metadata";
 
 describe("static release guards and responsive shell", () => {
-  it("keeps discovery fail-closed until domain and legal approval", () => {
-    expect(robots().rules).toEqual({ userAgent: "*", disallow: "/" });
-    expect(robots().sitemap).toContain(".invalid/");
+  it("publishes the approved production discovery contract", () => {
+    expect(robots().rules).toEqual({ userAgent: "*", allow: "/" });
+    expect(robots().host).toBe(SITE_ORIGIN);
+    expect(robots().sitemap).toBe(`${SITE_ORIGIN}/sitemap.xml`);
     const expectedCount = ACTIVE_REGION_NODES.length + FIXED_SITEMAP_PATHS.length + BLOG_POSTS.length;
     expect(sitemap()).toHaveLength(expectedCount);
     expect(new Set(sitemap().map((entry) => entry.url)).size).toBe(expectedCount);
-    expect(sitemap().every((entry) => entry.url.startsWith("https://preview.rang-therapy.invalid/"))).toBe(true);
+    expect(sitemap().every((entry) => entry.url.startsWith(`${SITE_ORIGIN}/`))).toBe(true);
   });
 
   it("pins sticky translucent navigation and 320/390-safe two-column region cards", () => {

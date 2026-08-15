@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-export const PREVIEW_ORIGIN = "https://preview.rang-therapy.invalid";
+export const SITE_ORIGIN = "https://langtheraphy.kr";
 export const SITE_NAME = "랑테라피";
 
 export type RouteMetadataContract = {
@@ -36,7 +36,7 @@ export function createRouteMetadataContract(
   keywords: readonly string[] = [],
 ): RouteMetadataContract {
   const normalized = normalizedRoute(route);
-  const canonical = new URL(normalized, PREVIEW_ORIGIN).href;
+  const canonical = new URL(normalized, SITE_ORIGIN).href;
   return {
     route: normalized,
     title,
@@ -67,6 +67,6 @@ export function toNextMetadata(contract: RouteMetadataContract): Metadata {
     alternates: { canonical: contract.canonical },
     openGraph: contract.openGraph,
     twitter: contract.twitter,
-    robots: { index: false, follow: false, nocache: true },
+    robots: { index: true, follow: true },
   };
 }

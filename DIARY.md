@@ -2,6 +2,15 @@
 
 > 새 활동을 시작할 때마다 이 파일을 먼저 읽고, 완료한 변경·검증·남은 차단점을 이 문서 맨 위에 최신순으로 계속 추가한다. 컨텍스트가 압축되어도 이 기록을 정본으로 삼는다.
 
+## 2026-08-16 06:48 KST — `langtheraphy.kr` production SEO 활성화 후보 검증
+
+- 배포 정본 `origin/main@4b99c954fe9c83a87dc023658c648d7102738e83`에서 격리 worktree/branch `agent/rang-production-seo`를 만들고, 기존 dirty worktree는 수정하지 않았다. 전역·지역·고정·블로그 canonical/OG/JSON-LD origin을 `https://langtheraphy.kr`로 통일하고 모든 robots meta를 `index, follow`, `robots.txt`를 `Allow: /` + production Host/Sitemap, sitemap 1,299 URL을 production origin으로 전환했다.
+- artifact·FAST 계약은 승인된 이미지 릴리스가 결속된 현재 상태에서 `deploymentAllowed: true`, `deploymentBlockers: []`만 허용한다. built auditor는 1,299개 HTML robots meta, `robots.txt`, sitemap의 exact production host를 전수 확인하도록 강화했다.
+- 교차 플랫폼 exact 감사에서 owner가 지정한 `지역명 + 출장마사지/출장안마/출장타이마사지/출장스웨디시/출장홈타이/토닥이/남성전용마사지/여성전용마사지` 8개 원자 키워드만 geography-bound 예외로 분류했다. 실제 겹치던 FAQ 문장·가격 heading·지역 링크 4개는 랑테라피 전용 표현으로 고쳐 metadata/body/완전문장/cross-category collision을 모두 0으로 만들었다. 독립 형제 플랫폼 GO는 기존 계약대로 `PENDING`이며 production SEO 배포 차단자로 승격하지 않았다.
+- 전체 `pnpm verify` PASS: Vitest 7 files/23 tests, typecheck PASS, lint error 0(기존 `<img>` 최적화 warning 3), 정적 1,304페이지 build PASS. built audit는 지역 1,291 + metadata route 1,299, canonical/robots meta/robots.txt/sitemap host/OG/Twitter mismatch 모두 0, 전화 CTA 6,487개 mismatch 0이다. corpus SHA-256 `edaa05e03658bd8e8523f8610d68ce131b54d76cc3d05fe5ac1918de31fc1853`, source manifest SHA-256 `4f7be8017375b86d869306d5a7f15f145139859b97bfeffeac122121150435f2`.
+- `pnpm qa:fast`도 PASS했다. 현재 Template2의 `.menu-details` 7-link 단일 열 메뉴, 2열 지역 카드, 허용 전화 라벨 3종을 검증 계약에 맞추고 root/hub/leaf × 320/390/1440의 로컬 Chromium 9 case에서 HTTP 200, overflow/heading/role/broken-image/console/network 오류 0을 확인했다. FAST candidate ID는 `2b7928df0d1c787cd87e0705522b02498ac5e3bbb28f16de813b296e0b72446e`이며 deployment eligible true/blockers 0이다.
+- clean-clone 전체 검증에 필요한 과거 browser PNG 12개는 gitignore 때문에 저장소에 없었으나, 기존 worktree의 exact SHA 일치 파일을 release worktree에 임시 복사해 검증만 수행했다. 파일은 ignored 상태라 커밋 대상이 아니며, 현재 browser receipt는 기존대로 `PENDING_IAB_UNAVAILABLE`/현재 PASS 주장 false다. Search Console 작업은 하지 않았다.
+
 ## 2026-08-16 02:45 KST — 홈 배너 인물 세로 위치 보정
 
 - 데스크톱의 넓은 hero에서 `object-fit: cover`가 중앙 기준으로 상·하단을 함께 잘라 여성의 정수리와 얼굴 상단을 가리던 문제를 수정했다. 홈 배너 이미지의 데스크톱 anchor를 `center top`으로 바꿔 원본 상단 여백부터 표시하고, 정수리와 hero 상단 사이 공간을 확보했다.

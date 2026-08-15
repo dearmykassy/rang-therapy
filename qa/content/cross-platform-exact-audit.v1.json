@@ -9,8 +9,8 @@
     "hashScope": "ORDER_AND_LIVE_PROBE_PATH_INDEPENDENT_AUTHORITY_FIELDS",
     "refreshPolicy": "EXPLICIT_ONLY"
   },
-  "rangCorpusSha256": "ff9eac1282f4c7aeb356e2e492daab666e642b41fe30dac0371eecaca268ad21",
-  "rangSourceManifestSha256": "4992c9f6ab3c8ab197fde3b1b05499977261a434f096f99e3ce736c9471a8696",
+  "rangCorpusSha256": "edaa05e03658bd8e8523f8610d68ce131b54d76cc3d05fe5ac1918de31fc1853",
+  "rangSourceManifestSha256": "4f7be8017375b86d869306d5a7f15f145139859b97bfeffeac122121150435f2",
   "policy": {
     "comparison": "raw NFC-trimmed exact equality",
     "rangSurfaceSource": "actualDomSurface.directText+fullBlockText+accessibilityText",
@@ -23,7 +23,7 @@
       "cross-category-visible-value"
     ],
     "acceptedCollisionCount": 0,
-    "permittedSharedAtomicOverlap": "완전문장은 예외 없이 감사합니다. 지역명, 구조 UI 단어, 단독 가격·시간·결제 사실, 장식 기호만 exact 분류해 owned-copy collision에서 제외하며 raw overlap 수치는 별도로 보존합니다.",
+    "permittedSharedAtomicOverlap": "완전문장은 예외 없이 감사합니다. 지역명, 지역명과 owner 지정 8개 검색어의 정확한 결합, 구조 UI 단어, 단독 가격·시간·결제 사실, 장식 기호만 exact 분류해 owned-copy collision에서 제외하며 raw overlap 수치는 별도로 보존합니다.",
     "finalization": "마사지봄·스타 토닥이·마사지러브·Mixed Love 네 플랫폼 모두 독립 GO의 exact corpus/evidence SHA가 manifest에 명시되기 전에는 PENDING입니다.",
     "dependencyRules": {
       "missingOrTamperedLocalSnapshot": "FAIL_WITHOUT_OVERWRITING_CANONICAL_RECEIPT",
@@ -37,15 +37,15 @@
     "documents": 1297,
     "regionDocuments": 1291,
     "fixedDocuments": 6,
-    "metaValues": 11631,
-    "bodyValues": 59385,
-    "sentences": 39068,
-    "allVisibleValues": 104882,
+    "metaValues": 14213,
+    "bodyValues": 57524,
+    "sentences": 36225,
+    "allVisibleValues": 102726,
     "actualDomSurfaceOccurrences": {
-      "direct": 118986,
-      "fullBlock": 60907,
-      "accessibility": 6480,
-      "exactMultiset": 186373
+      "direct": 201673,
+      "fullBlock": 110023,
+      "accessibility": 11659,
+      "exactMultiset": 323355
     }
   },
   "collisionCounts": {
@@ -55,16 +55,17 @@
     "anyVisibleValue": 0
   },
   "rawExactOverlapCounts": {
-    "meta": 0,
-    "body": 3669,
+    "meta": 8716,
+    "body": 3687,
     "sentences": 0,
-    "anyVisibleValue": 3669
+    "anyVisibleValue": 12403
   },
   "permittedSharedAtomicOverlapCounts": {
-    "geography": 3543,
-    "structural-ui": 11,
-    "operating-fact-atom": 43,
-    "decorative-numeric": 72
+    "geography": 3536,
+    "structural-ui": 36,
+    "operating-fact-atom": 46,
+    "decorative-numeric": 69,
+    "owner-mandated-regional-keyword": 8716
   },
   "collisionSamples": [],
   "comparisons": [
@@ -99,19 +100,15 @@
       },
       "rawExactOverlapCounts": {
         "meta": 0,
-        "body": 1220,
+        "body": 1221,
         "sentences": 0,
-        "anyVisibleValue": 1220
+        "anyVisibleValue": 1221
       },
       "permittedSharedAtomicOverlap": {
-        "count": 1220,
+        "count": 1221,
         "values": [
           {
             "value": "/",
-            "reason": "decorative-numeric"
-          },
-          {
-            "value": "↗",
             "reason": "decorative-numeric"
           },
           {
@@ -297,10 +294,19 @@
           {
             "value": "가능동",
             "reason": "geography"
+          },
+          {
+            "value": "가덕도동",
+            "reason": "geography"
           }
         ]
       },
       "collisionSamples": [],
+      "collisionSamplesByCategory": {
+        "meta": [],
+        "body": [],
+        "sentences": []
+      },
       "verdict": "PENDING"
     },
     {
@@ -333,25 +339,121 @@
         "anyVisibleValue": 0
       },
       "rawExactOverlapCounts": {
-        "meta": 0,
+        "meta": 8656,
         "body": 1172,
         "sentences": 0,
-        "anyVisibleValue": 1172
+        "anyVisibleValue": 9828
       },
       "permittedSharedAtomicOverlap": {
-        "count": 1172,
+        "count": 9828,
         "values": [
           {
             "value": "가남읍",
             "reason": "geography"
           },
           {
+            "value": "가남읍남성전용마사지",
+            "reason": "owner-mandated-regional-keyword"
+          },
+          {
+            "value": "가남읍여성전용마사지",
+            "reason": "owner-mandated-regional-keyword"
+          },
+          {
+            "value": "가남읍출장마사지",
+            "reason": "owner-mandated-regional-keyword"
+          },
+          {
+            "value": "가남읍출장스웨디시",
+            "reason": "owner-mandated-regional-keyword"
+          },
+          {
+            "value": "가남읍출장안마",
+            "reason": "owner-mandated-regional-keyword"
+          },
+          {
+            "value": "가남읍출장타이마사지",
+            "reason": "owner-mandated-regional-keyword"
+          },
+          {
+            "value": "가남읍출장홈타이",
+            "reason": "owner-mandated-regional-keyword"
+          },
+          {
+            "value": "가남읍토닥이",
+            "reason": "owner-mandated-regional-keyword"
+          },
+          {
             "value": "가능동",
             "reason": "geography"
           },
           {
+            "value": "가능동남성전용마사지",
+            "reason": "owner-mandated-regional-keyword"
+          },
+          {
+            "value": "가능동여성전용마사지",
+            "reason": "owner-mandated-regional-keyword"
+          },
+          {
+            "value": "가능동출장마사지",
+            "reason": "owner-mandated-regional-keyword"
+          },
+          {
+            "value": "가능동출장스웨디시",
+            "reason": "owner-mandated-regional-keyword"
+          },
+          {
+            "value": "가능동출장안마",
+            "reason": "owner-mandated-regional-keyword"
+          },
+          {
+            "value": "가능동출장타이마사지",
+            "reason": "owner-mandated-regional-keyword"
+          },
+          {
+            "value": "가능동출장홈타이",
+            "reason": "owner-mandated-regional-keyword"
+          },
+          {
+            "value": "가능동토닥이",
+            "reason": "owner-mandated-regional-keyword"
+          },
+          {
             "value": "가덕도동",
             "reason": "geography"
+          },
+          {
+            "value": "가덕도동남성전용마사지",
+            "reason": "owner-mandated-regional-keyword"
+          },
+          {
+            "value": "가덕도동여성전용마사지",
+            "reason": "owner-mandated-regional-keyword"
+          },
+          {
+            "value": "가덕도동출장마사지",
+            "reason": "owner-mandated-regional-keyword"
+          },
+          {
+            "value": "가덕도동출장스웨디시",
+            "reason": "owner-mandated-regional-keyword"
+          },
+          {
+            "value": "가덕도동출장안마",
+            "reason": "owner-mandated-regional-keyword"
+          },
+          {
+            "value": "가덕도동출장타이마사지",
+            "reason": "owner-mandated-regional-keyword"
+          },
+          {
+            "value": "가덕도동출장홈타이",
+            "reason": "owner-mandated-regional-keyword"
+          },
+          {
+            "value": "가덕도동토닥이",
+            "reason": "owner-mandated-regional-keyword"
           },
           {
             "value": "가락동",
@@ -362,180 +464,89 @@
             "reason": "geography"
           },
           {
+            "value": "가리봉동남성전용마사지",
+            "reason": "owner-mandated-regional-keyword"
+          },
+          {
+            "value": "가리봉동여성전용마사지",
+            "reason": "owner-mandated-regional-keyword"
+          },
+          {
+            "value": "가리봉동출장마사지",
+            "reason": "owner-mandated-regional-keyword"
+          },
+          {
+            "value": "가리봉동출장스웨디시",
+            "reason": "owner-mandated-regional-keyword"
+          },
+          {
+            "value": "가리봉동출장안마",
+            "reason": "owner-mandated-regional-keyword"
+          },
+          {
+            "value": "가리봉동출장타이마사지",
+            "reason": "owner-mandated-regional-keyword"
+          },
+          {
+            "value": "가리봉동출장홈타이",
+            "reason": "owner-mandated-regional-keyword"
+          },
+          {
+            "value": "가리봉동토닥이",
+            "reason": "owner-mandated-regional-keyword"
+          },
+          {
             "value": "가산동",
             "reason": "geography"
+          },
+          {
+            "value": "가산동남성전용마사지",
+            "reason": "owner-mandated-regional-keyword"
+          },
+          {
+            "value": "가산동여성전용마사지",
+            "reason": "owner-mandated-regional-keyword"
+          },
+          {
+            "value": "가산동출장마사지",
+            "reason": "owner-mandated-regional-keyword"
+          },
+          {
+            "value": "가산동출장스웨디시",
+            "reason": "owner-mandated-regional-keyword"
+          },
+          {
+            "value": "가산동출장안마",
+            "reason": "owner-mandated-regional-keyword"
+          },
+          {
+            "value": "가산동출장타이마사지",
+            "reason": "owner-mandated-regional-keyword"
+          },
+          {
+            "value": "가산동출장홈타이",
+            "reason": "owner-mandated-regional-keyword"
+          },
+          {
+            "value": "가산동토닥이",
+            "reason": "owner-mandated-regional-keyword"
           },
           {
             "value": "가산면",
             "reason": "geography"
           },
           {
-            "value": "가수원동",
-            "reason": "geography"
-          },
-          {
-            "value": "가야동",
-            "reason": "geography"
-          },
-          {
-            "value": "가양동",
-            "reason": "geography"
-          },
-          {
-            "value": "가장동",
-            "reason": "geography"
-          },
-          {
-            "value": "가정동",
-            "reason": "geography"
-          },
-          {
-            "value": "가좌동",
-            "reason": "geography"
-          },
-          {
-            "value": "가창면",
-            "reason": "geography"
-          },
-          {
-            "value": "가평군",
-            "reason": "geography"
-          },
-          {
-            "value": "가평읍",
-            "reason": "geography"
-          },
-          {
-            "value": "가회동",
-            "reason": "geography"
-          },
-          {
-            "value": "간석동",
-            "reason": "geography"
-          },
-          {
-            "value": "갈마동",
-            "reason": "geography"
-          },
-          {
-            "value": "갈매동",
-            "reason": "geography"
-          },
-          {
-            "value": "갈산동",
-            "reason": "geography"
-          },
-          {
-            "value": "갈현동",
-            "reason": "geography"
-          },
-          {
-            "value": "감만동",
-            "reason": "geography"
-          },
-          {
-            "value": "감북동",
-            "reason": "geography"
-          },
-          {
-            "value": "감삼동",
-            "reason": "geography"
-          },
-          {
-            "value": "감일동",
-            "reason": "geography"
-          },
-          {
-            "value": "감전동",
-            "reason": "geography"
-          },
-          {
-            "value": "감천동",
-            "reason": "geography"
-          },
-          {
-            "value": "강남구",
-            "reason": "geography"
-          },
-          {
-            "value": "강동구",
-            "reason": "geography"
-          },
-          {
-            "value": "강동동",
-            "reason": "geography"
-          },
-          {
-            "value": "강북구",
-            "reason": "geography"
-          },
-          {
-            "value": "강상면",
-            "reason": "geography"
-          },
-          {
-            "value": "강서구",
-            "reason": "geography"
-          },
-          {
-            "value": "강일동",
-            "reason": "geography"
-          },
-          {
-            "value": "강천면",
-            "reason": "geography"
-          },
-          {
-            "value": "강하면",
-            "reason": "geography"
-          },
-          {
-            "value": "강화군",
-            "reason": "geography"
-          },
-          {
-            "value": "강화읍",
-            "reason": "geography"
-          },
-          {
-            "value": "개군면",
-            "reason": "geography"
-          },
-          {
-            "value": "개금동",
-            "reason": "geography"
-          },
-          {
-            "value": "개봉동",
-            "reason": "geography"
-          },
-          {
-            "value": "개포동",
-            "reason": "geography"
-          },
-          {
-            "value": "개항동",
-            "reason": "geography"
-          },
-          {
-            "value": "거북섬동",
-            "reason": "geography"
-          },
-          {
-            "value": "거여동",
-            "reason": "geography"
-          },
-          {
-            "value": "거제동",
-            "reason": "geography"
-          },
-          {
-            "value": "건입동",
-            "reason": "geography"
+            "value": "가산면남성전용마사지",
+            "reason": "owner-mandated-regional-keyword"
           }
         ]
       },
       "collisionSamples": [],
+      "collisionSamplesByCategory": {
+        "meta": [],
+        "body": [],
+        "sentences": []
+      },
       "verdict": "PENDING"
     },
     {
@@ -569,19 +580,15 @@
       },
       "rawExactOverlapCounts": {
         "meta": 0,
-        "body": 1208,
+        "body": 1205,
         "sentences": 0,
-        "anyVisibleValue": 1208
+        "anyVisibleValue": 1205
       },
       "permittedSharedAtomicOverlap": {
-        "count": 1208,
+        "count": 1205,
         "values": [
           {
             "value": "/",
-            "reason": "decorative-numeric"
-          },
-          {
-            "value": "↗",
             "reason": "decorative-numeric"
           },
           {
@@ -767,10 +774,19 @@
           {
             "value": "가창면",
             "reason": "geography"
+          },
+          {
+            "value": "가평군",
+            "reason": "geography"
           }
         ]
       },
       "collisionSamples": [],
+      "collisionSamplesByCategory": {
+        "meta": [],
+        "body": [],
+        "sentences": []
+      },
       "verdict": "PENDING"
     },
     {
@@ -807,18 +823,14 @@
         "anyVisibleValue": 0
       },
       "rawExactOverlapCounts": {
-        "meta": 0,
-        "body": 69,
+        "meta": 60,
+        "body": 89,
         "sentences": 0,
-        "anyVisibleValue": 69
+        "anyVisibleValue": 149
       },
       "permittedSharedAtomicOverlap": {
-        "count": 69,
+        "count": 149,
         "values": [
-          {
-            "value": "↗",
-            "reason": "decorative-numeric"
-          },
           {
             "value": "01",
             "reason": "decorative-numeric"
@@ -944,72 +956,81 @@
             "reason": "geography"
           },
           {
+            "value": "강남구 상세 안내",
+            "reason": "structural-ui"
+          },
+          {
+            "value": "강남구여성전용마사지",
+            "reason": "owner-mandated-regional-keyword"
+          },
+          {
+            "value": "강남구토닥이",
+            "reason": "owner-mandated-regional-keyword"
+          },
+          {
             "value": "강동구",
             "reason": "geography"
+          },
+          {
+            "value": "강동구 상세 안내",
+            "reason": "structural-ui"
+          },
+          {
+            "value": "강동구여성전용마사지",
+            "reason": "owner-mandated-regional-keyword"
+          },
+          {
+            "value": "강동구토닥이",
+            "reason": "owner-mandated-regional-keyword"
           },
           {
             "value": "강북구",
             "reason": "geography"
           },
           {
+            "value": "강북구 상세 안내",
+            "reason": "structural-ui"
+          },
+          {
+            "value": "강북구여성전용마사지",
+            "reason": "owner-mandated-regional-keyword"
+          },
+          {
+            "value": "강북구토닥이",
+            "reason": "owner-mandated-regional-keyword"
+          },
+          {
             "value": "강서구",
             "reason": "geography"
           },
           {
-            "value": "경기",
-            "reason": "geography"
+            "value": "강서구 상세 안내",
+            "reason": "structural-ui"
+          },
+          {
+            "value": "고잔동여성전용마사지",
+            "reason": "owner-mandated-regional-keyword"
+          },
+          {
+            "value": "고잔동토닥이",
+            "reason": "owner-mandated-regional-keyword"
           },
           {
             "value": "관악구",
             "reason": "geography"
           },
           {
-            "value": "광진구",
-            "reason": "geography"
-          },
-          {
-            "value": "구로구",
-            "reason": "geography"
-          },
-          {
-            "value": "금천구",
-            "reason": "geography"
-          },
-          {
-            "value": "남성전용",
-            "reason": "operating-fact-atom"
-          },
-          {
-            "value": "노원구",
-            "reason": "geography"
-          },
-          {
-            "value": "대전",
-            "reason": "geography"
-          },
-          {
-            "value": "도봉구",
-            "reason": "geography"
-          },
-          {
-            "value": "동대문구",
-            "reason": "geography"
-          },
-          {
-            "value": "동작구",
-            "reason": "geography"
-          },
-          {
-            "value": "마포구",
-            "reason": "geography"
-          },
-          {
-            "value": "메뉴 열기",
+            "value": "관악구 상세 안내",
             "reason": "structural-ui"
           }
         ]
       },
       "collisionSamples": [],
+      "collisionSamplesByCategory": {
+        "meta": [],
+        "body": [],
+        "sentences": []
+      },
       "verdict": "PENDING"
     }
   ],
