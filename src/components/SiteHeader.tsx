@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { RegionSearch } from "@/components/RegionSearch";
 import { PHONE_HREF } from "@/lib/business";
 
 const NAV = [
@@ -31,11 +32,7 @@ export function SiteHeader() {
           </nav>
         </details>
       </div>
-      <Link className="search-bar" href="/areas/" aria-label="지역 안내에서 서비스 지역 찾기">
-        <span aria-hidden="true">⌕</span>
-        <span>서비스 받을 지역을 찾아보세요</span>
-        <b>지역 찾기</b>
-      </Link>
+      <RegionSearch className="search-bar" />
     </header>
   );
 }
