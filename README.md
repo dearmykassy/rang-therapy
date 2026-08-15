@@ -18,6 +18,16 @@ pnpm lint
 pnpm build
 ```
 
+## GA4 환경 변수
+
+Netlify의 `Site configuration → Environment variables`에 사이트 전용 GA4 웹 스트림 값을 빌드 환경 변수로 등록합니다.
+
+```text
+NEXT_PUBLIC_GA_MEASUREMENT_ID=G-XXXXXXXXXX
+```
+
+값이 없거나 잘못된 형식이면 계측 코드는 출력되지 않습니다. 이벤트와 개인정보 제외 규칙은 `docs/ANALYTICS.md`를 따릅니다.
+
 `artifacts/content-corpus.json`은 고객 화면에 영향을 주는 앱·컴포넌트·지역·콘텐츠 소스 manifest SHA와 함께 결정적으로 재생성됩니다. `artifacts:generate`는 `RANG_IMAGE_RELEASE_RECEIPT`를 승인된 canonical receipt에 고정하고 receipt schema/status, assignment manifest SHA, route/asset/reuse/public WebP 수와 실제 파일 존재를 exact 검증합니다. 승인된 실제 도메인과 이미지 통합이 모두 결속된 현재 release는 `deploymentAllowed: true`, `deploymentBlockers: []`입니다. 브라우저 QA 결과와 320/390/1440 증거는 `qa/browser/report.json`에 고정했습니다.
 
 공유 배포 전에는 `/Users/ssm/Documents/Codex/platform-governance/bin/audit-platforms --scope content`가 모든 등록 플랫폼을 대상으로 0건 위반을 반환해야 합니다. 검색 공개 상태를 변경할 때는 다음 계약을 함께 검증합니다.

@@ -1,10 +1,14 @@
 import type { Metadata, Viewport } from "next";
-import type { ReactNode } from "react";
+import { Suspense, type ReactNode } from "react";
 import { BottomNav } from "@/components/BottomNav";
+import { Ga4Tracker } from "@/components/Ga4Tracker";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
+import { parseGaMeasurementId } from "@/lib/analytics";
 import { SITE_ORIGIN } from "@/lib/metadata";
 import "./globals.css";
+
+const GA_MEASUREMENT_ID = parseGaMeasurementId(process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID);
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_ORIGIN),
@@ -45,6 +49,11 @@ export default function RootLayout({ children }: Readonly<{ children: ReactNode 
           <SiteFooter />
         </div>
         <BottomNav />
+        {GA_MEASUREMENT_ID ? (
+          <Suspense fallback={null}>
+            <Ga4Tracker measurementId={GA_MEASUREMENT_ID} platformId="rang-therapy" />
+          </Suspense>
+        ) : null}
       </body>
     </html>
   );
