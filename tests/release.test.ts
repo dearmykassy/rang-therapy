@@ -1,12 +1,21 @@
 import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 import { BLOG_POSTS } from "@/data/blog-posts";
+import { metadata } from "@/app/layout";
 import robots from "@/app/robots";
 import sitemap, { FIXED_SITEMAP_PATHS } from "@/app/sitemap";
 import { ACTIVE_REGION_NODES } from "@/lib/regions";
 import { SITE_ORIGIN } from "@/lib/metadata";
 
 describe("static release guards and responsive shell", () => {
+  it("publishes the exact Naver site ownership verification token", () => {
+    expect(metadata.verification).toEqual({
+      other: {
+        "naver-site-verification": "45112963d8924d3ef93a7f224b137f1e194ab881",
+      },
+    });
+  });
+
   it("publishes the approved production discovery contract", () => {
     expect(robots().rules).toEqual({ userAgent: "*", allow: "/" });
     expect(robots().host).toBe(SITE_ORIGIN);

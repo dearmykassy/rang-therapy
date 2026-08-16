@@ -27,6 +27,11 @@ export const metadata: Metadata = {
     "출장홈타이",
   ],
   robots: { index: true, follow: true },
+  verification: {
+    other: {
+      "naver-site-verification": "45112963d8924d3ef93a7f224b137f1e194ab881",
+    },
+  },
   icons: {
     icon: [{ url: "/rang-therapy-mark.svg", type: "image/svg+xml" }],
     shortcut: "/rang-therapy-mark.svg",

@@ -2,6 +2,11 @@
 
 > 새 활동을 시작할 때마다 이 파일을 먼저 읽고, 완료한 변경·검증·남은 차단점을 이 문서 맨 위에 최신순으로 계속 추가한다. 컨텍스트가 압축되어도 이 기록을 정본으로 삼는다.
 
+## 2026-08-16 21:29 KST — 네이버 사이트 소유확인 메타 추가
+
+- 운영 정본의 root metadata에 네이버 사이트 소유확인 토큰을 `verification.other`로 추가했다. Next Metadata API가 홈 `<head>`에 `name="naver-site-verification"`과 승인 토큰을 출력하며, canonical·robots·GA4·페이지 본문은 변경하지 않았다.
+- 검증: focused Vitest 1 file/3 tests PASS, 변경 파일 ESLint PASS, `pnpm typecheck` PASS. `pnpm build` PASS(정적 1,304페이지)와 built audit PASS를 확인했고, 생성된 홈 HTML에서 소유확인 meta name/content가 exact 일치한다.
+
 ## 2026-08-16 08:28 KST — release worktree GA4 페이지·전화 CTA 계측 스캐폴딩
 
 - live 정본인 `/Users/ssm/Documents/Codex/rang-therapy-seo-release`의 `agent/rang-production-seo` worktree에만 `NEXT_PUBLIC_GA_MEASUREMENT_ID` 기반 GA4를 적용했다. App Router 최초 진입·경로 변경에는 query/hash 없는 `page_path`·`page_location`, 개인정보 형태를 제거하고 100자로 제한한 `page_title`, `page_type`, `platform_id=rang-therapy`를 수동 `page_view`로 보낸다.
