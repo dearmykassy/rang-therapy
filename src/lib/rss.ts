@@ -26,6 +26,14 @@ function comparePostsNewestFirst(left: BlogPost, right: BlogPost): number {
   return dateDifference !== 0 ? dateDifference : left.slug.localeCompare(right.slug);
 }
 
+export function getFullPostText(post: BlogPost): string {
+  const sections = post.sections.flatMap((section) => [
+    section.heading,
+    ...section.paragraphs,
+  ]);
+  return [post.intro, ...sections, "통화 전 체크", ...post.checklist].join("\n\n");
+}
+
 export function createRssFeed(posts: readonly BlogPost[] = BLOG_POSTS): string {
   if (posts.length === 0) {
     throw new Error("RANG_RSS_REQUIRES_DATED_POSTS");
@@ -48,7 +56,7 @@ export function createRssFeed(posts: readonly BlogPost[] = BLOG_POSTS): string {
       "    <item>",
       `      <title>${escapeXml(`${post.title} | ${SITE_NAME}`)}</title>`,
       `      <link>${escapeXml(canonical)}</link>`,
-      `      <description>${escapeXml(post.description)}</description>`,
+      `      <description>${escapeXml(getFullPostText(post))}</description>`,
       `      <category>${escapeXml(post.category)}</category>`,
       `      <pubDate>${toRfc822(post.publishedAt, `publishedAt:${post.slug}`)}</pubDate>`,
       `      <guid isPermaLink="true">${escapeXml(canonical)}</guid>`,

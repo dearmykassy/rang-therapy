@@ -3,7 +3,13 @@ import { GET } from "@/app/rss.xml/route";
 import { BLOG_POSTS, getBlogPostPath } from "@/data/blog-posts";
 import sitemap from "@/app/sitemap";
 import { SITE_NAME, SITE_ORIGIN } from "@/lib/metadata";
-import { createRssFeed, escapeXml, RSS_CONTENT_TYPE, RSS_PATH } from "@/lib/rss";
+import {
+  createRssFeed,
+  escapeXml,
+  getFullPostText,
+  RSS_CONTENT_TYPE,
+  RSS_PATH,
+} from "@/lib/rss";
 
 describe("rang RSS 2.0 feed", () => {
   it("escapes every XML metacharacter", () => {
@@ -37,7 +43,15 @@ describe("rang RSS 2.0 feed", () => {
       expect(sitemapUrls.has(canonical)).toBe(true);
       expect(block).toBeDefined();
       expect(block).toContain(`<title>${escapeXml(`${post.title} | ${SITE_NAME}`)}</title>`);
-      expect(block).toContain(`<description>${escapeXml(post.description)}</description>`);
+      const fullPostText = [
+        post.intro,
+        ...post.sections.flatMap((section) => [section.heading, ...section.paragraphs]),
+        "통화 전 체크",
+        ...post.checklist,
+      ].join("\n\n");
+      expect(getFullPostText(post)).toBe(fullPostText);
+      expect(block).toContain(`<description>${escapeXml(fullPostText)}</description>`);
+      expect(block).not.toContain(`<description>${escapeXml(post.description)}</description>`);
       expect(block).toContain(`<pubDate>${new Date(post.publishedAt).toUTCString()}</pubDate>`);
       expect(block).toContain(`<guid isPermaLink="true">${canonical}</guid>`);
     }
