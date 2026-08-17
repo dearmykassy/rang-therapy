@@ -8,6 +8,7 @@
 - 홈과 지역 이미지는 승인된 전용 원본·파생·배정 영수증에 결속되어 runtime에 활성화되어 있다. 향후 교체 원본도 전용 refiner와 사람 QA, source/refine/public 영수증을 거쳐야 한다.
 - 이미지가 준비되기 전 placeholder를 실제 이미지처럼 주장하거나 `public/`에 원본을 직접 넣지 않는다.
 - 지역 페이지와 sitemap은 같은 `ACTIVE_REGION_NODES`를 사용한다. 1,291개가 아니면 테스트와 빌드를 실패시킨다.
+- 현재 플랫폼과 이후 새 플랫폼은 sitemap과 함께 `/rss.xml` RSS 2.0 feed를 제공한다. RSS에는 실제 발행·수정일이 있는 indexable canonical 문서만 넣고, same-origin 절대 URL·영구 GUID·`ko-KR`·XML escaping을 유지하며 빌드 시각을 새 콘텐츠 시각처럼 만들지 않는다.
 - 일상 개발 검증은 지역 수·메타 중복·핵심 운영 사실·대표 렌더를 빠르게 확인하는 경량 절차로 유지한다. 과거 대규모 감사 영수증은 역사 기록이며 새 Template2 빌드 권한으로 재사용하지 않는다.
 
 <!-- BEGIN:nextjs-agent-rules -->

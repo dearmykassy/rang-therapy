@@ -2,6 +2,12 @@
 
 > 새 활동을 시작할 때마다 이 파일을 먼저 읽고, 완료한 변경·검증·남은 차단점을 이 문서 맨 위에 최신순으로 계속 추가한다. 컨텍스트가 압축되어도 이 기록을 정본으로 삼는다.
 
+## 2026-08-17 16:55 KST — 운영 RSS 2.0 정적 피드 추가
+
+- `https://langtheraphy.kr/rss.xml`에 정적 RSS 2.0 피드를 추가했다. 실제 발행일·수정일이 있는 공개 블로그 문서 2개만 item으로 포함하고, 별도 편집 날짜가 없는 1,291개 지역 페이지는 sitemap에만 유지했다. 모든 link·영구 GUID·Atom self URL은 운영 HTTPS canonical과 같은 origin이며 언어는 `ko-KR`, XML 특수문자는 5종 모두 escape한다.
+- `pubDate`는 각 글의 실제 `publishedAt`, `lastBuildDate`는 실제 `modifiedAt` 최댓값만 사용한다. 빌드 시각이나 현재 시각으로 새 글처럼 보이게 하지 않으며, 공통 `<head>`에는 모든 페이지에서 유지되는 RSS 자동발견 링크를 넣었다. 향후 플랫폼도 sitemap과 함께 같은 원칙의 `/rss.xml`을 기본 제공하도록 `AGENTS.md`에 영구 규칙을 추가했다.
+- 검증: RSS focused Vitest 3/3, 전체 Vitest 9 files/32 tests, typecheck, 변경 파일 ESLint, full lint(error 0·기존 `<img>` warning 3), production build PASS. 정적 1,305페이지와 `/rss.xml` 생성을 확인했고 built audit PASS(지역 1,291·metadata 1,299·mismatch 0), `xmllint` PASS, item 2개, RSS SHA-256 `7e335a5c2a348724087da7b90786db3687400ea8bf022a51fd66d1d0acb9e5e7`이다. RSS route와 생성기도 콘텐츠 무결성 매니페스트에 결속했으며 corpus SHA-256 `f5f50164f76eb0f2b5c44f1127472e24641eb2311ff4609676ebace337468974`, source manifest SHA-256 `07889e28e89513a28c51ca7c3d6b4a679bd44f5135784bd6dc75c96d034423e1`이다. 네이버 서치어드바이저 제출은 이 저장소 변경 범위에 포함하지 않았다.
+
 ## 2026-08-16 21:29 KST — 네이버 사이트 소유확인 메타 추가
 
 - 운영 정본의 root metadata에 네이버 사이트 소유확인 토큰을 `verification.other`로 추가했다. Next Metadata API가 홈 `<head>`에 `name="naver-site-verification"`과 승인 토큰을 출력하며, canonical·robots·GA4·페이지 본문은 변경하지 않았다.

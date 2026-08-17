@@ -61,6 +61,7 @@ const SOURCE_PATHS = [
   "src/app/page.tsx",
   "src/app/pricing/page.tsx",
   "src/app/robots.ts",
+  "src/app/rss.xml/route.ts",
   "src/app/sitemap.ts",
   "src/components/RegionExperience.tsx",
   "src/components/RegionGallery.tsx",
@@ -80,6 +81,7 @@ const SOURCE_PATHS = [
   "src/lib/region-page-model.ts",
   "src/lib/regional-image-runtime.ts",
   "src/lib/regions.ts",
+  "src/lib/rss.ts",
 ] as const;
 
 const FIXED_PAGES = [
