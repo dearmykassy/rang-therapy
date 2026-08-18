@@ -21,6 +21,7 @@
 - 지역 페이지와 sitemap은 같은 활성 지역 그래프를 사용합니다. 상위 지역에서 실제 직계 하위 지역으로 이동할 수 있고, 각 페이지에는 가격·이용 안내 등 관련 내부 링크가 있습니다.
 - 지역별 title, description과 H1은 각 경로의 지역명과 안내 내용을 구분해 작성합니다. 다른 플랫폼의 소개 문장이나 지역 메타 문장을 복제하지 않습니다.
 - `robots.txt`는 공개 수집을 허용하고 운영 sitemap 위치를 안내합니다. RSS에는 실제 발행·수정일이 있는 공개 블로그 글 2개의 본문과 영구 GUID만 수록합니다.
+- 모든 내부 링크는 `src/components/SiteLink.tsx`를 통합니다. 운영 빌드에서는 자동 prefetch만 끄고 실제 앵커·클라이언트 전환·이벤트 및 접근성 속성은 유지해, 크롤러 렌더링이 대량의 `?_rsc=` 응답을 미리 요청하지 않도록 합니다.
 
 ## 이미지와 콘텐츠 무결성
 
@@ -40,6 +41,8 @@ pnpm build
 `artifacts/content-corpus.json`은 고객 화면에 영향을 주는 앱·컴포넌트·지역·콘텐츠 소스 manifest와 함께 결정적으로 재생성됩니다. 이미지 release receipt의 schema와 상태, assignment manifest, route·asset·파생 파일 수 및 실제 파일 존재도 함께 검증합니다. 현재 운영 release는 승인된 origin과 이미지 결속을 만족해 `deploymentAllowed: true`, `deploymentBlockers: []` 상태입니다.
 
 배포 전에는 canonical·Open Graph·JSON-LD·robots·sitemap의 origin 일치, 지역 1,291개와 sitemap 1,299개, 플랫폼 간 고객 문구 중복 감사, 320/390/1440px 대표 화면 검증을 다시 확인합니다.
+
+`tests/crawl-contract.test.ts`는 중앙 링크 경계 밖의 `next/link` import와 운영 prefetch 재활성화를 회귀로 차단합니다.
 
 ## GA4 환경 변수
 

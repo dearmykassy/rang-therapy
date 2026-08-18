@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import Link from "@/components/SiteLink";
 import { notFound } from "next/navigation";
 import { BLOG_POSTS, createBlogMetadata, findBlogPost, getBlogPostPath } from "@/data/blog-posts";
 import { createBlogPostingJsonLd } from "@/lib/blog-schema";

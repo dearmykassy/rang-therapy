@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/SiteLink";
 import { RegionGallery } from "@/components/RegionGallery";
 import { PHONE_HREF } from "@/lib/business";
 import {

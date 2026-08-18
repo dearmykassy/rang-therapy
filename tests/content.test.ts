@@ -105,7 +105,12 @@ describe("rang content corpus", () => {
       "src/lib/regional-image-runtime.ts",
     );
     expect(corpus.sourceManifest.map((entry) => entry.path)).toEqual(
-      expect.arrayContaining(["src/app/rss.xml/route.ts", "src/lib/rss.ts"]),
+      expect.arrayContaining([
+        "src/app/rss.xml/route.ts",
+        "src/components/SiteLink.tsx",
+        "src/lib/link-prefetch.ts",
+        "src/lib/rss.ts",
+      ]),
     );
     expect(corpus.fixedDocuments).toHaveLength(FIXED_PAGE_ROUTES.length);
     expect(corpus.articleDocuments).toHaveLength(BLOG_POST_ROUTES.length);

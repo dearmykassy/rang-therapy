@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/SiteLink";
 import { RegionSearch } from "@/components/RegionSearch";
 import { PHONE_HREF } from "@/lib/business";
 

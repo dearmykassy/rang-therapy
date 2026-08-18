@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/SiteLink";
 import { PHONE_DISPLAY, PHONE_HREF } from "@/lib/business";
 
 export function SiteFooter() {
