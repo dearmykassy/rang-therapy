@@ -11,14 +11,16 @@ import {
 import {
   ACTIVE_REGION_NODES,
   ROOT_LABELS,
-  getKeywordRegionLabel,
+  getOfficialRegionLabel,
+  getSearchRegionLabel,
 } from "@/lib/regions";
 
 const GEOGRAPHIC_TERMS = [
   ...ACTIVE_REGION_NODES.flatMap((node) => [
     node.displayName,
     node.qualifiedName,
-    getKeywordRegionLabel(node),
+    getOfficialRegionLabel(node),
+    getSearchRegionLabel(node),
     ...node.aliases,
     ...node.segments,
     ...node.records.flatMap((record) => [
@@ -281,8 +283,7 @@ function buildParagraphNgramAudit(contents: readonly RegionContent[]) {
   }> = [];
   for (const [contentIndex, content] of contents.entries()) {
     const node = ACTIVE_REGION_NODES[contentIndex];
-    const keywordLabel = getKeywordRegionLabel(node);
-    const label = keywordLabel === node.displayName ? node.displayName : node.qualifiedName;
+    const label = getOfficialRegionLabel(node);
     for (const section of content.sections) {
       for (const paragraph of section.paragraphs) {
         const counts = new Map<string, number>();
@@ -332,9 +333,7 @@ function buildSentenceSurfaceAudit(contents: readonly RegionContent[]) {
   const customerValues = contents.flatMap(customerText);
   const customerValuesWithoutRouteLabel = contents.flatMap((content, contentIndex) => {
     const node = ACTIVE_REGION_NODES[contentIndex];
-    const keywordLabel = getKeywordRegionLabel(node);
-    const routeLabel =
-      keywordLabel === node.displayName ? node.displayName : node.qualifiedName;
+    const routeLabel = getOfficialRegionLabel(node);
     return customerText(content).map((value) => value.replace(routeLabel, " "));
   });
   let maximumCorePhraseFrequency = 0;
@@ -918,8 +917,7 @@ function buildSecondSentenceBankAudit(contents: readonly RegionContent[]) {
         violations.push({ familyId, route: entry.route, reason: "UNKNOWN_ROUTE" });
         continue;
       }
-      const keywordLabel = getKeywordRegionLabel(node);
-      const label = keywordLabel === node.displayName ? node.displayName : node.qualifiedName;
+      const label = getOfficialRegionLabel(node);
       if (regionalMentionCount(entry.value, label) !== 0 || /(?:이 지역|지역 간 연결)/u.test(entry.value)) {
         violations.push({
           familyId,
@@ -1073,8 +1071,9 @@ function buildRegionalSentenceBankAudit(contents: readonly RegionContent[]) {
         violations.push({ familyId, route: entry.route, reason: "UNKNOWN_ROUTE" });
         continue;
       }
-      const keywordLabel = getKeywordRegionLabel(node);
-      const label = keywordLabel === node.displayName ? node.displayName : node.qualifiedName;
+      const label = familyId === "description"
+        ? getSearchRegionLabel(node)
+        : getOfficialRegionLabel(node);
       const approved = bank.map((template) => `${template(node, label)}.`);
       const matchingVariants = approved.flatMap((sentence, index) =>
         sentence === entry.value ? [index] : [],
@@ -1233,8 +1232,9 @@ function buildSeoCopyBankAudit(contents: readonly RegionContent[]) {
     const counts = bank.map(() => 0);
     for (const [index, content] of contents.entries()) {
       const node = ACTIVE_REGION_NODES[index];
-      const keywordLabel = getKeywordRegionLabel(node);
-      const label = keywordLabel === node.displayName ? node.displayName : node.qualifiedName;
+      const label = familyId === "title"
+        ? getSearchRegionLabel(node)
+        : getOfficialRegionLabel(node);
       const actual = value(content);
       const matches = bank.flatMap((template, templateIndex) =>
         template(label) === actual ? [templateIndex] : [],

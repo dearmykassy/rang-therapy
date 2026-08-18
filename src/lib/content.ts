@@ -2,7 +2,8 @@ import { COURSE_SCORES } from "@/lib/business";
 import type { RegionNode } from "@/lib/regions";
 import {
   ACTIVE_REGION_NODES,
-  getKeywordRegionLabel,
+  getOfficialRegionLabel,
+  getSearchRegionLabel,
 } from "@/lib/regions";
 
 export const KEYWORD_FAMILIES = [
@@ -708,14 +709,14 @@ function hooksFor(node: RegionNode, label: string, ordinal: number): string[] {
 
 function createRegionContentInternal(node: RegionNode): RegionContent {
   const ordinal = ordinalFor(node);
-  const keywordLabel = getKeywordRegionLabel(node);
-  const label = keywordLabel === node.displayName ? node.displayName : node.qualifiedName;
+  const searchLabel = getSearchRegionLabel(node);
+  const officialLabel = getOfficialRegionLabel(node);
 
   const directory = makeSection(
     "frame-directory-first",
     node.kind === "representative"
-      ? `${label}, 서비스 주소 확인`
-      : `${label}, 먼저 지역 찾기`,
+      ? `${officialLabel}, 서비스 주소 확인`
+      : `${officialLabel}, 먼저 지역 찾기`,
     [
       ["frame-directory-first:p0:s0", "frame-directory-first:p0:s1"],
       ["frame-directory-first:p1:s0", "frame-directory-first:p1:s1"],
@@ -723,12 +724,12 @@ function createRegionContentInternal(node: RegionNode): RegionContent {
     ordinal,
     0,
     node,
-    label,
+    officialLabel,
   );
 
   const coordinate = makeSection(
     "pulse-coordinate-note",
-    `${label} 주소를 한 줄로 맞추기`,
+    `${officialLabel} 주소를 한 줄로 맞추기`,
     [
       ["pulse-coordinate-note:p0:s0", "pulse-coordinate-note:p0:s1"],
       ["pulse-coordinate-note:p1:s0", "pulse-coordinate-note:p1:s1"],
@@ -736,12 +737,12 @@ function createRegionContentInternal(node: RegionNode): RegionContent {
     ordinal,
     4,
     node,
-    label,
+    officialLabel,
   );
 
   const tempo = makeSection(
     "tempo-time-window",
-    `${label} 일정에 맞는 시간 고르기`,
+    `${officialLabel} 일정에 맞는 시간 고르기`,
     [
       ["tempo-time-window:p0:s0", "tempo-time-window:p0:s1"],
       ["tempo-time-window:p1:s0", "tempo-time-window:p1:s1"],
@@ -749,12 +750,12 @@ function createRegionContentInternal(node: RegionNode): RegionContent {
     ordinal,
     8,
     node,
-    label,
+    officialLabel,
   );
 
   const score = makeSection(
     "score-course-ledger",
-    `${label} 코스와 가격표 읽기`,
+    `${officialLabel} 코스와 가격표 읽기`,
     [
       ["score-course-ledger:p0:s0", "score-course-ledger:p0:s1"],
       ["score-course-ledger:p1:s0", "score-course-ledger:p1:s1"],
@@ -762,12 +763,12 @@ function createRegionContentInternal(node: RegionNode): RegionContent {
     ordinal,
     12,
     node,
-    label,
+    officialLabel,
   );
 
   const settlement = makeSection(
     "settlement-last-beat",
-    `${label} 결제 기준 확인하기`,
+    `${officialLabel} 결제 기준 확인하기`,
     [
       ["settlement-last-beat:p0:s0", "settlement-last-beat:p0:s1"],
       ["settlement-last-beat:p1:s0", "settlement-last-beat:p1:s1"],
@@ -775,12 +776,12 @@ function createRegionContentInternal(node: RegionNode): RegionContent {
     ordinal,
     16,
     node,
-    label,
+    officialLabel,
   );
 
   const arrival = makeSection(
     "coda-before-arrival",
-    `${label} 서비스 전 마지막 확인`,
+    `${officialLabel} 서비스 전 마지막 확인`,
     [
       ["coda-before-arrival:p0:s0", "coda-before-arrival:p0:s1"],
       ["coda-before-arrival:p1:s0", "coda-before-arrival:p1:s1"],
@@ -788,7 +789,7 @@ function createRegionContentInternal(node: RegionNode): RegionContent {
     ordinal,
     20,
     node,
-    label,
+    officialLabel,
   );
 
   const sectionMap: Record<string, ContentSection> = {
@@ -804,12 +805,12 @@ function createRegionContentInternal(node: RegionNode): RegionContent {
   ];
 
   return {
-    title: titleFor(keywordLabel),
-    description: descriptionFor(node, label, ordinal),
-    keywords: KEYWORD_FAMILIES.map((family) => `${keywordLabel}${family}`),
-    h1: h1For(label, ordinal),
+    title: titleFor(searchLabel),
+    description: descriptionFor(node, searchLabel, ordinal),
+    keywords: KEYWORD_FAMILIES.map((family) => `${searchLabel}${family}`),
+    h1: h1For(officialLabel, ordinal),
     eyebrow: "RANG THERAPY · PRIVATE VISIT",
-    hooks: hooksFor(node, label, ordinal),
+    hooks: hooksFor(node, officialLabel, ordinal),
     sections: [directory, ...order.map((id) => sectionMap[id])],
     ctaLabels: [
       "전화상담",

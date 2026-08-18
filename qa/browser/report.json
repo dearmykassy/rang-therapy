@@ -3,8 +3,8 @@
   "status": "PENDING_IAB_UNAVAILABLE",
   "verdict": "PENDING",
   "platformId": "rang-therapy",
-  "corpusSha256": "edaa05e03658bd8e8523f8610d68ce131b54d76cc3d05fe5ac1918de31fc1853",
-  "sourceManifestSha256": "4f7be8017375b86d869306d5a7f15f145139859b97bfeffeac122121150435f2",
+  "corpusSha256": "06555a0ff2aab2d1e59ab26cae2b6ecda80d329b1d0164ef41359a05ffa1ab24",
+  "sourceManifestSha256": "adf963768ae660853fd18fa88fde6be502efd0c0f861f54240e79145af2700ae",
   "finalReleaseEligible": false,
   "blocker": {
     "code": "IN_APP_BROWSER_BACKEND_UNAVAILABLE",

@@ -32,7 +32,7 @@ import {
   SITE_NAME,
   SITE_ORIGIN,
 } from "../src/lib/metadata";
-import { ACTIVE_REGION_NODES, getKeywordRegionLabel } from "../src/lib/regions";
+import { ACTIVE_REGION_NODES, getSearchRegionLabel } from "../src/lib/regions";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const OUTPUT = resolve(ROOT, "artifacts/content-corpus.json");
@@ -669,7 +669,7 @@ function assertDiversityAudit(
     audit.sentenceSurface.adjacentSemanticDuplicateViolations.length !== 0 ||
     audit.sentenceSurface.movementPatternCounts.customerPhysicalMovement !==
       ACTIVE_REGION_NODES.filter((node) =>
-        /(?:이동|출발|도착|찾아가|오시는 길)/u.test(getKeywordRegionLabel(node)),
+        /(?:이동|출발|도착|찾아가|오시는 길)/u.test(getSearchRegionLabel(node)),
       ).length ||
     !Object.values(audit.sentenceSurface.rejectedMovementBankCounts).every(
       (count) => count === 0,
@@ -755,7 +755,7 @@ async function main() {
       regionId: node.id,
       regionName: node.displayName,
       regionAliases: node.aliases,
-      keywordPrefixes: [getKeywordRegionLabel(node)],
+      keywordPrefixes: [getSearchRegionLabel(node)],
       title: content.title,
       description: content.description,
       keywords: content.keywords,

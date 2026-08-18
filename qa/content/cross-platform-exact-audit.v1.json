@@ -9,8 +9,8 @@
     "hashScope": "ORDER_AND_LIVE_PROBE_PATH_INDEPENDENT_AUTHORITY_FIELDS",
     "refreshPolicy": "EXPLICIT_ONLY"
   },
-  "rangCorpusSha256": "edaa05e03658bd8e8523f8610d68ce131b54d76cc3d05fe5ac1918de31fc1853",
-  "rangSourceManifestSha256": "4f7be8017375b86d869306d5a7f15f145139859b97bfeffeac122121150435f2",
+  "rangCorpusSha256": "06555a0ff2aab2d1e59ab26cae2b6ecda80d329b1d0164ef41359a05ffa1ab24",
+  "rangSourceManifestSha256": "adf963768ae660853fd18fa88fde6be502efd0c0f861f54240e79145af2700ae",
   "policy": {
     "comparison": "raw NFC-trimmed exact equality",
     "rangSurfaceSource": "actualDomSurface.directText+fullBlockText+accessibilityText",
@@ -55,17 +55,17 @@
     "anyVisibleValue": 0
   },
   "rawExactOverlapCounts": {
-    "meta": 8716,
+    "meta": 8458,
     "body": 3687,
     "sentences": 0,
-    "anyVisibleValue": 12403
+    "anyVisibleValue": 12145
   },
   "permittedSharedAtomicOverlapCounts": {
     "geography": 3536,
     "structural-ui": 36,
     "operating-fact-atom": 46,
     "decorative-numeric": 69,
-    "owner-mandated-regional-keyword": 8716
+    "owner-mandated-regional-keyword": 8458
   },
   "collisionSamples": [],
   "comparisons": [
@@ -339,13 +339,13 @@
         "anyVisibleValue": 0
       },
       "rawExactOverlapCounts": {
-        "meta": 8656,
+        "meta": 8328,
         "body": 1172,
         "sentences": 0,
-        "anyVisibleValue": 9828
+        "anyVisibleValue": 9500
       },
       "permittedSharedAtomicOverlap": {
-        "count": 9828,
+        "count": 9500,
         "values": [
           {
             "value": "가남읍",
@@ -823,13 +823,13 @@
         "anyVisibleValue": 0
       },
       "rawExactOverlapCounts": {
-        "meta": 60,
+        "meta": 130,
         "body": 89,
         "sentences": 0,
-        "anyVisibleValue": 149
+        "anyVisibleValue": 219
       },
       "permittedSharedAtomicOverlap": {
-        "count": 149,
+        "count": 219,
         "values": [
           {
             "value": "01",
@@ -1008,20 +1008,20 @@
             "reason": "structural-ui"
           },
           {
-            "value": "고잔동여성전용마사지",
+            "value": "경기여성전용마사지",
             "reason": "owner-mandated-regional-keyword"
           },
           {
-            "value": "고잔동토닥이",
+            "value": "경기토닥이",
             "reason": "owner-mandated-regional-keyword"
           },
           {
-            "value": "관악구",
-            "reason": "geography"
+            "value": "고양여성전용마사지",
+            "reason": "owner-mandated-regional-keyword"
           },
           {
-            "value": "관악구 상세 안내",
-            "reason": "structural-ui"
+            "value": "고양토닥이",
+            "reason": "owner-mandated-regional-keyword"
           }
         ]
       },

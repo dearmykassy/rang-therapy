@@ -2,6 +2,12 @@
 
 > 새 활동을 시작할 때마다 이 파일을 먼저 읽고, 완료한 변경·검증·남은 차단점을 이 문서 맨 위에 최신순으로 계속 추가한다. 컨텍스트가 압축되어도 이 기록을 정본으로 삼는다.
 
+## 2026-08-19 00:38 KST — 고객 검색형 지역 메타 영구 규칙 적용
+
+- 사장님 확정 규칙에 따라 1,291개 지역의 검색 메타 title·description·keywords에서 각 행정구역 토큰 끝의 `특별자치도|특별자치시|특별시|광역시|도|시`만 제거했다. `서울특별시→서울`, `인천광역시→인천`, `경기도→경기`, `수원시→수원`을 고정했고 `구|군|읍|면|동|리`는 유지한다. 축약 뒤 동명이인은 `서울 강서구`, `부산 강서구`처럼 축약한 상위 지역을 붙여 1,291개 검색 지역명을 모두 고유하게 만들었다.
+- 화면 H1·본문·breadcrumb의 공식 행정명과 기존 URL·canonical은 그대로 유지했다. `AGENTS.md`에 같은 규칙을 영구 계약으로 기록하고, 새 전수 회귀 테스트가 검색 지역명·title·description·10,328개 keyword의 고유성, 대표 축약값, 서비스 검색어 직전 공식 접미사 0건, 공식 화면 지명 보존을 1,291개 모든 route에서 검사한다.
+- `pnpm verify` PASS: Vitest 10 files/35 tests, typecheck, lint error 0(기존 `<img>` warning 3), Next 정적 1,305페이지, built-output audit의 지역 1,291·metadata/sitemap 1,299·keywords 10,328·모든 mismatch 0이다. 교차 플랫폼 exact collision은 0이고 외부 독립 GO 및 인앱 브라우저·외부 사람 검수만 fail-closed `PENDING`이다. corpus SHA-256 `06555a0ff2aab2d1e59ab26cae2b6ecda80d329b1d0164ef41359a05ffa1ab24`, source manifest SHA-256 `adf963768ae660853fd18fa88fde6be502efd0c0f861f54240e79145af2700ae`, built audit SHA-256 `426e4dd9ccd8059553caba6bc35166fb148691302aa237c9709a2b4631287d23`이며 `pnpm audit --prod`도 알려진 취약점 0건이다.
+
 ## 2026-08-18 09:45 KST — 공개 README 운영 링크·검색 수집 계약 정비
 
 - 공개 README 최상단에 브랜드명으로 운영 홈페이지를 연결하고, 실제 운영 지역·가격·이용 안내·공지·블로그·sitemap·RSS 링크를 추가했다. 검색 순위나 GitHub 링크 권한을 보장하지 않고, 1,291개 지역 그래프·1,299개 sitemap URL·날짜가 있는 블로그 글 2개의 RSS라는 현재 계약을 설명했다.

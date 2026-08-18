@@ -246,10 +246,38 @@ const DISPLAY_NAME_FREQUENCY = ACTIVE_REGION_NODES.reduce(
   new Map<string, number>(),
 );
 
-export function getKeywordRegionLabel(node: RegionNode): string {
+const SEARCH_REGION_SUFFIX = /(?:특별자치도|특별자치시|특별시|광역시|도|시)$/u;
+
+export function shortenSearchRegionToken(token: string): string {
+  const shortened = token.replace(SEARCH_REGION_SUFFIX, "");
+  return shortened.length > 0 ? shortened : token;
+}
+
+export function getOfficialRegionLabel(node: RegionNode): string {
   return (DISPLAY_NAME_FREQUENCY.get(node.displayName) ?? 0) > 1
-    ? node.qualifiedName.replace(/\s+/g, "")
+    ? node.qualifiedName
     : node.displayName;
+}
+
+const SEARCH_BASE_LABEL_FREQUENCY = ACTIVE_REGION_NODES.reduce((counts, node) => {
+  const label = shortenSearchRegionToken(node.displayName);
+  counts.set(label, (counts.get(label) ?? 0) + 1);
+  return counts;
+}, new Map<string, number>());
+
+export function getSearchRegionLabel(node: RegionNode): string {
+  const baseLabel = shortenSearchRegionToken(node.displayName);
+  if ((SEARCH_BASE_LABEL_FREQUENCY.get(baseLabel) ?? 0) === 1) return baseLabel;
+
+  return node.qualifiedName
+    .split(/\s+/u)
+    .map(shortenSearchRegionToken)
+    .join(" ");
+}
+
+const SEARCH_REGION_LABELS = ACTIVE_REGION_NODES.map(getSearchRegionLabel);
+if (new Set(SEARCH_REGION_LABELS).size !== ACTIVE_REGION_NODES.length) {
+  throw new Error("RANG_THERAPY_SEARCH_REGION_LABEL_DUPLICATE");
 }
 
 export function getDirectChildren(node: RegionNode): RegionChild[] {
