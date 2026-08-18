@@ -2,6 +2,12 @@
 
 > 새 활동을 시작할 때마다 이 파일을 먼저 읽고, 완료한 변경·검증·남은 차단점을 이 문서 맨 위에 최신순으로 계속 추가한다. 컨텍스트가 압축되어도 이 기록을 정본으로 삼는다.
 
+## 2026-08-18 09:45 KST — 공개 README 운영 링크·검색 수집 계약 정비
+
+- 공개 README 최상단에 브랜드명으로 운영 홈페이지를 연결하고, 실제 운영 지역·가격·이용 안내·공지·블로그·sitemap·RSS 링크를 추가했다. 검색 순위나 GitHub 링크 권한을 보장하지 않고, 1,291개 지역 그래프·1,299개 sitemap URL·날짜가 있는 블로그 글 2개의 RSS라는 현재 계약을 설명했다.
+- canonical·robots·sitemap·RSS·계층형 내부 링크와 플랫폼별 고유 메타/본문 원칙을 사람과 크롤러가 확인하기 쉬운 구조로 정리했다. 기존 개발 명령, 이미지/콘텐츠 무결성, GA4 환경 변수와 전화 CTA 측정 한계는 유지했고 공개 문서에 있던 로컬 절대경로는 제거했다.
+- 운영 실측은 README의 same-origin URL 8개 모두 HTTP 200, sitemap `<loc>` 1,299개, RSS `<item>` 2개, `robots.txt`의 `Allow: /` 및 운영 sitemap 일치를 확인했다. `git diff --check` PASS이며 README·DIARY 이외 앱 코드, 자산, 빌드, 배포 상태는 변경하지 않았다.
+
 ## 2026-08-17 18:29 KST — RSS 실제 블로그 본문 전체 수록
 
 - `/rss.xml`의 각 item `description`을 짧은 메타 요약에서 해당 블로그 페이지가 실제로 표시하는 intro, 4개 섹션의 제목·모든 문단, `통화 전 체크` 제목과 모든 체크 항목의 전체 평문으로 교체했다. 기존 XML 5종 escape, 운영 HTTPS canonical link, `isPermaLink=true` GUID, 실제 `publishedAt`·`modifiedAt`, 2개 item과 `ko-KR` 계약은 그대로 유지했다.
